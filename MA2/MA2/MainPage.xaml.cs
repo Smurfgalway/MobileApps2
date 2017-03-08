@@ -25,6 +25,14 @@ namespace MA2
         public MainPage()
         {
             this.InitializeComponent();
+            textBox = new TextBox();
+           
+        }
+        
+        private void button_Click(object sender, RoutedEventArgs e)
+        {
+            
+
         }
     }
 }
