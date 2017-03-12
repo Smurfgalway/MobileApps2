@@ -113,6 +113,7 @@
     <None Include="MA2_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\Gallery.jpg" />
     <Content Include="Assets\ow.jpg" />
     <Content Include="Assets\sb.jpg" />
     <Content Include="Properties\Default.rd.xml" />
