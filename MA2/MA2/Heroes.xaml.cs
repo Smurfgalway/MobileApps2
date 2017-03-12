@@ -25,6 +25,12 @@ namespace MA2
         public Heroes()
         {
             this.InitializeComponent();
+            this.NavigationCacheMode = NavigationCacheMode.Required;
+        }
+
+        private void button_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(MainPage), UriKind.Relative);
         }
     }
 }
