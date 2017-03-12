@@ -41,7 +41,7 @@
                 <CompositeTransform Rotation="0.033"/>
             </Button.RenderTransform>
         </Button>
-        <Button x:Name="button_Copy17" Content="Pharah" HorizontalAlignment="Left" Background="AliceBlue" Margin="150.5,244,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
+        <Button x:Name="button_Copy17" Content="Pharah" HorizontalAlignment="Left" Background="AliceBlue" Margin="150.5,244,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Click="button_Copy17_Click">
             <Button.RenderTransform>
                 <CompositeTransform Rotation="0.033"/>
             </Button.RenderTransform>

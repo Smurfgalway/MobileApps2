@@ -11,6 +11,7 @@
         <Grid.Background>
             <ImageBrush ImageSource="/Assets/ow.jpg" Stretch="None" />
         </Grid.Background>
-        <Button x:Name="button" Foreground="Khaki"  FontSize="30" FontWeight="ExtraBold" Content="SoundBoard" HorizontalAlignment="Left" Margin="28,554,0,0" VerticalAlignment="Top" Height="72" Width="312" Background="WhiteSmoke" Click="button_Click" RenderTransformOrigin="0.5,0.5"/>
+        <Button x:Name="soundboard" Foreground="Khaki"  FontSize="30" FontWeight="ExtraBold" Content="SoundBoard" HorizontalAlignment="Left" Margin="28,554,0,0" VerticalAlignment="Top" Height="72" Width="312" Background="WhiteSmoke" Click="button_Click" RenderTransformOrigin="0.5,0.5"/>
+        <Button x:Name="heroes" Foreground="Khaki"  FontSize="30" FontWeight="ExtraBold" Content="Heroes" HorizontalAlignment="Left" Margin="27,67,0,0" VerticalAlignment="Top" Height="72" Width="312" Background="WhiteSmoke" Click="heroes_Click" RenderTransformOrigin="0.5,0.5"/>
     </Grid>
 </Page>

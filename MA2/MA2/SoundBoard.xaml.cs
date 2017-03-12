@@ -32,5 +32,10 @@ namespace MA2
         {
             Frame.Navigate(typeof(MainPage), UriKind.Relative);
         }
+
+        private void button_Copy17_Click(object sender, RoutedEventArgs e)
+        {
+          
+        }
     }
 }
