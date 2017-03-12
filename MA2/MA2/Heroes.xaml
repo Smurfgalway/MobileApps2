@@ -11,6 +11,6 @@
         <Grid.Background>
             <ImageBrush ImageSource="/assets/gallery.jpg"></ImageBrush>
         </Grid.Background>
-        <Button x:Name="Home" Content="Button" HorizontalAlignment="Left" Margin="50,106,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.177,-4.329" Click="button_Click"/>
+        <Button x:Name="Home" Content="Home" FontSize="30" FontWeight="ExtraBold" Foreground="Gray" Background="Transparent"  HorizontalAlignment="Left" Margin="540,17,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.177,-4.329" Click="button_Click"/>
     </Grid>
 </Page>
