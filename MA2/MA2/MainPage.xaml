@@ -7,8 +7,10 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Height="640" VerticalAlignment="Top">
-        <Button x:Name="button" Foreground="Khaki"  Content="Press Me" HorizontalAlignment="Left" Margin="0,532,0,0" VerticalAlignment="Top" Height="108" Width="360" Background="Black" Click="button_Click"/>
-        <TextBox x:Name="textBox" HorizontalAlignment="Left" Margin="94,177,0,0" TextWrapping="Wrap" Text="HI friend" VerticalAlignment="Top" Height="100" Width="178" IsReadOnly="True" FontSize="36" />
+    <Grid Height="640" VerticalAlignment="Top">
+        <Grid.Background>
+            <ImageBrush ImageSource="/Assets/ow.jpg" Stretch="None" />
+        </Grid.Background>
+        <Button x:Name="button" Foreground="Khaki"  FontSize="30" FontWeight="ExtraBold" Content="SoundBoard" HorizontalAlignment="Left" Margin="28,554,0,0" VerticalAlignment="Top" Height="72" Width="312" Background="WhiteSmoke" Click="button_Click" RenderTransformOrigin="0.5,0.5"/>
     </Grid>
 </Page>

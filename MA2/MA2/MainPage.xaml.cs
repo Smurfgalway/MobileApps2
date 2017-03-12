@@ -14,7 +14,6 @@ using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
-
 namespace MA2
 {
     /// <summary>
@@ -25,14 +24,13 @@ namespace MA2
         public MainPage()
         {
             this.InitializeComponent();
-            textBox = new TextBox();
-           
+            this.NavigationCacheMode = NavigationCacheMode.Required; 
+
         }
         
         private void button_Click(object sender, RoutedEventArgs e)
         {
-            
-
+            Frame.Navigate(typeof(SoundBoard), UriKind.Relative);
         }
     }
 }
