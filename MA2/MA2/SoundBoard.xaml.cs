@@ -33,9 +33,30 @@ namespace MA2
             Frame.Navigate(typeof(MainPage), UriKind.Relative);
         }
 
-        private void button_Copy17_Click(object sender, RoutedEventArgs e)
+        private void Tracer_Click(object sender, RoutedEventArgs e)
         {
-          
+
+        }
+
+        private void Reinhart_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Roadhog_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Pharah_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Lucio_Click(object sender, RoutedEventArgs e)
+        {
+            L.Play();
+            
         }
     }
 }

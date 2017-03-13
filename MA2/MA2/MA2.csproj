@@ -113,9 +113,34 @@
     <None Include="MA2_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\Icons\ana.png" />
+    <Content Include="Assets\Icons\bas.png" />
+    <Content Include="Assets\Icons\dva.png" />
     <Content Include="Assets\Gallery.jpg" />
+    <Content Include="Assets\Icons\gen.png" />
+    <Content Include="Assets\Icons\hanzo.png" />
+    <Content Include="Assets\Icons\JR.png" />
+    <Content Include="Assets\Icons\lucio.png" />
+    <Content Include="Assets\Icons\mai.png" />
+    <Content Include="Assets\Icons\mcgree.png" />
+    <Content Include="Assets\Icons\mercy.png" />
+    <Content Include="Assets\Icons\ph.png" />
+    <Content Include="Assets\Icons\reap.jpg" />
+    <Content Include="Assets\Icons\rein.png" />
+    <Content Include="Assets\Icons\rh.png" />
+    <Content Include="Assets\Icons\sem.png" />
+    <Content Include="Assets\Icons\sol.png" />
+    <Content Include="Assets\Icons\som.png" />
+    <Content Include="Assets\Icons\TB.png" />
+    <Content Include="Assets\Icons\tracer.png" />
+    <Content Include="Assets\Icons\win.png" />
+    <Content Include="Assets\Icons\WM.png" />
+    <Content Include="Assets\Icons\z.png" />
+    <Content Include="Assets\Icons\zen.png" />
     <Content Include="Assets\ow.jpg" />
     <Content Include="Assets\sb.jpg" />
+    <Content Include="Assets\Sounds\lucio2.mp3" />
+    <Content Include="Assets\Sounds\Lúcio.mp3" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />
@@ -143,6 +168,7 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
   </PropertyGroup>

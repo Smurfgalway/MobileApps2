@@ -26,22 +26,22 @@
                 <CompositeTransform Rotation="44.136"/>
             </Button.RenderTransform>
         </Button>
-        <Button x:Name="Tracer" Content="Tracer" HorizontalAlignment="Left" Background="AliceBlue" Margin="79.5,117,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
+        <Button x:Name="Tracer" Content="Tracer" HorizontalAlignment="Left" Background="AliceBlue" Margin="79.5,117,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Click="Tracer_Click">
             <Button.RenderTransform>
                 <CompositeTransform Rotation="38.253"/>
             </Button.RenderTransform>
         </Button>
-        <Button x:Name="button_Copy15" Content="Reinhar" HorizontalAlignment="Left" Background="AliceBlue" Margin="9.5,281.5,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
+        <Button x:Name="Reinhart" Content="Reinhart" HorizontalAlignment="Left" Background="AliceBlue" Margin="9.5,281.5,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Click="Reinhart_Click">
             <Button.RenderTransform>
                 <CompositeTransform Rotation="43.612"/>
             </Button.RenderTransform>
         </Button>
-        <Button x:Name="button_Copy16" Content="RoadHog" HorizontalAlignment="Left" Background="AliceBlue" Margin="8.5,89,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
+        <Button x:Name="Roadhog" Content="RoadHog" HorizontalAlignment="Left" Background="AliceBlue" Margin="18,65.5,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Click="Roadhog_Click">
             <Button.RenderTransform>
                 <CompositeTransform Rotation="0.033"/>
             </Button.RenderTransform>
         </Button>
-        <Button x:Name="button_Copy17" Content="Pharah" HorizontalAlignment="Left" Background="AliceBlue" Margin="150.5,244,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Click="button_Copy17_Click">
+        <Button x:Name="Pharah" Content="Pharah" HorizontalAlignment="Left" Background="AliceBlue" Margin="150.5,244,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Click="Pharah_Click">
             <Button.RenderTransform>
                 <CompositeTransform Rotation="0.033"/>
             </Button.RenderTransform>
@@ -56,30 +56,35 @@
                 <CompositeTransform Rotation="0.033"/>
             </Button.RenderTransform>
         </Button>
-        <Button x:Name="Zen" Content="Zeneatta" HorizontalAlignment="Left" Background="AliceBlue" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Margin="426,295.5,0,0">
+        <Button x:Name="Lucio" Content="Lucio" HorizontalAlignment="Left" Background="AliceBlue" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Margin="426,295.5,0,0" Click="Lucio_Click">
             <Button.RenderTransform>
                 <CompositeTransform Rotation="0.033"/>
             </Button.RenderTransform>
         </Button>
-        <Button x:Name="button_Copy21" Content="Hanzo" HorizontalAlignment="Left" Background="AliceBlue" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Margin="261,133.5,0,0">
+        <Button x:Name="Hanzo" Content="Hanzo" HorizontalAlignment="Left" Background="AliceBlue" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Margin="261,133.5,0,0">
             <Button.RenderTransform>
                 <CompositeTransform Rotation="0.033"/>
             </Button.RenderTransform>
         </Button>
-        <Button x:Name="button_Copy22" Content="Reaper" HorizontalAlignment="Left" Background="AliceBlue" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Margin="289,322.5,0,0">
+        <Button x:Name="Reaper" Content="Reaper" HorizontalAlignment="Left" Background="AliceBlue" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Margin="289,322.5,0,0">
             <Button.RenderTransform>
                 <CompositeTransform Rotation="0.033"/>
             </Button.RenderTransform>
         </Button>
-        <Button x:Name="button_Copy23" Content="WidowMaker" HorizontalAlignment="Left" Background="Transparent" Foreground="Red" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Margin="466.499,331.001,0,0" Height="26.949" Width="105.225">
+        <Button x:Name="WidowMaker" Content="WidowMaker" HorizontalAlignment="Left" Background="Transparent" Foreground="Red" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Margin="532.995,269.001,0,0" Height="41.95" Width="105.225">
+            
+            
             <Button.RenderTransform>
                 <CompositeTransform Rotation="0.033"/>
             </Button.RenderTransform>
         </Button>
-        <Button x:Name="Home" Content="Home" HorizontalAlignment="Left" Background="Transparent" Foreground="GreenYellow" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Margin="-5.5,32.5,0,0" Click="Home_Click">
+        <Button x:Name="Home" Content="Home" HorizontalAlignment="Left" Background="Transparent" Foreground="GreenYellow" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Margin="2.5,13.5,0,0" Click="Home_Click">
             <Button.RenderTransform>
                 <CompositeTransform Rotation="0.033"/>
             </Button.RenderTransform>
         </Button>
+        <MediaElement x:Name="L" AutoPlay="False" Source="Assets/Sounds/Lúcio.mp3" />
+        <MediaElement x:Name="L2" AutoPlay="False" Source="Assets/Sounds/Lucio2.mp3" />
+
     </Grid>
 </Page>

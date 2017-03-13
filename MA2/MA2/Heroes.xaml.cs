@@ -33,9 +33,5 @@ namespace MA2
             Frame.Navigate(typeof(MainPage), UriKind.Relative);
         }
 
-        private void button_Click_1(object sender, RoutedEventArgs e)
-        {
-
-        }
     }
 }
