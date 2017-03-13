@@ -1,5 +1,5 @@
 ﻿<Page
-    x:Class="MA2.Hero_Pages.Hero1"
+    x:Class="MA2.Hero_Pages.Hero20"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:MA2.Hero_Pages"

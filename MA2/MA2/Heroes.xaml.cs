@@ -42,5 +42,105 @@ namespace MA2
         {
             Frame.Navigate(typeof(Hero_Pages.Hero2), UriKind.Relative);
         }
+
+        private void Genji_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(Hero_Pages.Hero3), UriKind.Relative);
+        }
+
+        private void Roadhog_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(Hero_Pages.Hero4), UriKind.Relative);
+        }
+
+        private void Dva_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(Hero_Pages.Hero5), UriKind.Relative);
+        }
+
+        private void Soldier_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(Hero_Pages.Hero6), UriKind.Relative);
+        }
+
+        private void Hanzo_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(Hero_Pages.Hero7), UriKind.Relative);
+        }
+
+        private void torb_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(Hero_Pages.Hero8), UriKind.Relative);
+        }
+
+        private void Junk_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(Hero_Pages.Hero9), UriKind.Relative);
+        }
+
+        private void Sym_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(Hero_Pages.Hero10), UriKind.Relative);
+        }
+
+        private void Mercy_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(Hero_Pages.Hero11), UriKind.Relative);
+        }
+
+        private void winston_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(Hero_Pages.Hero12), UriKind.Relative);
+        }
+
+        private void Mcgree_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(Hero_Pages.Hero13), UriKind.Relative);
+        }
+
+        private void mei_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(Hero_Pages.Hero14), UriKind.Relative);
+        }
+
+        private void WidowMaker_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(Hero_Pages.Hero15), UriKind.Relative);
+        }
+
+        private void Lucio_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(Hero_Pages.Hero16), UriKind.Relative);
+        }
+
+        private void Tracer_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(Hero_Pages.Hero17), UriKind.Relative);
+        }
+
+        private void ana_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(Hero_Pages.Hero18), UriKind.Relative);
+        }
+
+        private void Pharah_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(Hero_Pages.Hero19), UriKind.Relative);
+        }
+
+        private void Reaper_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(Hero_Pages.Hero20), UriKind.Relative);
+        }
+
+        private void Za_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(Hero_Pages.Hero21), UriKind.Relative);
+        }
+
+        private void Zen_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(Hero_Pages.Hero22), UriKind.Relative);
+        }
     }
 }
