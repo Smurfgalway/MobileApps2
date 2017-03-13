@@ -35,28 +35,118 @@ namespace MA2
 
         private void Tracer_Click(object sender, RoutedEventArgs e)
         {
-
+            Tr.Play();
         }
 
         private void Reinhart_Click(object sender, RoutedEventArgs e)
         {
-
+            Re.Play();
         }
 
         private void Roadhog_Click(object sender, RoutedEventArgs e)
         {
-
+            Ro.Play();
         }
 
         private void Pharah_Click(object sender, RoutedEventArgs e)
         {
-
+            P.Play();
         }
 
         private void Lucio_Click(object sender, RoutedEventArgs e)
         {
             L.Play();
             
+        }
+
+        private void WidowMaker_Click(object sender, RoutedEventArgs e)
+        {
+            Wid.Play();
+        }
+
+        private void DVA_Click(object sender, RoutedEventArgs e)
+        {
+            D.Play();
+        }
+
+        private void Hanzo_Click(object sender, RoutedEventArgs e)
+        {
+            H.Play();
+        }
+
+        private void Mercy_Click(object sender, RoutedEventArgs e)
+        {
+            Mrc.Play();
+        }
+
+        private void Mcgree_Click(object sender, RoutedEventArgs e)
+        {
+            Mc.Play();
+        }
+
+        private void JR_Click(object sender, RoutedEventArgs e)
+        {
+            J.Play();
+        }
+
+        private void Mai_Click(object sender, RoutedEventArgs e)
+        {
+            Me.Play();
+        }
+
+        private void Reaper_Click(object sender, RoutedEventArgs e)
+        {
+            R.Play();
+        }
+
+        private void Genji_Click(object sender, RoutedEventArgs e)
+        {
+            G.Play();
+        }
+
+        private void Soldier_Click(object sender, RoutedEventArgs e)
+        {
+            S76.Play();
+        }
+
+        private void Winston_Click(object sender, RoutedEventArgs e)
+        {
+            Win.Play();
+        }
+
+        private void Ana_Click(object sender, RoutedEventArgs e)
+        {
+            A.Play();
+        }
+
+        private void Symmetra_Click(object sender, RoutedEventArgs e)
+        {
+            Sym.Play();
+        }
+
+        private void Bastion_Click(object sender, RoutedEventArgs e)
+        {
+            B.Play();
+        }
+
+        private void Zayra_Click(object sender, RoutedEventArgs e)
+        {
+            Za.Play();
+        }
+
+        private void Sombra_Click(object sender, RoutedEventArgs e)
+        {
+            Som.Play();
+        }
+
+        private void Zenyatta_Click(object sender, RoutedEventArgs e)
+        {
+            Ze.Play();
+        }
+
+        private void Torbjörn_Click(object sender, RoutedEventArgs e)
+        {
+            Tor.Play();
         }
     }
 }

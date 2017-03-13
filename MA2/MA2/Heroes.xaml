@@ -14,14 +14,14 @@
         <Button x:Name="Home" Content="Home" FontSize="30" FontWeight="ExtraBold" Foreground="Gray" Background="Transparent"  HorizontalAlignment="Left" Margin="515,2,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.177,-4.329" Click="button_Click"/>
         <Button x:Name="Bastion"  HorizontalAlignment="Left" Height="67.156" Margin="56.672,94.088,0,0" VerticalAlignment="Top" Width="48.985" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
             <Button.Background>
-                <ImageBrush ImageSource="/assets/bas.png"></ImageBrush></Button.Background>
+                <ImageBrush ImageSource="/assets/Icons/bas.png"></ImageBrush></Button.Background>
             <Button.RenderTransform>
                 <CompositeTransform Rotation="9.617"/>
             </Button.RenderTransform>
         </Button>
         <Button x:Name="Reinhart" HorizontalAlignment="Left" Height="67.156" Margin="34.672,171.754,0,0" VerticalAlignment="Top" Width="48.985" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
             <Button.Background>
-                <ImageBrush ImageSource="/assets/rein.png"></ImageBrush>
+                <ImageBrush ImageSource="/assets/Icons/rein.png"></ImageBrush>
             </Button.Background>
             <Button.RenderTransform>
                 <CompositeTransform Rotation="9.617"/>
@@ -29,7 +29,7 @@
         </Button>
         <Button x:Name="Dva" HorizontalAlignment="Left" Height="67.156" Margin="82.005,223.088,0,0" VerticalAlignment="Top" Width="48.985" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
             <Button.Background>
-                <ImageBrush ImageSource="/assets/dva.png"></ImageBrush>
+                <ImageBrush ImageSource="/assets/Icons/dva.png"></ImageBrush>
             </Button.Background>
             <Button.RenderTransform>
                 <CompositeTransform Rotation="9.617"/>
@@ -37,7 +37,7 @@
         </Button>
         <Button x:Name="Roadhog" HorizontalAlignment="Left" Height="67.156" Margin="104.005,148.088,0,0" VerticalAlignment="Top" Width="48.985" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
             <Button.Background>
-                <ImageBrush ImageSource="/assets/rh.png"></ImageBrush>
+                <ImageBrush ImageSource="/assets/Icons/rh.png"></ImageBrush>
             </Button.Background>
             <Button.RenderTransform>
                 <CompositeTransform Rotation="9.617"/>
@@ -45,7 +45,7 @@
         </Button>
         <Button x:Name="Genji" HorizontalAlignment="Left" Height="67.156" Margin="125.005,69.088,0,0" VerticalAlignment="Top" Width="48.985" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
             <Button.Background>
-                <ImageBrush ImageSource="/assets/gen.png"></ImageBrush>
+                <ImageBrush ImageSource="/assets/Icons/gen.png"></ImageBrush>
             </Button.Background>
             <Button.RenderTransform>
                 <CompositeTransform Rotation="9.617"/>
@@ -53,7 +53,7 @@
         </Button>
         <Button x:Name="Soldier" HorizontalAlignment="Left" Height="67.156" Margin="179.339,96.088,0,0" VerticalAlignment="Top" Width="48.985" RenderTransformOrigin="1.807,-0.039" UseLayoutRounding="False" d:LayoutRounding="Auto">
             <Button.Background>
-                <ImageBrush ImageSource="/assets/sol.png"></ImageBrush>
+                <ImageBrush ImageSource="/assets/Icons/sol.png"></ImageBrush>
             </Button.Background>
             <Button.RenderTransform>
                 <CompositeTransform Rotation="9.617" TranslateX="5.147" TranslateY="11.205"/>
@@ -61,7 +61,7 @@
         </Button>
         <Button x:Name="Hanzo" HorizontalAlignment="Left" Height="67.156" Margin="161.005,168.087,0,0" VerticalAlignment="Top" Width="48.985" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
             <Button.Background>
-                <ImageBrush ImageSource="/assets/hanzo.png"></ImageBrush>
+                <ImageBrush ImageSource="/assets/Icons/hanzo.png"></ImageBrush>
             </Button.Background>
             <Button.RenderTransform>
                 <CompositeTransform Rotation="9.617"/>
@@ -69,7 +69,7 @@
         </Button>
         <Button x:Name="Sym" HorizontalAlignment="Left" Height="67.156" Margin="203.005,222.089,0,0" VerticalAlignment="Top" Width="48.985" RenderTransformOrigin="1.807,-0.039" UseLayoutRounding="False" d:LayoutRounding="Auto">
             <Button.Background>
-                <ImageBrush ImageSource="/assets/sem.png"></ImageBrush>
+                <ImageBrush ImageSource="/assets/Icons/sem.png"></ImageBrush>
             </Button.Background>
             <Button.RenderTransform>
                 <CompositeTransform Rotation="9.617" TranslateX="5.147" TranslateY="11.205"/>
@@ -77,7 +77,7 @@
         </Button>
         <Button x:Name="Junk"  HorizontalAlignment="Left" Height="67.156" Margin="229.672,144.421,0,0" VerticalAlignment="Top" Width="48.985" RenderTransformOrigin="1.807,-0.039" UseLayoutRounding="False" d:LayoutRounding="Auto">
             <Button.Background>
-                <ImageBrush ImageSource="/assets/JR.png"></ImageBrush>
+                <ImageBrush ImageSource="/assets/Icons/JR.png"></ImageBrush>
             </Button.Background>
             <Button.RenderTransform>
                 <CompositeTransform Rotation="9.617" TranslateX="5.147" TranslateY="11.205"/>
@@ -85,7 +85,7 @@
         </Button>
         <Button x:Name="torb"  HorizontalAlignment="Left" Height="67.156" Margin="248.006,68.421,0,0" VerticalAlignment="Top" Width="48.985" RenderTransformOrigin="1.807,-0.039" UseLayoutRounding="False" d:LayoutRounding="Auto">
             <Button.Background>
-                <ImageBrush ImageSource="/assets/TB.png"></ImageBrush>
+                <ImageBrush ImageSource="/assets/Icons/TB.png"></ImageBrush>
             </Button.Background>
             <Button.RenderTransform>
                 <CompositeTransform Rotation="9.617" TranslateX="5.147" TranslateY="11.205"/>
@@ -93,7 +93,7 @@
         </Button>
         <Button x:Name="Lucio" HorizontalAlignment="Left" Height="67.156" Margin="410.339,167.756,0,0" VerticalAlignment="Top" Width="48.985" RenderTransformOrigin="1.807,-0.039" UseLayoutRounding="False" d:LayoutRounding="Auto">
             <Button.Background>
-                <ImageBrush ImageSource="/assets/lucio.png"></ImageBrush>
+                <ImageBrush ImageSource="/assets/Icons/lucio.png"></ImageBrush>
             </Button.Background>
             <Button.RenderTransform>
                 <CompositeTransform Rotation="9.617" TranslateX="5.147" TranslateY="11.205"/>
@@ -101,7 +101,7 @@
         </Button>
         <Button x:Name="Tracer" HorizontalAlignment="Left" Height="67.156" Margin="431.005,93.756,0,0" VerticalAlignment="Top" Width="48.985" RenderTransformOrigin="1.807,-0.039" UseLayoutRounding="False" d:LayoutRounding="Auto">
             <Button.Background>
-                <ImageBrush ImageSource="/assets/tracer.png"></ImageBrush>
+                <ImageBrush ImageSource="/assets/Icons/tracer.png"></ImageBrush>
             </Button.Background>
             <Button.RenderTransform>
                 <CompositeTransform Rotation="9.617" TranslateX="5.147" TranslateY="11.205"/>
@@ -109,7 +109,7 @@
         </Button>
         <Button x:Name="Mcgree"  HorizontalAlignment="Left" Height="67.156" Margin="355.339,138.756,0,0" VerticalAlignment="Top" Width="48.985" RenderTransformOrigin="1.807,-0.039" UseLayoutRounding="False" d:LayoutRounding="Auto">
             <Button.Background>
-                <ImageBrush ImageSource="/assets/mcgree.png"></ImageBrush>
+                <ImageBrush ImageSource="/assets/Icons/mcgree.png"></ImageBrush>
             </Button.Background>
             <Button.RenderTransform>
                 <CompositeTransform Rotation="9.617" TranslateX="5.147" TranslateY="11.205"/>
@@ -117,7 +117,7 @@
         </Button>
         <Button x:Name="WidowMaker" HorizontalAlignment="Left" Height="67.156" Margin="332.339,219.756,0,0" VerticalAlignment="Top" Width="48.985" RenderTransformOrigin="1.807,-0.039" UseLayoutRounding="False" d:LayoutRounding="Auto">
             <Button.Background>
-                <ImageBrush ImageSource="/assets/WM.png"></ImageBrush>
+                <ImageBrush ImageSource="/assets/Icons/WM.png"></ImageBrush>
             </Button.Background>
             <Button.RenderTransform>
                 <CompositeTransform Rotation="9.617" TranslateX="5.147" TranslateY="11.205"/>
@@ -125,7 +125,7 @@
         </Button>
         <Button x:Name="mei" HorizontalAlignment="Left" Height="67.156" Margin="375.339,70.422,0,0" VerticalAlignment="Top" Width="48.985" RenderTransformOrigin="1.807,-0.039" UseLayoutRounding="False" d:LayoutRounding="Auto">
             <Button.Background>
-                <ImageBrush ImageSource="/assets/mai.png"></ImageBrush>
+                <ImageBrush ImageSource="/assets/Icons/mai.png"></ImageBrush>
             </Button.Background>
             <Button.RenderTransform>
                 <CompositeTransform Rotation="9.617" TranslateX="5.147" TranslateY="11.205"/>
@@ -133,7 +133,7 @@
         </Button>
         <Button x:Name="Mercy" HorizontalAlignment="Left" Height="67.156" Margin="308.339,96.422,0,0" VerticalAlignment="Top" Width="48.985" RenderTransformOrigin="1.807,-0.039" UseLayoutRounding="False" d:LayoutRounding="Auto">
             <Button.Background>
-                <ImageBrush ImageSource="/assets/mercy.png"></ImageBrush>
+                <ImageBrush ImageSource="/assets/Icons/mercy.png"></ImageBrush>
             </Button.Background>
             <Button.RenderTransform>
                 <CompositeTransform Rotation="9.617" TranslateX="5.147" TranslateY="11.205"/>
@@ -141,7 +141,7 @@
         </Button>
         <Button x:Name="winston" HorizontalAlignment="Left" Height="67.156" Margin="287.672,163.089,0,0" VerticalAlignment="Top" Width="48.985" RenderTransformOrigin="1.807,-0.039" UseLayoutRounding="False" d:LayoutRounding="Auto">
             <Button.Background>
-                <ImageBrush ImageSource="/assets/win.png"></ImageBrush>
+                <ImageBrush ImageSource="/assets/Icons/win.png"></ImageBrush>
             </Button.Background>
             <Button.RenderTransform>
                 <CompositeTransform Rotation="9.617" TranslateX="5.147" TranslateY="11.205"/>
@@ -149,7 +149,7 @@
         </Button>
         <Button x:Name="Za" HorizontalAlignment="Left" Height="67.156" Margin="536.005,170.422,0,0" VerticalAlignment="Top" Width="48.985" RenderTransformOrigin="1.807,-0.039" UseLayoutRounding="False" d:LayoutRounding="Auto">
             <Button.Background>
-                <ImageBrush ImageSource="/assets/z.png"></ImageBrush>
+                <ImageBrush ImageSource="/assets/Icons/z.png"></ImageBrush>
             </Button.Background>
             <Button.RenderTransform>
                 <CompositeTransform Rotation="9.617" TranslateX="5.147" TranslateY="11.205"/>
@@ -157,7 +157,7 @@
         </Button>
         <Button x:Name="Pharah" HorizontalAlignment="Left" Height="67.156" Margin="557.005,92.422,0,0" VerticalAlignment="Top" Width="48.985" RenderTransformOrigin="1.807,-0.039" UseLayoutRounding="False" d:LayoutRounding="Auto">
             <Button.Background>
-                <ImageBrush ImageSource="/assets/ph.png"></ImageBrush>
+                <ImageBrush ImageSource="/assets/Icons/ph.png"></ImageBrush>
             </Button.Background>
             <Button.RenderTransform>
                 <CompositeTransform Rotation="9.617" TranslateX="5.147" TranslateY="11.205"/>
@@ -165,7 +165,7 @@
         </Button>
         <Button x:Name="Zen"  HorizontalAlignment="Left" Height="67.156" Margin="460.672,219.756,0,0" VerticalAlignment="Top" Width="48.985" RenderTransformOrigin="1.807,-0.039" UseLayoutRounding="False" d:LayoutRounding="Auto">
             <Button.Background>
-                <ImageBrush ImageSource="/assets/zen.png"></ImageBrush>
+                <ImageBrush ImageSource="/assets/Icons/zen.png"></ImageBrush>
             </Button.Background>
             <Button.RenderTransform>
                 <CompositeTransform Rotation="9.617" TranslateX="5.147" TranslateY="11.205"/>
@@ -173,7 +173,7 @@
         </Button>
         <Button x:Name="Reaper" HorizontalAlignment="Left" Height="67.156" Margin="482.005,142.756,0,0" VerticalAlignment="Top" Width="48.985" RenderTransformOrigin="1.807,-0.039" UseLayoutRounding="False" d:LayoutRounding="Auto">
             <Button.Background>
-                <ImageBrush ImageSource="/assets/reap.jpg"></ImageBrush>
+                <ImageBrush ImageSource="/assets/Icons/reap.jpg"></ImageBrush>
             </Button.Background>
             <Button.RenderTransform>
                 <CompositeTransform Rotation="9.617" TranslateX="5.147" TranslateY="11.205"/>
@@ -181,7 +181,7 @@
         </Button>
         <Button x:Name="ana" HorizontalAlignment="Left" Height="67.156" Margin="502.005,65.422,0,0" VerticalAlignment="Top" Width="48.985" RenderTransformOrigin="1.807,-0.039" UseLayoutRounding="False" d:LayoutRounding="Auto">
             <Button.Background>
-                <ImageBrush ImageSource="/assets/ana.png"></ImageBrush>
+                <ImageBrush ImageSource="/assets/Icons/ana.png"></ImageBrush>
             </Button.Background>
             <Button.RenderTransform>
                 <CompositeTransform Rotation="9.617" TranslateX="5.147" TranslateY="11.205"/>
