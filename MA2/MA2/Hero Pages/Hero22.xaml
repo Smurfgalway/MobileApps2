@@ -7,7 +7,7 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <<Grid VerticalAlignment="Top" Height="636">
+    <Grid VerticalAlignment="Top" Height="636">
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
             <ColumnDefinition/>
@@ -15,6 +15,6 @@
         <Grid.Background>
             <ImageBrush ImageSource="/assets/br.jpg"></ImageBrush>
         </Grid.Background>
-        <Image x:Name="image" Grid.ColumnSpan="2" Margin="0,50,76,389" HorizontalAlignment="Right" Width="206"/>
-        </Grid>
+        <Image x:Name="bas" Grid.ColumnSpan="2" Source="/Assets/HI/zen.png" Margin="0,50,0,389"/>
+    </Grid>
 </Page>

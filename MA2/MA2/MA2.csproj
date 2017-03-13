@@ -95,6 +95,72 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Hero Pages\Hero3.xaml.cs">
+      <DependentUpon>Hero3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Hero Pages\Hero4.xaml.cs">
+      <DependentUpon>Hero4.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Hero Pages\Hero5.xaml.cs">
+      <DependentUpon>Hero5.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Hero Pages\Hero6.xaml.cs">
+      <DependentUpon>Hero6.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Hero Pages\Hero22.xaml.cs">
+      <DependentUpon>Hero22.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Hero Pages\Hero21.xaml.cs">
+      <DependentUpon>Hero21.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Hero Pages\Hero16.xaml.cs">
+      <DependentUpon>Hero16.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Hero Pages\Hero17.xaml.cs">
+      <DependentUpon>Hero17.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Hero Pages\Hero18.xaml.cs">
+      <DependentUpon>Hero18.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Hero Pages\Hero19.xaml.cs">
+      <DependentUpon>Hero19.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Hero Pages\Hero12.xaml.cs">
+      <DependentUpon>Hero12.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Hero Pages\Hero20.xaml.cs">
+      <DependentUpon>Hero20.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Hero Pages\Hero13.xaml.cs">
+      <DependentUpon>Hero13.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Hero Pages\Hero14.xaml.cs">
+      <DependentUpon>Hero14.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Hero Pages\Hero15.xaml.cs">
+      <DependentUpon>Hero15.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Hero Pages\Hero11.xaml.cs">
+      <DependentUpon>Hero11.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Hero Pages\Hero10.xaml.cs">
+      <DependentUpon>Hero10.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Hero Pages\Hero8.xaml.cs">
+      <DependentUpon>Hero8.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Hero Pages\Hero9.xaml.cs">
+      <DependentUpon>Hero9.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Hero Pages\Hero7.xaml.cs">
+      <DependentUpon>Hero7.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Hero Pages\Hero1.xaml.cs">
+      <DependentUpon>Hero1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Hero Pages\Hero2.xaml.cs">
+      <DependentUpon>Hero2.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Heroes.xaml.cs">
       <DependentUpon>Heroes.xaml</DependentUpon>
     </Compile>
@@ -113,6 +179,29 @@
     <None Include="MA2_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\br.jpg" />
+    <Content Include="Assets\HI\Ana.png" />
+    <Content Include="Assets\HI\Bas.png" />
+    <Content Include="Assets\HI\D.va.png" />
+    <Content Include="Assets\HI\Gen.png" />
+    <Content Include="Assets\HI\Hanzo.png" />
+    <Content Include="Assets\HI\Junk.png" />
+    <Content Include="Assets\HI\Lucio.png" />
+    <Content Include="Assets\HI\Mccree.jpg" />
+    <Content Include="Assets\HI\Mei.png" />
+    <Content Include="Assets\HI\Mercy.png" />
+    <Content Include="Assets\HI\Pharah.png" />
+    <Content Include="Assets\HI\Reaper.png" />
+    <Content Include="Assets\HI\Rein.jpg" />
+    <Content Include="Assets\HI\Roadhog.png" />
+    <Content Include="Assets\HI\Soldier.png" />
+    <Content Include="Assets\HI\Torbjorn.png" />
+    <Content Include="Assets\HI\Tracer.png" />
+    <Content Include="Assets\HI\Widow.jpg" />
+    <Content Include="Assets\HI\Winston.png" />
+    <Content Include="Assets\HI\Zary.png" />
+    <Content Include="Assets\HI\Zen.png" />
+    <Content Include="Assets\HI\Zym.png" />
     <Content Include="Assets\Icons\ana.png" />
     <Content Include="Assets\Icons\bas.png" />
     <Content Include="Assets\Icons\dva.png" />
@@ -176,6 +265,94 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="Hero Pages\Hero3.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Hero Pages\Hero4.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Hero Pages\Hero5.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Hero Pages\Hero6.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Hero Pages\Hero22.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Hero Pages\Hero21.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Hero Pages\Hero16.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Hero Pages\Hero17.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Hero Pages\Hero18.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Hero Pages\Hero19.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Hero Pages\Hero12.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Hero Pages\Hero20.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Hero Pages\Hero13.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Hero Pages\Hero14.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Hero Pages\Hero15.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Hero Pages\Hero11.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Hero Pages\Hero10.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Hero Pages\Hero8.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Hero Pages\Hero9.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Hero Pages\Hero7.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Hero Pages\Hero1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Hero Pages\Hero2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Heroes.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>

@@ -15,6 +15,6 @@
         <Grid.Background>
             <ImageBrush ImageSource="/assets/br.jpg"></ImageBrush>
         </Grid.Background>
-        <Image x:Name="image" Grid.ColumnSpan="2" Margin="0,50,76,389" HorizontalAlignment="Right" Width="206"/>
+        <Image x:Name="image" Grid.ColumnSpan="2" Margin="0,50,0,389" Source="/assets/hi/Reaper.png"/>
     </Grid>
 </Page>

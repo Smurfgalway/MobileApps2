@@ -25,6 +25,13 @@ namespace MA2.Hero_Pages
         public Hero1()
         {
             this.InitializeComponent();
+            this.NavigationCacheMode = NavigationCacheMode.Required;
+
+        }
+
+        private void button_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(Heroes), UriKind.Relative);
         }
     }
 }

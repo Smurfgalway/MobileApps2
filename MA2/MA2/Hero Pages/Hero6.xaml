@@ -6,7 +6,7 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
-    
+
     <Grid VerticalAlignment="Top" Height="636">
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
@@ -15,6 +15,6 @@
         <Grid.Background>
             <ImageBrush ImageSource="/assets/br.jpg"></ImageBrush>
         </Grid.Background>
-        <Image x:Name="image" Grid.ColumnSpan="2" Margin="0,50,76,389" HorizontalAlignment="Right" Width="206"/>
+        <Image x:Name="image" Grid.ColumnSpan="2" Margin="83,7,85,387" Source="/assets/hi/Soldier.png"/>
     </Grid>
 </Page>

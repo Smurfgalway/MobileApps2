@@ -15,6 +15,10 @@
         <Grid.Background>
             <ImageBrush ImageSource="/assets/br.jpg"></ImageBrush>
         </Grid.Background>
-        <Image x:Name="image" Grid.ColumnSpan="2" Margin="0,50,76,389" HorizontalAlignment="Right" Width="206"/>
+        <Image x:Name="image" Grid.ColumnSpan="2" Margin="-0.059,50,0.059,361.243" Source="/assets/hi/D.va.png" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
+            <Image.RenderTransform>
+                <CompositeTransform SkewX="-0.242" TranslateX="-0.416"/>
+            </Image.RenderTransform>
+        </Image>
     </Grid>
 </Page>
