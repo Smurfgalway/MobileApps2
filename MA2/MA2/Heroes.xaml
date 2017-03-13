@@ -51,7 +51,7 @@
                 <CompositeTransform Rotation="9.617"/>
             </Button.RenderTransform>
         </Button>
-        <Button x:Name="Soldier" Content="Button" HorizontalAlignment="Left" Height="67.156" Margin="179.339,96.088,0,0" VerticalAlignment="Top" Width="48.985" RenderTransformOrigin="1.807,-0.039" UseLayoutRounding="False" d:LayoutRounding="Auto">
+        <Button x:Name="Soldier" HorizontalAlignment="Left" Height="67.156" Margin="179.339,96.088,0,0" VerticalAlignment="Top" Width="48.985" RenderTransformOrigin="1.807,-0.039" UseLayoutRounding="False" d:LayoutRounding="Auto">
             <Button.Background>
                 <ImageBrush ImageSource="/assets/sol.png"></ImageBrush>
             </Button.Background>
@@ -59,7 +59,7 @@
                 <CompositeTransform Rotation="9.617" TranslateX="5.147" TranslateY="11.205"/>
             </Button.RenderTransform>
         </Button>
-        <Button x:Name="Hanzo" Content="Button" HorizontalAlignment="Left" Height="67.156" Margin="161.005,168.087,0,0" VerticalAlignment="Top" Width="48.985" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
+        <Button x:Name="Hanzo" HorizontalAlignment="Left" Height="67.156" Margin="161.005,168.087,0,0" VerticalAlignment="Top" Width="48.985" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
             <Button.Background>
                 <ImageBrush ImageSource="/assets/hanzo.png"></ImageBrush>
             </Button.Background>
@@ -67,7 +67,7 @@
                 <CompositeTransform Rotation="9.617"/>
             </Button.RenderTransform>
         </Button>
-        <Button x:Name="Sym" Content="Button" HorizontalAlignment="Left" Height="67.156" Margin="203.005,222.089,0,0" VerticalAlignment="Top" Width="48.985" RenderTransformOrigin="1.807,-0.039" UseLayoutRounding="False" d:LayoutRounding="Auto">
+        <Button x:Name="Sym" HorizontalAlignment="Left" Height="67.156" Margin="203.005,222.089,0,0" VerticalAlignment="Top" Width="48.985" RenderTransformOrigin="1.807,-0.039" UseLayoutRounding="False" d:LayoutRounding="Auto">
             <Button.Background>
                 <ImageBrush ImageSource="/assets/sem.png"></ImageBrush>
             </Button.Background>
@@ -75,78 +75,114 @@
                 <CompositeTransform Rotation="9.617" TranslateX="5.147" TranslateY="11.205"/>
             </Button.RenderTransform>
         </Button>
-        <Button x:Name="button_Copy7" Content="Button" HorizontalAlignment="Left" Height="67.156" Margin="229.672,144.421,0,0" VerticalAlignment="Top" Width="48.985" RenderTransformOrigin="1.807,-0.039" UseLayoutRounding="False" d:LayoutRounding="Auto">
+        <Button x:Name="Junk"  HorizontalAlignment="Left" Height="67.156" Margin="229.672,144.421,0,0" VerticalAlignment="Top" Width="48.985" RenderTransformOrigin="1.807,-0.039" UseLayoutRounding="False" d:LayoutRounding="Auto">
             <Button.Background>
-                <ImageBrush ImageSource="/assets/bas.png"></ImageBrush>
+                <ImageBrush ImageSource="/assets/JR.png"></ImageBrush>
             </Button.Background>
             <Button.RenderTransform>
                 <CompositeTransform Rotation="9.617" TranslateX="5.147" TranslateY="11.205"/>
             </Button.RenderTransform>
         </Button>
-        <Button x:Name="button_Copy8" Content="Button" HorizontalAlignment="Left" Height="67.156" Margin="248.006,68.421,0,0" VerticalAlignment="Top" Width="48.985" RenderTransformOrigin="1.807,-0.039" UseLayoutRounding="False" d:LayoutRounding="Auto">
+        <Button x:Name="torb"  HorizontalAlignment="Left" Height="67.156" Margin="248.006,68.421,0,0" VerticalAlignment="Top" Width="48.985" RenderTransformOrigin="1.807,-0.039" UseLayoutRounding="False" d:LayoutRounding="Auto">
             <Button.Background>
-                <ImageBrush ImageSource="/assets/bas.png"></ImageBrush>
+                <ImageBrush ImageSource="/assets/TB.png"></ImageBrush>
             </Button.Background>
             <Button.RenderTransform>
                 <CompositeTransform Rotation="9.617" TranslateX="5.147" TranslateY="11.205"/>
             </Button.RenderTransform>
         </Button>
-        <Button x:Name="button_Copy9" Content="Button" HorizontalAlignment="Left" Height="67.156" Margin="410.339,167.756,0,0" VerticalAlignment="Top" Width="48.985" RenderTransformOrigin="1.807,-0.039" UseLayoutRounding="False" d:LayoutRounding="Auto">
+        <Button x:Name="Lucio" HorizontalAlignment="Left" Height="67.156" Margin="410.339,167.756,0,0" VerticalAlignment="Top" Width="48.985" RenderTransformOrigin="1.807,-0.039" UseLayoutRounding="False" d:LayoutRounding="Auto">
+            <Button.Background>
+                <ImageBrush ImageSource="/assets/lucio.png"></ImageBrush>
+            </Button.Background>
             <Button.RenderTransform>
                 <CompositeTransform Rotation="9.617" TranslateX="5.147" TranslateY="11.205"/>
             </Button.RenderTransform>
         </Button>
-        <Button x:Name="button_Copy10" Content="Button" HorizontalAlignment="Left" Height="67.156" Margin="431.005,93.756,0,0" VerticalAlignment="Top" Width="48.985" RenderTransformOrigin="1.807,-0.039" UseLayoutRounding="False" d:LayoutRounding="Auto">
+        <Button x:Name="Tracer" HorizontalAlignment="Left" Height="67.156" Margin="431.005,93.756,0,0" VerticalAlignment="Top" Width="48.985" RenderTransformOrigin="1.807,-0.039" UseLayoutRounding="False" d:LayoutRounding="Auto">
+            <Button.Background>
+                <ImageBrush ImageSource="/assets/tracer.png"></ImageBrush>
+            </Button.Background>
             <Button.RenderTransform>
                 <CompositeTransform Rotation="9.617" TranslateX="5.147" TranslateY="11.205"/>
             </Button.RenderTransform>
         </Button>
-        <Button x:Name="button_Copy11" Content="Button" HorizontalAlignment="Left" Height="67.156" Margin="355.339,138.756,0,0" VerticalAlignment="Top" Width="48.985" RenderTransformOrigin="1.807,-0.039" UseLayoutRounding="False" d:LayoutRounding="Auto">
+        <Button x:Name="Mcgree"  HorizontalAlignment="Left" Height="67.156" Margin="355.339,138.756,0,0" VerticalAlignment="Top" Width="48.985" RenderTransformOrigin="1.807,-0.039" UseLayoutRounding="False" d:LayoutRounding="Auto">
+            <Button.Background>
+                <ImageBrush ImageSource="/assets/mcgree.png"></ImageBrush>
+            </Button.Background>
             <Button.RenderTransform>
                 <CompositeTransform Rotation="9.617" TranslateX="5.147" TranslateY="11.205"/>
             </Button.RenderTransform>
         </Button>
-        <Button x:Name="button_Copy12" Content="Button" HorizontalAlignment="Left" Height="67.156" Margin="332.339,219.756,0,0" VerticalAlignment="Top" Width="48.985" RenderTransformOrigin="1.807,-0.039" UseLayoutRounding="False" d:LayoutRounding="Auto">
+        <Button x:Name="WidowMaker" HorizontalAlignment="Left" Height="67.156" Margin="332.339,219.756,0,0" VerticalAlignment="Top" Width="48.985" RenderTransformOrigin="1.807,-0.039" UseLayoutRounding="False" d:LayoutRounding="Auto">
+            <Button.Background>
+                <ImageBrush ImageSource="/assets/WM.png"></ImageBrush>
+            </Button.Background>
             <Button.RenderTransform>
                 <CompositeTransform Rotation="9.617" TranslateX="5.147" TranslateY="11.205"/>
             </Button.RenderTransform>
         </Button>
-        <Button x:Name="button_Copy13" Content="Button" HorizontalAlignment="Left" Height="67.156" Margin="375.339,70.422,0,0" VerticalAlignment="Top" Width="48.985" RenderTransformOrigin="1.807,-0.039" UseLayoutRounding="False" d:LayoutRounding="Auto">
+        <Button x:Name="mei" HorizontalAlignment="Left" Height="67.156" Margin="375.339,70.422,0,0" VerticalAlignment="Top" Width="48.985" RenderTransformOrigin="1.807,-0.039" UseLayoutRounding="False" d:LayoutRounding="Auto" Click="mei_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="/assets/mai.png"></ImageBrush>
+            </Button.Background>
             <Button.RenderTransform>
                 <CompositeTransform Rotation="9.617" TranslateX="5.147" TranslateY="11.205"/>
             </Button.RenderTransform>
         </Button>
-        <Button x:Name="button_Copy14" Content="Button" HorizontalAlignment="Left" Height="67.156" Margin="308.339,96.422,0,0" VerticalAlignment="Top" Width="48.985" RenderTransformOrigin="1.807,-0.039" UseLayoutRounding="False" d:LayoutRounding="Auto">
+        <Button x:Name="Mercy" HorizontalAlignment="Left" Height="67.156" Margin="308.339,96.422,0,0" VerticalAlignment="Top" Width="48.985" RenderTransformOrigin="1.807,-0.039" UseLayoutRounding="False" d:LayoutRounding="Auto">
+            <Button.Background>
+                <ImageBrush ImageSource="/assets/mercy.png"></ImageBrush>
+            </Button.Background>
             <Button.RenderTransform>
                 <CompositeTransform Rotation="9.617" TranslateX="5.147" TranslateY="11.205"/>
             </Button.RenderTransform>
         </Button>
-        <Button x:Name="button_Copy15" Content="Button" HorizontalAlignment="Left" Height="67.156" Margin="287.672,163.089,0,0" VerticalAlignment="Top" Width="48.985" RenderTransformOrigin="1.807,-0.039" UseLayoutRounding="False" d:LayoutRounding="Auto">
+        <Button x:Name="winston" HorizontalAlignment="Left" Height="67.156" Margin="287.672,163.089,0,0" VerticalAlignment="Top" Width="48.985" RenderTransformOrigin="1.807,-0.039" UseLayoutRounding="False" d:LayoutRounding="Auto">
+            <Button.Background>
+                <ImageBrush ImageSource="/assets/win.png"></ImageBrush>
+            </Button.Background>
             <Button.RenderTransform>
                 <CompositeTransform Rotation="9.617" TranslateX="5.147" TranslateY="11.205"/>
             </Button.RenderTransform>
         </Button>
-        <Button x:Name="button_Copy16" Content="Button" HorizontalAlignment="Left" Height="67.156" Margin="536.005,170.422,0,0" VerticalAlignment="Top" Width="48.985" RenderTransformOrigin="1.807,-0.039" UseLayoutRounding="False" d:LayoutRounding="Auto">
+        <Button x:Name="Za" HorizontalAlignment="Left" Height="67.156" Margin="536.005,170.422,0,0" VerticalAlignment="Top" Width="48.985" RenderTransformOrigin="1.807,-0.039" UseLayoutRounding="False" d:LayoutRounding="Auto">
+            <Button.Background>
+                <ImageBrush ImageSource="/assets/z.png"></ImageBrush>
+            </Button.Background>
             <Button.RenderTransform>
                 <CompositeTransform Rotation="9.617" TranslateX="5.147" TranslateY="11.205"/>
             </Button.RenderTransform>
         </Button>
-        <Button x:Name="button_Copy17" Content="Button" HorizontalAlignment="Left" Height="67.156" Margin="557.005,92.422,0,0" VerticalAlignment="Top" Width="48.985" RenderTransformOrigin="1.807,-0.039" UseLayoutRounding="False" d:LayoutRounding="Auto">
+        <Button x:Name="Pharah" HorizontalAlignment="Left" Height="67.156" Margin="557.005,92.422,0,0" VerticalAlignment="Top" Width="48.985" RenderTransformOrigin="1.807,-0.039" UseLayoutRounding="False" d:LayoutRounding="Auto">
+            <Button.Background>
+                <ImageBrush ImageSource="/assets/ph.png"></ImageBrush>
+            </Button.Background>
             <Button.RenderTransform>
                 <CompositeTransform Rotation="9.617" TranslateX="5.147" TranslateY="11.205"/>
             </Button.RenderTransform>
         </Button>
-        <Button x:Name="button_Copy18" Content="Button" HorizontalAlignment="Left" Height="67.156" Margin="460.672,219.756,0,0" VerticalAlignment="Top" Width="48.985" RenderTransformOrigin="1.807,-0.039" UseLayoutRounding="False" d:LayoutRounding="Auto">
+        <Button x:Name="Zen"  HorizontalAlignment="Left" Height="67.156" Margin="460.672,219.756,0,0" VerticalAlignment="Top" Width="48.985" RenderTransformOrigin="1.807,-0.039" UseLayoutRounding="False" d:LayoutRounding="Auto">
+            <Button.Background>
+                <ImageBrush ImageSource="/assets/zen.png"></ImageBrush>
+            </Button.Background>
             <Button.RenderTransform>
                 <CompositeTransform Rotation="9.617" TranslateX="5.147" TranslateY="11.205"/>
             </Button.RenderTransform>
         </Button>
-        <Button x:Name="button_Copy19" Content="Button" HorizontalAlignment="Left" Height="67.156" Margin="482.005,142.756,0,0" VerticalAlignment="Top" Width="48.985" RenderTransformOrigin="1.807,-0.039" UseLayoutRounding="False" d:LayoutRounding="Auto">
+        <Button x:Name="Reaper" HorizontalAlignment="Left" Height="67.156" Margin="482.005,142.756,0,0" VerticalAlignment="Top" Width="48.985" RenderTransformOrigin="1.807,-0.039" UseLayoutRounding="False" d:LayoutRounding="Auto">
+            <Button.Background>
+                <ImageBrush ImageSource="/assets/reap.jpg"></ImageBrush>
+            </Button.Background>
             <Button.RenderTransform>
                 <CompositeTransform Rotation="9.617" TranslateX="5.147" TranslateY="11.205"/>
             </Button.RenderTransform>
         </Button>
-        <Button x:Name="button_Copy20" Content="Button" HorizontalAlignment="Left" Height="67.156" Margin="502.005,65.422,0,0" VerticalAlignment="Top" Width="48.985" RenderTransformOrigin="1.807,-0.039" UseLayoutRounding="False" d:LayoutRounding="Auto">
+        <Button x:Name="ana" HorizontalAlignment="Left" Height="67.156" Margin="502.005,65.422,0,0" VerticalAlignment="Top" Width="48.985" RenderTransformOrigin="1.807,-0.039" UseLayoutRounding="False" d:LayoutRounding="Auto">
+            <Button.Background>
+                <ImageBrush ImageSource="/assets/ana.png"></ImageBrush>
+            </Button.Background>
             <Button.RenderTransform>
                 <CompositeTransform Rotation="9.617" TranslateX="5.147" TranslateY="11.205"/>
             </Button.RenderTransform>

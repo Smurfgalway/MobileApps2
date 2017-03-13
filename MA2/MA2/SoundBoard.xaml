@@ -21,7 +21,7 @@
                 <CompositeTransform Rotation="20.865"/>
             </Button.RenderTransform>
         </Button>
-        <Button x:Name="Mcgree" Content="Mcgree" HorizontalAlignment="Left" Background="AliceBlue" Margin="518.5,93.5,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
+        <Button x:Name="Mcgree" Content="Mcgree" HorizontalAlignment="Left" Background="AliceBlue" Margin="467,129,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
             <Button.RenderTransform>
                 <CompositeTransform Rotation="44.136"/>
             </Button.RenderTransform>
