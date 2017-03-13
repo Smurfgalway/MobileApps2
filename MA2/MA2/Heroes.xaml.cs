@@ -33,5 +33,14 @@ namespace MA2
             Frame.Navigate(typeof(MainPage), UriKind.Relative);
         }
 
+        private void Bastion_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(Hero_Pages.Hero1), UriKind.Relative);
+        }
+
+        private void Reinhart_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(Hero_Pages.Hero2), UriKind.Relative);
+        }
     }
 }
