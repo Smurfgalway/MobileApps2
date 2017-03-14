@@ -20,11 +20,17 @@ namespace MA2.Hero_Pages
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
     /// </summary>
-    public sealed partial class Hero1 : Page
+    public sealed partial class Hero3 : Page
     {
-        public Hero1()
+        public Hero3()
         {
             this.InitializeComponent();
+        }
+
+        private void button_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(Heroes), UriKind.Relative);
+
         }
     }
 }
