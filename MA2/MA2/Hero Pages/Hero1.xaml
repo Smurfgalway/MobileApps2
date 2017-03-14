@@ -17,5 +17,32 @@
         </Grid.Background>
         <Image x:Name="bas" Grid.ColumnSpan="2" Source="/Assets/HI/bas.png" Margin="0,50,0,389"/>
         <Button x:Name="button" Content="Gallery" Foreground="LawnGreen" FontWeight="Bold" HorizontalAlignment="Left" Margin="0,10,0,0" VerticalAlignment="Top" Click="button_Click"/>
+        <ScrollViewer Grid.ColumnSpan="2" Height="133" Margin="0,249,0,0" VerticalAlignment="Top">
+            <TextBlock x:Name="textBlock" TextWrapping="Wrap" Foreground="white">
+                <Run Foreground="Orange" FontWeight="ExtraBlack" Text="&#x9;&#x9;"/>
+                <Run Foreground="Orange" FontWeight="ExtraBlack" Text="      "/>
+                <Run Foreground="Orange" FontWeight="ExtraBlack" Text="H"/>
+                <Run Foreground="Orange" FontWeight="ExtraBlack" Text="ero Bio"/>
+                <LineBreak/>
+                <Run/>
+                <LineBreak/>
+                <Run Text="Once a frontline combatant in the devastating Omnic Crisis, this curious Bastion unit now explores the world, fascinated by nature but wary of a fearful humanity."/>
+                <LineBreak/>
+                <Run/>
+                <LineBreak/>
+                <Run Text="Originally created for peacekeeping purposes, Bastion robot units possessed the unique ability to rapidly reconfigure themselves into an assault-cannon mode. But during the Omnic Crisis, they were turned against their human makers, forming the bulk of the omnics' rebel army. Following the resolution of the crisis, nearly all of them were destroyed or disassembled. To this day, Bastion units still symbolize the horrors of the conflict."/>
+                <LineBreak/>
+                <Run/>
+                <LineBreak/>
+                <Run Text="One unique Bastion unit, severely damaged in the final battles of the war, was left forgotten for over a decade. It lay dormant, exposed to the elements and rusting while nature slowly reclaimed it. Overgrown with vines and roots and nested upon by small animals, the robot sat inert, seemingly unaware of the passing of time. That was until one fateful day, when it unexpectedly reactivated. With its combat programming all but lost, it instead displayed an intense curiosity about the natural world and its inhabitants. This inquisitive Bastion unit set out to explore its surroundings and discover its purpose on a war-ravaged planet."/>
+                <LineBreak/>
+                <Run/>
+                <LineBreak/>
+                <Run Text="Though &quot;Bastion&quot; appears to be gentle—even harmless, at times—its core combat programming takes over when the unit senses danger, utilizing its entire arsenal to eliminate anything it perceives as a threat. This has led to instances of conflict with the few humans it has encountered, and has driven it to avoid populated areas in favor of the wild, uncharted regions of the world."/>
+            </TextBlock>
+        </ScrollViewer>
+        <ScrollViewer Height="100" Margin="0,382,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2">
+            <TextBlock x:Name="textBlock1" TextWrapping="Wrap" Foreground="White" Text="Abilities"/>
+        </ScrollViewer>
     </Grid>
 </Page>
