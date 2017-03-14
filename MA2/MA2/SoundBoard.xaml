@@ -21,7 +21,7 @@
                 <CompositeTransform Rotation="-0.019"/>
             </Button.RenderTransform>
         </Button>
-        <Button x:Name="Mcgree" Content="Mcgree" Background=" white" Foreground="Brown" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Click="Mcgree_Click" Margin="429.486,111.882,0,206.16" Height="41.958" Width="102.024">
+        <Button x:Name="Mcgree" Content="Mcgree" Background=" white" Foreground="Brown" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Click="Mcgree_Click" Margin="429.486,111.882,0,0" Height="41.958" Width="102.024" VerticalAlignment="Top">
             <Button.RenderTransform>
                 <CompositeTransform Rotation="-0.366"/>
             </Button.RenderTransform>
@@ -144,7 +144,7 @@
         <MediaElement x:Name="Win" AutoPlay="False" Source="Assets/Sounds/Winston.mp3" Margin="301,232,338,127" />
         <MediaElement x:Name="Za" AutoPlay="False" Source="Assets/Sounds/Zayra.mp3" Margin="301,232,338,127" />
         <MediaElement x:Name="Ze" AutoPlay="False" Source="Assets/Sounds/Zenyatta.mp3" Margin="301,232,338,127" />
-        <Button x:Name="Zenyatta" Content="Zenyatta" HorizontalAlignment="Right" Background=" white" Foreground="Gray" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Margin="0,70.667,105.442,0" Height="41.95" Width="105.225" Click="Zenyatta_Click">
+        <Button x:Name="Zenyatta" Content="Zenyatta" HorizontalAlignment="Left" Background=" white" Foreground="Gray" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Margin="429.333,70.667,0,0" Height="41.95" Width="105.225" Click="Zenyatta_Click">
             <Button.RenderTransform>
                 <CompositeTransform Rotation="-0.334"/>
             </Button.RenderTransform>
@@ -154,7 +154,7 @@
                 <CompositeTransform Rotation="0.033" TranslateX="-0.004" TranslateY="0.023"/>
             </Button.RenderTransform>
         </Button>
-        <Border BorderBrush="DarkCyan" BorderThickness="15" HorizontalAlignment="Left" Height="259" Margin="107,62,0,0" VerticalAlignment="Top" Width="433"/>
+        <Border BorderBrush="DarkCyan" BorderThickness="15" HorizontalAlignment="Left" Height="259" Margin="112,66,0,0" VerticalAlignment="Top" Width="433"/>
 
 
 
