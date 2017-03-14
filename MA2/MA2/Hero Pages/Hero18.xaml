@@ -16,5 +16,6 @@
             <ImageBrush ImageSource="/assets/br.jpg"></ImageBrush>
         </Grid.Background>
         <Image x:Name="image" Grid.ColumnSpan="2" Margin="0,50,0,389" Source="/assets/hi/ana.png"/>
+        <Button x:Name="button" Content="Gallery" Foreground="LawnGreen" FontWeight="Bold" HorizontalAlignment="Left" Margin="4,2,0,0" VerticalAlignment="Top" Click="button_Click"/>
     </Grid>
 </Page>
