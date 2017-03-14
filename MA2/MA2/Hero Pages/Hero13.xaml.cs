@@ -26,5 +26,10 @@ namespace MA2.Hero_Pages
         {
             this.InitializeComponent();
         }
+
+        private void button_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(Heroes), UriKind.Relative);
+        }
     }
 }
