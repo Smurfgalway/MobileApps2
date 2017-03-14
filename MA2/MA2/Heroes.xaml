@@ -7,7 +7,7 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid HorizontalAlignment="Stretch">
+    <Grid HorizontalAlignment="Left" Height="360" VerticalAlignment="Top" Width="640">
         <Grid.Background>
             <ImageBrush ImageSource="/assets/gallery.jpg"></ImageBrush>
         </Grid.Background>
