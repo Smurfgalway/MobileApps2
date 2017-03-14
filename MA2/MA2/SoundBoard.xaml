@@ -11,149 +11,150 @@
         <Grid.Background>
             <ImageBrush ImageSource="/assets/sb.jpg" />
         </Grid.Background>
-        <Button x:Name="JR" Content="Junk rat" HorizontalAlignment="Left" Background="Transparent" Foreground="WhiteSmoke" Margin="-12,210.5,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Click="JR_Click">
+        <Button x:Name="JR" Content="Junk rat" HorizontalAlignment="Left" Background=" white" Foreground="Gray" Margin="299.347,269.226,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Click="JR_Click" Height="42.676" Width="136.456">
             <Button.RenderTransform>
-                <CompositeTransform Rotation="48.584"/>
+                <CompositeTransform Rotation="0.21"/>
             </Button.RenderTransform>
         </Button>
-        <Button x:Name="DVA" Content="D.VA" HorizontalAlignment="Left" Background="Transparent" Foreground="Plum"  Margin="175.498,119,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Height="37.451" Width="66.035" Click="DVA_Click">
+        <Button x:Name="DVA" Content="D.VA" HorizontalAlignment="Left" Background=" white" Foreground="Plum"  Margin="116.371,112.765,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Height="44.089" Width="106.952" Click="DVA_Click">
             <Button.RenderTransform>
-                <CompositeTransform Rotation="20.865"/>
+                <CompositeTransform Rotation="-0.019"/>
             </Button.RenderTransform>
         </Button>
-        <Button x:Name="Mcgree" Content="Mcgree" HorizontalAlignment="Left" Background="Transparent" Foreground="Brown" Margin="467,129,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Click="Mcgree_Click">
+        <Button x:Name="Mcgree" Content="Mcgree" Background=" white" Foreground="Brown" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Click="Mcgree_Click" Margin="429.486,111.882,0,206.16" Height="41.958" Width="102.024">
             <Button.RenderTransform>
-                <CompositeTransform Rotation="44.136"/>
+                <CompositeTransform Rotation="-0.366"/>
             </Button.RenderTransform>
         </Button>
-        <Button x:Name="Tracer" Content="Tracer" HorizontalAlignment="Left" Background="Transparent" Foreground="Orange" Margin="79.5,117,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Click="Tracer_Click">
+        <Button x:Name="Tracer" Content="Tracer" HorizontalAlignment="Left" Background=" white" Foreground="Orange" Margin="434.137,269.45,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Click="Tracer_Click" Width="98.59" Height="42.444">
             <Button.RenderTransform>
-                <CompositeTransform Rotation="38.253"/>
+                <CompositeTransform Rotation="0.167"/>
             </Button.RenderTransform>
         </Button>
-        <Button x:Name="Reinhart" Content="Reinhart" HorizontalAlignment="Left" Background="Transparent" Foreground="SteelBlue" Margin="9.5,281.5,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Click="Reinhart_Click">
+        <Button x:Name="Reinhart" Content="Reinhart" HorizontalAlignment="Left" Background=" white" Foreground="SteelBlue" Margin="440.806,230.845,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Click="Reinhart_Click" Height="38.832" Width="91.577">
             <Button.RenderTransform>
-                <CompositeTransform Rotation="43.612"/>
+                <CompositeTransform Rotation="0.114"/>
             </Button.RenderTransform>
         </Button>
-        <Button x:Name="Roadhog" Content="RoadHog" HorizontalAlignment="Left" Background="Transparent" Foreground="SteelBlue" Margin="6.333,93.5,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Click="Roadhog_Click">
-            <Button.RenderTransform>
-                <CompositeTransform Rotation="0.033"/>
-            </Button.RenderTransform>
-        </Button>
-        <Button x:Name="Pharah" Content="Pharah" HorizontalAlignment="Left" Background="Transparent" Foreground="SandyBrown" Margin="150.5,244,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Click="Pharah_Click">
+        <Button x:Name="Roadhog" Content="RoadHog" HorizontalAlignment="Left" Background=" white" Foreground="SteelBlue" Margin="119.005,270.108,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Click="Roadhog_Click" Height="41.899" Width="180.726">
             <Button.RenderTransform>
                 <CompositeTransform Rotation="0.033"/>
             </Button.RenderTransform>
         </Button>
-        <Button x:Name="Mai" Content="Mei" HorizontalAlignment="Left" Background="Transparent" Foreground="RosyBrown" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Margin="226.666,307,0,0" Click="Mai_Click">
+        <Button x:Name="Pharah" Content="Pharah" HorizontalAlignment="Left" Background=" white" Foreground="SandyBrown" Margin="119.164,232.678,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Click="Pharah_Click" Height="38.596" Width="103.861">
             <Button.RenderTransform>
                 <CompositeTransform Rotation="0.033"/>
             </Button.RenderTransform>
         </Button>
-        <Button x:Name="Mercy" Content="Mercy" HorizontalAlignment="Left" Background="Transparent" Foreground="Goldenrod" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Margin="375.5,145,0,0" Click="Mercy_Click">
+        <Button x:Name="Mai" Content="Mei" HorizontalAlignment="Left" Background=" white" Foreground="RosyBrown" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Margin="219.996,230.349,0,0" Click="Mai_Click" Height="40.586" Width="100.285">
             <Button.RenderTransform>
                 <CompositeTransform Rotation="0.033"/>
             </Button.RenderTransform>
         </Button>
-        <Button x:Name="Lucio" Content="Lucio" HorizontalAlignment="Left" Background="Transparent" Foreground="YellowGreen" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Margin="18.995,-11,0,0" Click="Lucio_Click" Height="34.952" Width="62.41">
+        <Button x:Name="Mercy" Content="Mercy" HorizontalAlignment="Left" Background=" white" Foreground="Goldenrod" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Margin="223.497,151.679,0,0" Click="Mercy_Click" Height="41.927" Width="102.055">
             <Button.RenderTransform>
                 <CompositeTransform Rotation="0.033"/>
             </Button.RenderTransform>
         </Button>
-        <Button x:Name="Hanzo" Content="Hanzo" HorizontalAlignment="Left" Background="Transparent" Foreground="Turquoise" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Margin="261,133.5,0,0" Click="Hanzo_Click">
+        <Button x:Name="Lucio" Content="Lucio" HorizontalAlignment="Left" Background=" white" Foreground="YellowGreen" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Margin="119.665,193.666,0,0" Click="Lucio_Click" Height="39.625" Width="107.071">
             <Button.RenderTransform>
                 <CompositeTransform Rotation="0.033"/>
             </Button.RenderTransform>
         </Button>
-        <Button x:Name="Reaper" Content="Reaper" HorizontalAlignment="Left" Background="Transparent" Foreground="White" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Margin="289,322.5,0,0" Click="Reaper_Click">
+        <Button x:Name="Hanzo" Content="Hanzo" HorizontalAlignment="Left" Background=" white" Foreground="Turquoise" VerticalAlignment="Top" RenderTransformOrigin="1.196,-2.173" UseLayoutRounding="False" d:LayoutRounding="Auto" Margin="320.996,192.829,0,0" Click="Hanzo_Click" Height="39.968" Width="123.675">
+            <Button.RenderTransform>
+                <CompositeTransform Rotation="0.033" TranslateX="0.06" TranslateY="0.038"/>
+            </Button.RenderTransform>
+        </Button>
+        <Button x:Name="Reaper" Content="Reaper" HorizontalAlignment="Left" Background=" white" Foreground="Black" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Margin="226.336,191.827,0,0" Click="Reaper_Click" Width="96.546" Height="41.284">
             <Button.RenderTransform>
                 <CompositeTransform Rotation="0.033"/>
             </Button.RenderTransform>
         </Button>
-        <Button x:Name="WidowMaker" Content="WidowMaker" HorizontalAlignment="Left" Background="Transparent" Foreground="Red" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Margin="523.328,278.001,0,0" Height="41.95" Width="105.225" Click="WidowMaker_Click">
+        <Button x:Name="Torbjörn" Content="Torbjörn" HorizontalAlignment="Left" Background=" white" Foreground="Crimson" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Margin="222.328,111.168,0,0" Height="41.95" Width="105.225" Click="Torbjörn_Click">
             <Button.RenderTransform>
                 <CompositeTransform Rotation="0.033"/>
             </Button.RenderTransform>
         </Button>
-        <Button x:Name="Torbjörn" Content="Torbjörn" HorizontalAlignment="Left" Background="Transparent" Foreground="Crimson" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Margin="549.662,15.834,-14.887,0" Height="41.95" Width="105.225" Click="Torbjörn_Click">
+        <Button x:Name="Sombra" Content="Sombra" HorizontalAlignment="Left" Background=" white" Foreground="Purple" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Margin="222.828,70.168,0,0" Height="41.95" Width="103.892" Click="Sombra_Click">
             <Button.RenderTransform>
                 <CompositeTransform Rotation="0.033"/>
             </Button.RenderTransform>
         </Button>
-        <Button x:Name="Zenyatta" Content="Zenyatta" HorizontalAlignment="Left" Background="Transparent" Foreground="Gray" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Margin="391.329,305.501,0,0" Height="41.95" Width="105.225" Click="Zenyatta_Click">
-            <Button.RenderTransform>
-                <CompositeTransform Rotation="22.225"/>
-            </Button.RenderTransform>
-        </Button>
-        <Button x:Name="Sombra" Content="Sombra" HorizontalAlignment="Left" Background="Transparent" Foreground="Purple" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Margin="305.495,-10.499,0,0" Height="41.95" Width="105.225" Click="Sombra_Click">
+        <Button x:Name="Zayra" Content="Zayra" HorizontalAlignment="Left" Background=" white" Foreground="HotPink" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Margin="427.328,151.668,0,0" Height="41.95" Width="105.225" Click="Zayra_Click">
             <Button.RenderTransform>
                 <CompositeTransform Rotation="0.033"/>
             </Button.RenderTransform>
         </Button>
-        <Button x:Name="Zayra" Content="Zayra" HorizontalAlignment="Left" Background="Transparent" Foreground="HotPink" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Margin="536.662,175.001,-1.887,0" Height="41.95" Width="105.225" Click="Zayra_Click">
+        <Button x:Name="Bastion" Content="Bastion" HorizontalAlignment="Left" Background=" white" Foreground="Orange" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Margin="118.161,152.668,0,0" Height="41.95" Width="105.225" Click="Bastion_Click">
             <Button.RenderTransform>
                 <CompositeTransform Rotation="0.033"/>
             </Button.RenderTransform>
         </Button>
-        <Button x:Name="Bastion" Content="Bastion" HorizontalAlignment="Left" Background="Transparent" Foreground="Orange" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Margin="85.495,174.001,0,0" Height="41.95" Width="105.225" Click="Bastion_Click">
+        <Button x:Name="Symmetra" Content="Symmetra" HorizontalAlignment="Left" Background=" white" Foreground="Brown" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Margin="325.828,70.835,0,0" Height="41.95" Width="105.225" Click="Symmetra_Click">
             <Button.RenderTransform>
                 <CompositeTransform Rotation="0.033"/>
             </Button.RenderTransform>
         </Button>
-        <Button x:Name="Symmetra" Content="Symmetra" HorizontalAlignment="Left" Background="Transparent" Foreground="Brown" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Margin="488.495,-6.499,0,0" Height="41.95" Width="105.225" Click="Symmetra_Click">
+        <Button x:Name="Ana" Content="Ana" HorizontalAlignment="Left" Background=" white" Foreground="Blue" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Margin="320.329,232.506,0,0" Height="37.951" Width="121.892" Click="Ana_Click">
             <Button.RenderTransform>
                 <CompositeTransform Rotation="0.033"/>
             </Button.RenderTransform>
         </Button>
-        <Button x:Name="Ana" Content="Ana" HorizontalAlignment="Left" Background="Transparent" Foreground="Blue" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Margin="84.328,307.834,0,0" Height="41.95" Width="105.225" Click="Ana_Click">
+        <Button x:Name="Winston" Content="Winston" HorizontalAlignment="Left" Background=" white" Foreground="BlueViolet" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Margin="325.495,151.335,0,0" Height="41.95" Width="105.225" Click="Winston_Click">
             <Button.RenderTransform>
                 <CompositeTransform Rotation="0.033"/>
             </Button.RenderTransform>
         </Button>
-        <Button x:Name="Winston" Content="Winston" HorizontalAlignment="Left" Background="Transparent" Foreground="BlueViolet" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Margin="405.495,166.001,0,0" Height="41.95" Width="105.225" Click="Winston_Click">
+        <Button x:Name="Soldier" Content="Soldier 76" HorizontalAlignment="Left" Background=" white" Foreground="Red" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Margin="443.663,192.172,0,0" Height="41.95" Width="89.89" Click="Soldier_Click">
             <Button.RenderTransform>
                 <CompositeTransform Rotation="0.033"/>
             </Button.RenderTransform>
         </Button>
-        <Button x:Name="Soldier" Content="Soldier 76" HorizontalAlignment="Left" Background="Transparent" Foreground="Red" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Margin="558.997,320.172,-8.887,-2.122" Height="41.95" Width="89.89" Click="Soldier_Click">
+        <Button x:Name="Genji" Content="Genji" HorizontalAlignment="Left" Background=" white" Foreground="Green"  VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Margin="327.328,111.168,0,0" Height="41.95" Width="105.225" Click="Genji_Click">
             <Button.RenderTransform>
                 <CompositeTransform Rotation="0.033"/>
             </Button.RenderTransform>
         </Button>
-        <Button x:Name="Genji" Content="Genji" HorizontalAlignment="Left" Background="Transparent" Foreground="Green"  VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Margin="561.328,105.168,-26.553,0" Height="41.95" Width="105.225" Click="Genji_Click">
+        <Button x:Name="Home" Content="Home" HorizontalAlignment="Left" Background=" white" Foreground="GreenYellow" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Margin="1.166,0.666,0,0" Click="Home_Click">
             <Button.RenderTransform>
                 <CompositeTransform Rotation="0.033"/>
             </Button.RenderTransform>
         </Button>
-        <Button x:Name="Home" Content="Home" HorizontalAlignment="Left" Background="Transparent" Foreground="GreenYellow" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Margin="280.5,164,0,0" Click="Home_Click">
+        <MediaElement x:Name="L" AutoPlay="False" Source="Assets/Sounds/Lúcio.mp3" Margin="301,232,338,127" />
+        <MediaElement x:Name="A" AutoPlay="False" Source="Assets/Sounds/Ana.mp3" Margin="301,232,338,127" />
+        <MediaElement x:Name="B" AutoPlay="False" Source="Assets/Sounds/Bastion.mp3" Margin="301,232,338,127" />
+        <MediaElement x:Name="D" AutoPlay="False" Source="Assets/Sounds/D.Va.mp3" Margin="301,232,338,127" />
+        <MediaElement x:Name="G" AutoPlay="False" Source="Assets/Sounds/Genj.mp3" Margin="301,232,338,127" />
+        <MediaElement x:Name="H" AutoPlay="False" Source="Assets/Sounds/Hanzo.mp3" Margin="301,232,338,127" />
+        <MediaElement x:Name="J" AutoPlay="False" Source="Assets/Sounds/Junkrat.mp3" Margin="301,232,338,127" />
+        <MediaElement x:Name="Mc" AutoPlay="False" Source="Assets/Sounds/McCree.mp3" Margin="301,232,338,127" />
+        <MediaElement x:Name="Me" AutoPlay="False" Source="Assets/Sounds/Mei.mp3" Margin="301,232,338,127" />
+        <MediaElement x:Name="Mrc" AutoPlay="False" Source="Assets/Sounds/Mercy.mp3" Margin="301,232,338,127" />
+        <MediaElement x:Name="P" AutoPlay="False" Source="Assets/Sounds/Pharah.mp3" Margin="301,232,338,127" />
+        <MediaElement x:Name="R" AutoPlay="False" Source="Assets/Sounds/Reaper.mp3" Margin="301,232,338,127" />
+        <MediaElement x:Name="Re" AutoPlay="False" Source="Assets/Sounds/Reinhardt.mp3" Margin="301,232,338,127" />
+        <MediaElement x:Name="Ro" AutoPlay="False" Source="Assets/Sounds/Roadhog.mp3" Margin="301,232,338,127" />
+        <MediaElement x:Name="S76" AutoPlay="False" Source="Assets/Sounds/S76.mp3" Margin="301,232,338,127" />
+        <MediaElement x:Name="Som" AutoPlay="False" Source="Assets/Sounds/Sombra.mp3" Margin="301,232,338,127" />
+        <MediaElement x:Name="Sym" AutoPlay="False" Source="Assets/Sounds/Symmetra.mp3" Margin="301,232,338,127" />
+        <MediaElement x:Name="Tor" AutoPlay="False" Source="Assets/Sounds/Torbjörn.mp3" Margin="301,232,338,127" />
+        <MediaElement x:Name="Tr" AutoPlay="False" Source="Assets/Sounds/Tracer.mp3" Margin="301,232,338,127" />
+        <MediaElement x:Name="Wid" AutoPlay="False" Source="Assets/Sounds/Widow.mp3" Margin="301,232,338,127" />
+        <MediaElement x:Name="Win" AutoPlay="False" Source="Assets/Sounds/Winston.mp3" Margin="301,232,338,127" />
+        <MediaElement x:Name="Za" AutoPlay="False" Source="Assets/Sounds/Zayra.mp3" Margin="301,232,338,127" />
+        <MediaElement x:Name="Ze" AutoPlay="False" Source="Assets/Sounds/Zenyatta.mp3" Margin="301,232,338,127" />
+        <Button x:Name="Zenyatta" Content="Zenyatta" HorizontalAlignment="Right" Background=" white" Foreground="Gray" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Margin="0,70.667,105.442,0" Height="41.95" Width="105.225" Click="Zenyatta_Click">
             <Button.RenderTransform>
-                <CompositeTransform Rotation="0.033"/>
+                <CompositeTransform Rotation="-0.334"/>
             </Button.RenderTransform>
         </Button>
-        <MediaElement x:Name="L" AutoPlay="False" Source="Assets/Sounds/Lúcio.mp3" />
-        <MediaElement x:Name="A" AutoPlay="False" Source="Assets/Sounds/Ana.mp3" />
-        <MediaElement x:Name="B" AutoPlay="False" Source="Assets/Sounds/Bastion.mp3" />
-        <MediaElement x:Name="D" AutoPlay="False" Source="Assets/Sounds/D.Va.mp3" />
-        <MediaElement x:Name="G" AutoPlay="False" Source="Assets/Sounds/Genj.mp3" />
-        <MediaElement x:Name="H" AutoPlay="False" Source="Assets/Sounds/Hanzo.mp3" />
-        <MediaElement x:Name="J" AutoPlay="False" Source="Assets/Sounds/Junkrat.mp3" />
-        <MediaElement x:Name="Mc" AutoPlay="False" Source="Assets/Sounds/McCree.mp3" />
-        <MediaElement x:Name="Me" AutoPlay="False" Source="Assets/Sounds/Mei.mp3" />
-        <MediaElement x:Name="Mrc" AutoPlay="False" Source="Assets/Sounds/Mercy.mp3" />
-        <MediaElement x:Name="P" AutoPlay="False" Source="Assets/Sounds/Pharah.mp3" />
-        <MediaElement x:Name="R" AutoPlay="False" Source="Assets/Sounds/Reaper.mp3" />
-        <MediaElement x:Name="Re" AutoPlay="False" Source="Assets/Sounds/Reinhardt.mp3" />
-        <MediaElement x:Name="Ro" AutoPlay="False" Source="Assets/Sounds/Roadhog.mp3" />
-        <MediaElement x:Name="S76" AutoPlay="False" Source="Assets/Sounds/S76.mp3" />
-        <MediaElement x:Name="Som" AutoPlay="False" Source="Assets/Sounds/Sombra.mp3" />
-        <MediaElement x:Name="Sym" AutoPlay="False" Source="Assets/Sounds/Symmetra.mp3" />
-        <MediaElement x:Name="Tor" AutoPlay="False" Source="Assets/Sounds/Torbjörn.mp3" />
-        <MediaElement x:Name="Tr" AutoPlay="False" Source="Assets/Sounds/Tracer.mp3" />
-        <MediaElement x:Name="Wid" AutoPlay="False" Source="Assets/Sounds/Widow.mp3" />
-        <MediaElement x:Name="Win" AutoPlay="False" Source="Assets/Sounds/Winston.mp3" />
-        <MediaElement x:Name="Za" AutoPlay="False" Source="Assets/Sounds/Zayra.mp3" />
-        <MediaElement x:Name="Ze" AutoPlay="False" Source="Assets/Sounds/Zenyatta.mp3" />
+        <Button x:Name="WidowMaker" Content="WidowMaker" HorizontalAlignment="Left" Background=" white" Foreground="Red" VerticalAlignment="Top" RenderTransformOrigin="0.868,0.603" UseLayoutRounding="False" d:LayoutRounding="Auto" Margin="116.666,70.671,0,0" Height="41.95" Width="113.226" Click="WidowMaker_Click">
+            <Button.RenderTransform>
+                <CompositeTransform Rotation="0.033" TranslateX="-0.004" TranslateY="0.023"/>
+            </Button.RenderTransform>
+        </Button>
+        <Border BorderBrush="DarkCyan" BorderThickness="15" HorizontalAlignment="Left" Height="259" Margin="107,62,0,0" VerticalAlignment="Top" Width="433"/>
 
 
 
