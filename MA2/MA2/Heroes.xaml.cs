@@ -142,5 +142,11 @@ namespace MA2
         {
             Frame.Navigate(typeof(Hero_Pages.Hero22), UriKind.Relative);
         }
+
+        private void Som_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(Hero_Pages.Hero23), UriKind.Relative);
+
+        }
     }
 }

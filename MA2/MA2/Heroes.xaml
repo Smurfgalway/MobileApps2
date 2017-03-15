@@ -188,5 +188,21 @@
                 <CompositeTransform Rotation="9.617" TranslateX="5.147" TranslateY="11.205"/>
             </Button.RenderTransform>
         </Button>
+        <Button x:Name="Som" HorizontalAlignment="Left" Margin="556.005,167.922,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.807,-0.039" UseLayoutRounding="False" d:LayoutRounding="Auto" Click="Som_Click" Height="67.156" Width="48.985">
+            <Button.Background>
+                <ImageBrush ImageSource="/assets/Icons/som.png"/>
+            </Button.Background>
+            <Button.RenderTransform>
+                <CompositeTransform Rotation="9.617" TranslateX="5.147" TranslateY="11.205"/>
+            </Button.RenderTransform>
+        </Button>
+        <Button x:Name="Za_Copy1" HorizontalAlignment="Left" Margin="569.005,82.922,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.807,-0.039" UseLayoutRounding="False" d:LayoutRounding="Auto" Click="Za_Click" Height="67.156" Width="48.985">
+            <Button.Background>
+                <ImageBrush ImageSource="/assets/Icons/z.png"/>
+            </Button.Background>
+            <Button.RenderTransform>
+                <CompositeTransform Rotation="9.617" TranslateX="5.147" TranslateY="11.205"/>
+            </Button.RenderTransform>
+        </Button>
     </Grid>
 </Page>
