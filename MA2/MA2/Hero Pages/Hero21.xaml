@@ -23,6 +23,23 @@
                 <Run Foreground="Gold" FontWeight="ExtraBold" Text="   "/>
                 <Run Foreground="Gold" FontWeight="ExtraBold" Text="Hero Bio"/>
                 <LineBreak/>
+                <Run Text="Aleksandra Zaryanova is one of the world's strongest women, a celebrated athlete who sacrificed personal glory to protect her family, friends, and country in a time of war."/>
+                <LineBreak/>
+                <Run/>
+                <LineBreak/>
+                <Run Text="Aleksandra was born in a remote Siberian village that was on the front lines of the Omnic Crisis, which began some thirty years ago. Although Russian forces defeated the robots and shut down their omnium, the region was devastated by the conflict. Only a child at the time, Aleksandra was surrounded by the post-war destruction, and as she grew older, she swore that she would gain the strength to help her people recover."/>
+                <LineBreak/>
+                <Run/>
+                <LineBreak/>
+                <Run Text="Focusing on weightlifting and bodybuilding, Aleksandra was identified by the national athletics program as a potential star. She trained extensively, moving up the ranks while representing her country, and was expected to shatter longstanding records in the upcoming world championships."/>
+                <LineBreak/>
+                <Run/>
+                <LineBreak/>
+                <Run Text="But on the eve of the tournament, an attack came from the long-dormant Siberian omnium, and her village was thrust into war once again. Aleksandra immediately withdrew from the competition and rushed home to enlist in the local defense forces, sacrificing the life of fame and fortune she might have had."/>
+                <LineBreak/>
+                <Run/>
+                <LineBreak/>
+                <Run Text="Now she serves—a symbol to some, a stalwart fellow soldier to others. But for Aleksandra, it is a chance to use her great strength to protect the ones she loves."/>
             </TextBlock>
         </ScrollViewer>
         <ScrollViewer Grid.ColumnSpan="2" HorizontalAlignment="Left" Foreground="White" Height="100" Margin="48,409,0,0" VerticalAlignment="Top" Width="263" RenderTransformOrigin="0.5,0.5">
@@ -32,6 +49,35 @@
                 <Run Foreground="Gold" FontWeight="ExtraBold" Text="Abilities"/>
                 <LineBreak/>
                 <LineBreak/>
+                <Run Text="Particle Cannon:"/>
+                <LineBreak/>
+                <Run Text="Zarya's mighty Particle Cannon unleashes a short-range beam of destructive energy. Alternatively, Zarya can lob an explosive charge to strike multiple opponents."/>
+                <LineBreak/>
+                <Run/>
+                <LineBreak/>
+                <Run Text="Particle Barrier:"/>
+                <LineBreak/>
+                <Run Text="The Particle Cannon can emit a personal barrier that shields Zarya against incoming attacks, redirecting their energy to enhance her weapon's damage and the width of its beam."/>
+                <LineBreak/>
+                <Run/>
+                <LineBreak/>
+                <Run Text="Project Barrier: "/>
+                <LineBreak/>
+                <Run Text="Zarya surrounds one of her teammates with an energy barrier that simultaneously absorbs fire and boosts the power of her Particle Cannon."/>
+                <LineBreak/>
+                <Run/>
+                <LineBreak/>
+                <Run Text="Energy:"/>
+                <LineBreak/>
+                <Run Text="Damage locked increases particle cannon damage."/>
+                <LineBreak/>
+                <Run/>
+                <LineBreak/>
+                <Run Text="Ultimate Ability:  Graviton Surge:"/>
+                <LineBreak/>
+                <Run Text="Zarya launches a gravity bomb that draws in enemy combatants and deals damage while they're trapped."/>
+                <LineBreak/>
+                <Run/>
             </TextBlock>
         </ScrollViewer>
     </Grid>
