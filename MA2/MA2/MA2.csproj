@@ -186,6 +186,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assets\br.jpg" />
+    <Content Include="Assets\gifs\bas.gif" />
     <Content Include="Assets\HI\Ana.png" />
     <Content Include="Assets\HI\Bas.png" />
     <Content Include="Assets\HI\D.va.png" />
