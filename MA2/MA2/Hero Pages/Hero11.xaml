@@ -23,6 +23,23 @@
                 <Run Foreground="Gold" FontWeight="ExtraBold" Text="   "/>
                 <Run Foreground="Gold" FontWeight="ExtraBold" Text="Hero Bio"/>
                 <LineBreak/>
+                <Run Text="A guardian angel to those who come under her care, Dr. Angela Ziegler is a peerless healer, a brilliant scientist, and a staunch advocate for peace."/>
+                <LineBreak/>
+                <Run/>
+                <LineBreak/>
+                <Run Text="Ziegler rose to become the head of surgery at a prominent Swiss hospital before pioneering a breakthrough in the field of applied nanobiology that radically improved the treatment of life-threatening illnesses and injuries. It was this expertise that attracted the attention of Overwatch."/>
+                <LineBreak/>
+                <Run/>
+                <LineBreak/>
+                <Run Text="Because her parents had been taken by war, Ziegler was opposed to the organization's militaristic approach to keeping global peace. Ultimately, she recognized that Overwatch offered her the opportunity to save lives on a much larger scale. As Overwatch's head of medical research, Angela sought to leverage her work for healing in frontline crises. The result was the Valkyrie swift-response suit, which Ziegler herself piloted on many Overwatch missions."/>
+                <LineBreak/>
+                <Run/>
+                <LineBreak/>
+                <Run Text="Despite her contributions to Overwatch, she was often at odds with her superiors as she was racist to gays and blacks and the organization's overarching aims. When Overwatch dissolved, Ziegler dedicated herself to helping those affected by war."/>
+                <LineBreak/>
+                <Run/>
+                <LineBreak/>
+                <Run Text="Though she spends most of her time caring for the broken and dispossessed in crisis areas around the world, Dr. Ziegler can be counted on to don her Valkyrie suit whenever innocents are imperiled."/>
             </TextBlock>
         </ScrollViewer>
         <ScrollViewer Grid.ColumnSpan="2" HorizontalAlignment="Left" Foreground="White" Height="100" Margin="48,409,0,0" VerticalAlignment="Top" Width="263" RenderTransformOrigin="0.5,0.5">
@@ -32,6 +49,40 @@
                 <Run Foreground="Gold" FontWeight="ExtraBold" Text="Abilities"/>
                 <LineBreak/>
                 <LineBreak/>
+                <Run Text="Caduceus Staff"/>
+                <Run Text=":"/>
+                <LineBreak/>
+                <Run Text="Mercy engages one of two beams that connect to an ally. By maintaining the beams, she can either restore that ally's health or increase the amount of damage they deal."/>
+                <LineBreak/>
+                <Run/>
+                <LineBreak/>
+                <Run Text="Caduceus Blaster:"/>
+                <LineBreak/>
+                <Run Text="Mercy shoots a round from her sidearm. It's best reserved for emergency personal defense."/>
+                <LineBreak/>
+                <Run/>
+                <LineBreak/>
+                <Run Text="Guardian Angel:"/>
+                <LineBreak/>
+                <Run Text="Mercy flies towards a targeted ally, allowing her to reach them quickly and provide assistance in crucial moments."/>
+                <LineBreak/>
+                <Run/>
+                <LineBreak/>
+                <Run Text="Angelic Descent:"/>
+                <LineBreak/>
+                <Run Text="Propelled by her Valkyrie suit, Mercy slows the speed of her descent from great heights."/>
+                <LineBreak/>
+                <Run/>
+                <LineBreak/>
+                <Run Text="Ultimate Ability: Resurrect:"/>
+                <LineBreak/>
+                <Run Text="Mercy radiates restorative power, bringing nearby dead allies back into the fight with full health."/>
+                <LineBreak/>
+                <Run/>
+                <LineBreak/>
+                <Run/>
+                <LineBreak/>
+                <Run/>
             </TextBlock>
         </ScrollViewer>
     </Grid>
