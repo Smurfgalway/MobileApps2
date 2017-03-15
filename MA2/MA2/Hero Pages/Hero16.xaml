@@ -23,6 +23,23 @@
                 <Run Foreground="Gold" FontWeight="ExtraBold" Text="   "/>
                 <Run Foreground="Gold" FontWeight="ExtraBold" Text="Hero Bio"/>
                 <LineBreak/>
+                <Run Text="Lúcio is an international celebrity who inspires social change through his music and actions."/>
+                <LineBreak/>
+                <Run/>
+                <LineBreak/>
+                <Run Text="Lúcio Correia dos Santos grew up in Rio de Janeiro, in a poor and crowded favela that was hit hard by the financial upheaval following the Omnic Crisis. As Brazil began the long process of recovery, he wanted to find a way to lift the spirits of those around him. He found his answer in music and its power to bring people together and even help them forget their troubles, if only for a short time. He performed on street corners, in block parties, and as he got older, at a string of legendary underground shows."/>
+                <LineBreak/>
+                <Run/>
+                <LineBreak/>
+                <Run Text="But Lúcio's close-knit community was thrown into chaos when the multinational Vishkar Corporation secured a contract to redevelop large tracts of the city. Lúcio and his neighbors had been told that the development would improve their lives. However, that promise never became a reality. Vishkar imposed controls on the residents in the name of building a more orderly society: enforcing curfews, cracking down on what the company perceived as lawless behavior, and exploiting the populace as a cheap labor force."/>
+                <LineBreak/>
+                <Run/>
+                <LineBreak/>
+                <Run Text="Lúcio wouldn't stand for it. He stole Vishkar sonic technology that had been used to suppress the people, and he converted it into a tool to rally them to action. In a popular uprising, they drove Vishkar out of their neighborhoods. Lúcio's leadership made him a star overnight and a symbol for positive social change. His music skyrocketed in popularity. Whereas he had once performed locally, he was now filling arenas across the world."/>
+                <LineBreak/>
+                <Run/>
+                <LineBreak/>
+                <Run Text="With his newfound fame, Lúcio realizes that he has an opportunity to make a difference and change the world for the better."/>
             </TextBlock>
         </ScrollViewer>
         <ScrollViewer Grid.ColumnSpan="2" HorizontalAlignment="Left" Foreground="White" Height="100" Margin="48,409,0,0" VerticalAlignment="Top" Width="263" RenderTransformOrigin="0.5,0.5">
@@ -31,7 +48,38 @@
                 <Run Foreground="Gold" FontWeight="ExtraBold" Text="   "/>
                 <Run Foreground="Gold" FontWeight="ExtraBold" Text="Abilities"/>
                 <LineBreak/>
+                <Run Foreground="Gold" FontWeight="ExtraBold"/>
                 <LineBreak/>
+                <Run Text="Sonic Amplifier &amp; Soundwave:"/>
+                <LineBreak/>
+                <Run Text="Lúcio can hit his enemies with sonic projectiles or knock them back with a blast of sound."/>
+                <LineBreak/>
+                <Run/>
+                <LineBreak/>
+                <Run Text="Crossfade: "/>
+                <LineBreak/>
+                <Run Text="Lúcio continuously energizes himself, and nearby teammates, with music. He can switch between two songs: one amplifies movement speed, while the other regenerates health."/>
+                <LineBreak/>
+                <Run/>
+                <LineBreak/>
+                <Run Text="Amp It Up"/>
+                <Run Text=":"/>
+                <LineBreak/>
+                <Run Text="Lúcio increases the volume on his speakers, boosting the effects of his songs."/>
+                <LineBreak/>
+                <Run/>
+                <LineBreak/>
+                <Run Text="Wall Ride:"/>
+                <LineBreak/>
+                <Run Text="Lúcio rides along a wall. This has a slight upwards angle, allowing him to ascend the wall."/>
+                <LineBreak/>
+                <Run/>
+                <LineBreak/>
+                <Run Text="Ultimate Ability: Sound Barrier:"/>
+                <LineBreak/>
+                <Run Text="Protective waves radiate out from Lúcio's Sonic Amplifier, briefly providing him and nearby allies with personal shields."/>
+                <LineBreak/>
+                <Run/>
             </TextBlock>
         </ScrollViewer>
     </Grid>
