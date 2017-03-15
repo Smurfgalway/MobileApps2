@@ -23,6 +23,19 @@
                 <Run Foreground="Gold" FontWeight="ExtraBold" Text="   "/>
                 <Run Foreground="Gold" FontWeight="ExtraBold" Text="Hero Bio"/>
                 <LineBreak/>
+                <Run Text="Mastering his skills as a bowman and an assassin, Hanzo Shimada strives to prove himself as a warrior without peer."/>
+                <LineBreak/>
+                <Run/>
+                <LineBreak/>
+                <Run Text="The Shimada family was established centuries ago, a clan of assassins whose power grew over the years, enabling them to build a vast criminal empire that profited from lucrative trade in arms and illegal substances. As the eldest son of the family's head, Hanzo was bound by duty to succeed his father and rule the Shimada empire. From a young age, he was trained for that responsibility, displaying a natural aptitude for leadership and possessing an innate understanding of strategy and tactics. He also excelled in more practical areas: he was a prodigy in martial arts, swordplay, and bowmanship."/>
+                <LineBreak/>
+                <Run/>
+                <LineBreak/>
+                <Run Text="Upon the death of his father, the clan elders instructed Hanzo to straighten out his wayward younger brother so that he, too, might help rule the Shimada empire. When his brother refused, Hanzo was forced to kill him. This act broke Hanzo's heart and drove him to reject his father's legacy, ultimately leading him to abandon the clan and all that he had worked so hard to attain."/>
+                <LineBreak/>
+                <Run/>
+                <LineBreak/>
+                <Run Text="Now, Hanzo travels the world, perfecting his skills as a warrior, attempting to restore his honor and put the ghosts of his past to rest."/>
             </TextBlock>
         </ScrollViewer>
         <ScrollViewer Grid.ColumnSpan="2" HorizontalAlignment="Left" Foreground="White" Height="100" Margin="48,409,0,0" VerticalAlignment="Top" Width="263" RenderTransformOrigin="0.5,0.5">
@@ -32,6 +45,40 @@
                 <Run Foreground="Gold" FontWeight="ExtraBold" Text="Abilities"/>
                 <LineBreak/>
                 <LineBreak/>
+                <Run Text="Storm Bow"/>
+                <Run Text=":"/>
+                <LineBreak/>
+                <Run Text="Hanzo nocks and fires an arrow at his target."/>
+                <LineBreak/>
+                <Run/>
+                <LineBreak/>
+                <Run Text="Scatter Arrow:"/>
+                <LineBreak/>
+                <Run/>
+                <LineBreak/>
+                <Run Text="Hanzo shoots a fragmenting arrow that ricochets off walls and objects and can strike multiple targets at once."/>
+                <LineBreak/>
+                <Run/>
+                <LineBreak/>
+                <Run Text="Sonic Arrow:"/>
+                <LineBreak/>
+                <Run Text="Hanzo launches an arrow that contains a sonar tracking device. Any enemy within its detection radius is visibly marked, making them easier for Hanzo and his allies to hunt down."/>
+                <LineBreak/>
+                <Run Text=""/>
+                <LineBreak/>
+                <Run Text="Wall Climb:"/>
+                <LineBreak/>
+                <Run Text="Hanzo can climb any vertical surface."/>
+                <LineBreak/>
+                <Run/>
+                <LineBreak/>
+                <Run Text="Ultimate Ability: Dragonstrike:"/>
+                <LineBreak/>
+                <Run Text="Hanzo summons a Spirit Dragon which travels through the air in a line. It passes through walls in its way, devouring any enemies it encounters."/>
+                <LineBreak/>
+                <Run/>
+                <LineBreak/>
+                <Run/>
             </TextBlock>
         </ScrollViewer>
     </Grid>
