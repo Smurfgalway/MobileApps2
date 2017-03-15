@@ -17,5 +17,22 @@
         </Grid.Background>
         <Image x:Name="image" Grid.ColumnSpan="2" Margin="0,50,0,389" Source="/assets/hi/Reaper.png"/>
         <Button x:Name="button" Content="Gallery" Foreground="LawnGreen" FontWeight="Bold" HorizontalAlignment="Left" Margin="0,10,0,0" VerticalAlignment="Top" Click="button_Click"/>
+        <ScrollViewer Grid.ColumnSpan="2" HorizontalAlignment="Left" Foreground="White" Height="123" Margin="49,269,0,0" VerticalAlignment="Top" Width="264">
+            <TextBlock x:Name="textBlock" TextWrapping="Wrap" >
+                <Run Foreground="Gold" FontWeight="ExtraBold" Text="                    "/>
+                <Run Foreground="Gold" FontWeight="ExtraBold" Text="   "/>
+                <Run Foreground="Gold" FontWeight="ExtraBold" Text="Hero Bio"/>
+                <LineBreak/>
+            </TextBlock>
+        </ScrollViewer>
+        <ScrollViewer Grid.ColumnSpan="2" HorizontalAlignment="Left" Foreground="White" Height="100" Margin="48,409,0,0" VerticalAlignment="Top" Width="263" RenderTransformOrigin="0.5,0.5">
+            <TextBlock x:Name="textBlock1" TextWrapping="Wrap" Height="998">
+                <Run Foreground="Gold" FontWeight="ExtraBold" Text="                    "/>
+                <Run Foreground="Gold" FontWeight="ExtraBold" Text="   "/>
+                <Run Foreground="Gold" FontWeight="ExtraBold" Text="Abilities"/>
+                <LineBreak/>
+                <LineBreak/>
+            </TextBlock>
+        </ScrollViewer>
     </Grid>
 </Page>
