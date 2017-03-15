@@ -1,0 +1,94 @@
+﻿<Page
+    x:Class="MA2.Hero_Pages.Hero24"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MA2.Hero_Pages"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid VerticalAlignment="Top" Height="636">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.Background>
+            <ImageBrush ImageSource="/assets/br.jpg"></ImageBrush>
+        </Grid.Background>
+        <Image x:Name="bas" Grid.ColumnSpan="2" Source="/Assets/HI/orisa.jpg" Margin="0,50,0,389"/>
+        <Button x:Name="button" Content="Gallery" Foreground="LawnGreen" FontWeight="Bold" HorizontalAlignment="Left" Margin="0,10,0,0" VerticalAlignment="Top" Click="button_Click"/>
+        <ScrollViewer Grid.ColumnSpan="2" HorizontalAlignment="Left" Foreground="White" Height="123" Margin="49,269,0,0" VerticalAlignment="Top" Width="264">
+            <TextBlock x:Name="textBlock" TextWrapping="Wrap" >
+                <Run Foreground="Gold" FontWeight="ExtraBold" Text="                    "/>
+                <Run Foreground="Gold" FontWeight="ExtraBold" Text="   "/>
+                <Run Foreground="Gold" FontWeight="ExtraBold" Text="Hero Bio"/>
+                <LineBreak/>
+                <Run Text="Built from parts of one of Numbani's short-lived OR15 defense robots, Orisa is the city's newest protector, though she still has much to learn."/>
+                <LineBreak/>
+                <Run/>
+                <LineBreak/>
+                <Run Text="Originally put into service before the Omnic Crisis, the OR14 &quot;Idina&quot; line of security robots was built in Nigeria's massive manufacturing omnium. After the war, they were taken out of production, along with many of the other models used during the crisis. Twenty years later, Numbani revived and recommissioned the OR14 program to protect the city from external threats. These new OR15s were deployed for a short time before they were destroyed in an attack by Doomfist."/>
+                <LineBreak/>
+                <Run/>
+                <LineBreak/>
+                <Run Text="Following the attack, the program was scrapped, and the civic government sold off the remaining OR15 inventory. Some parts were purchased by eleven-year-old Efi Oladele, a brilliant girl whose early accomplishments in robotics and artificial intelligence had already earned her the Adawe Foundation's &quot;genius grant.&quot;"/>
+                <LineBreak/>
+                <Run/>
+                <LineBreak/>
+                <Run Text="With the approval of her understanding and open-minded parents, Efi spent the bulk of her grant money to acquire one of the decommissioned OR15 bots. She believed that Numbani needed a protector and that an upgraded OR15 could do just that. Efi repaired and reconfigured the robot and installed a personality core that she had designed herself."/>
+                <LineBreak/>
+                <Run/>
+                <LineBreak/>
+                <Run Text="She named Numbani's newest hero Orisa."/>
+                <LineBreak/>
+                <Run/>
+                <LineBreak/>
+                <Run Text="Orisa has shown that she can be of service to the city, but she is still working toward finding her optimal protocols. The omnic's inexperience can cause her to be an occasional liability. Fortunately, between Efi's willingness to make the necessary modifications and Orisa's adaptive artificial intelligence, both robot and creator have always been able to set things right."/>
+                <LineBreak/>
+                <Run/>
+                <LineBreak/>
+                <Run Text="As Orisa starts her career as a guardian, she has much to learn about the world and her functionality. But as long as she is guided by Efi's boundless optimism and her own growing sense of honor and duty, Orisa stands ready to protect Numbani and her creator at any cost."/>
+            </TextBlock>
+        </ScrollViewer>
+        <ScrollViewer Grid.ColumnSpan="2" HorizontalAlignment="Left" Foreground="White" Height="100" Margin="48,409,0,0" VerticalAlignment="Top" Width="263" RenderTransformOrigin="0.5,0.5">
+            <TextBlock x:Name="textBlock1" TextWrapping="Wrap" Height="998">
+                <Run Foreground="Gold" FontWeight="ExtraBold" Text="                    "/>
+                <Run Foreground="Gold" FontWeight="ExtraBold" Text="   "/>
+                <Run Foreground="Gold" FontWeight="ExtraBold" Text="Abilities"/>
+                <LineBreak/>
+                <LineBreak/>
+                <Run Text="Fusion Driver:"/>
+                <LineBreak/>
+                <Run Text="Orisa's automatic projectile cannon delivers sustained damage, but slows her movement while she fires it."/>
+                <LineBreak/>
+                <Run/>
+                <LineBreak/>
+                <Run Text="Halt!:"/>
+                <LineBreak/>
+                <Run Text="Orisa launches a graviton charge which she can detonate, slowing nearby enemies and pulling them towards the explosion."/>
+                <LineBreak/>
+                <Run/>
+                <LineBreak/>
+                <Run Text="Fortify:"/>
+                <LineBreak/>
+                <Run Text="Orisa temporarily reduces damage she takes, and cannot be affected by action-impairing effects."/>
+                <LineBreak/>
+                <Run/>
+                <LineBreak/>
+                <Run Text="Protective Barrier:"/>
+                <LineBreak/>
+                <Run Text="Orisa throws out a stationary barrier that can protect her and her allies from enemy fire."/>
+                <LineBreak/>
+                <Run Text=""/>
+                <LineBreak/>
+                <Run Text="Ultimate Ability: Supercharger"/>
+                <LineBreak/>
+                <Run Text="Orisa deploys a device to increase damage inflicted by allies within her line of sight."/>
+                <LineBreak/>
+                <Run/>
+                <LineBreak/>
+                <Run/>
+            </TextBlock>
+        </ScrollViewer>
+    </Grid>
+</Page>

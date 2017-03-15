@@ -7,7 +7,83 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-
+ <Grid VerticalAlignment="Top" Height="636">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.Background>
+            <ImageBrush ImageSource="/assets/br.jpg"></ImageBrush>
+        </Grid.Background>
+        <Image x:Name="bas" Grid.ColumnSpan="2" Source="/Assets/HI/som.png" Margin="0,50,0,389"/>
+        <Button x:Name="button" Content="Gallery" Foreground="LawnGreen" FontWeight="Bold" HorizontalAlignment="Left" Margin="0,10,0,0" VerticalAlignment="Top" Click="button_Click"/>
+        <ScrollViewer Grid.ColumnSpan="2" HorizontalAlignment="Left" Foreground="White" Height="123" Margin="49,269,0,0" VerticalAlignment="Top" Width="264">
+            <TextBlock x:Name="textBlock" TextWrapping="Wrap" >
+                <Run Foreground="Gold" FontWeight="ExtraBold" Text="                    "/>
+                <Run Foreground="Gold" FontWeight="ExtraBold" Text="   "/>
+                <Run Foreground="Gold" FontWeight="ExtraBold" Text="Hero Bio"/>
+                <LineBreak/>
+                <Run Text="One of the world's most notorious hackers, Sombra uses information to manipulate those in power."/>
+                <LineBreak/>
+                <Run Text="Long before she took up the alias &quot;Sombra,&quot; ░░░░░░ was among the thousands of children who were left orphaned in the aftermath of the Omnic Crisis. With much of her country's infrastructure destroyed, she survived by utilizing her natural gifts with hacking and computers."/>
+                <LineBreak/>
+                <Run/>
+                <LineBreak/>
+                <Run Text="After ░░░░░░ was taken in by Mexico's Los Muertos gang, she aided it in its self-styled revolution against the government. Los Muertos believed that the rebuilding of Mexico had primarily benefited the rich and the influential, leaving behind those who were most in need of assistance."/>
+                <LineBreak/>
+                <Run/>
+                <LineBreak/>
+                <Run Text="Following her many conquests, ░░░░░░ was supremely confident in her skills, but she was caught unprepared when she stumbled into the web of a global conspiracy—one that had also noticed her. With her security irreparably compromised, ░░░░░░ was forced to delete all traces of her identity and went into hiding."/>
+                <LineBreak/>
+                <Run/>
+                <LineBreak/>
+                <Run Text="She later reemerged as Sombra, upgraded and determined to find out the truth behind the conspiracy she had uncovered. Sombra launched an even more audacious string of hacks, and her exploits earned her no shortage of admirers, including Talon. She joined the organization's ranks and is believed to have contributed to its massive cyberattacks against corporations with strong ties to their governments. These efforts incited a popular revolution in Mexico against LumériCo and breached the security of Volskaya Industries, the manufacturing arm of Russia's anti-omnic defense."/>
+            </TextBlock>
+        </ScrollViewer>
+        <ScrollViewer Grid.ColumnSpan="2" HorizontalAlignment="Left" Foreground="White" Height="100" Margin="48,409,0,0" VerticalAlignment="Top" Width="263" RenderTransformOrigin="0.5,0.5">
+            <TextBlock x:Name="textBlock1" TextWrapping="Wrap" Height="998">
+                <Run Foreground="Gold" FontWeight="ExtraBold" Text="                    "/>
+                <Run Foreground="Gold" FontWeight="ExtraBold" Text="   "/>
+                <Run Foreground="Gold" FontWeight="ExtraBold" Text="Abilities"/>
+                <LineBreak/>
+                <LineBreak/>
+                <Run Text="Machine Pistol:"/>
+                <LineBreak/>
+                <Run Text="Sombra's fully-automatic machine pistol fires in a short-range spread."/>
+                <LineBreak/>
+                <Run Text=""/>
+                <LineBreak/>
+                <Run Text="Hack:"/>
+                <LineBreak/>
+                <Run Text="Sombra hacks enemies to temporarily stop them from using their abilities, or hacks first aid kits to spawn faster and make them useless to her opponents. Taking damage interrupts the hack attempt."/>
+                <LineBreak/>
+                <Run Text=""/>
+                <LineBreak/>
+                <Run Text="Stealth:"/>
+                <LineBreak/>
+                <Run Text="Sombra becomes invisible for a short period of time, during which her speed is boosted considerably. Attacking, using offensive abilities, or taking damage disables her camouflage."/>
+                <LineBreak/>
+                <Run/>
+                <LineBreak/>
+                <Run Text="Translocator:"/>
+                <LineBreak/>
+                <Run Text="Sombra tosses out a translocator beacon. She can instantly return to the beacon's location while it is active (including when it's in mid-flight)."/>
+                <LineBreak/>
+                <Run Text=""/>
+                <LineBreak/>
+                <Run Text="Opportunist:"/>
+                <LineBreak/>
+                <Run Text="Sombra detects critically injured enemies through walls. This effect becomes active on an enemy if they fall below half health."/>
+                <LineBreak/>
+                <Run/>
+                <LineBreak/>
+                <Run Text="Ultimate Ability: EMP"/>
+                <LineBreak/>
+                <Run Text="Sombra discharges electromagnetic energy in a wide radius, destroying enemy barriers and shields and hacking all opponents caught in the blast."/>
+                <LineBreak/>
+                <Run/>
+            </TextBlock>
+        </ScrollViewer>
     </Grid>
 </Page>
+

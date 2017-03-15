@@ -148,5 +148,10 @@ namespace MA2
             Frame.Navigate(typeof(Hero_Pages.Hero23), UriKind.Relative);
 
         }
+
+        private void Orisa_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(Hero_Pages.Hero24), UriKind.Relative);
+        }
     }
 }
