@@ -76,5 +76,10 @@
                 <Run Text="In Tank mode, Bastion extends wheeled treads and a powerful long-range cannon. The cannon's explosive shells demolish targets in a wide blast radius, but Bastion can only remain in this mode for a limited time."/>
             </TextBlock>
         </ScrollViewer>
+        <Image x:Name="image" Grid.ColumnSpan="2" HorizontalAlignment="Left" Source="/assets/gifs/bas.gif" Height="100" Margin="99.333,522,0,0" VerticalAlignment="Top" Width="160" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
+            <Image.RenderTransform>
+                <CompositeTransform SkewX="0.374" TranslateX="0.327"/>
+            </Image.RenderTransform>
+        </Image>
     </Grid>
 </Page>
