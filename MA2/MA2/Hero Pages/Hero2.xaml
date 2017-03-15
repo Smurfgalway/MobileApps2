@@ -27,6 +27,23 @@
                 <Run Foreground="Gold" FontWeight="ExtraBold" Text="   "/>
                 <Run Foreground="Gold" FontWeight="ExtraBold" Text="Hero Bio"/>
                 <LineBreak/>
+                <Run Text="Reinhardt Wilhelm styles himself as a champion of a bygone age, who lives by the knightly codes of valor, justice, and courage."/>
+                <LineBreak/>
+                <Run/>
+                <LineBreak/>
+                <Run Text="Over thirty years ago, Overwatch was founded to counter the threat of the robot uprisings around the world. Reinhardt, a highly decorated German soldier, was inducted as part of the original Overwatch strike team that put an end to the Omnic Crisis. After the conflict's resolution, Overwatch grew into a global institution, keeping the peace in a war-torn world. Reinhardt proved himself to be one of its most stalwart champions."/>
+                <LineBreak/>
+                <Run/>
+                <LineBreak/>
+                <Run Text="Reinhardt's unique ethics and larger-than-life persona earned the admiration of his peers and superiors alike. Never afraid to speak his mind, he was Overwatch's most vocal supporter and, when necessary, its harshest critic, providing a constant reminder that Overwatch was meant to be a force for good."/>
+                <LineBreak/>
+                <Run/>
+                <LineBreak/>
+                <Run Text="Having served into his late fifties, Reinhardt was faced with mandatory retirement from combat operations. Despondent about being removed from active duty, Reinhardt feared that his days of purpose and glory had ended. As times grew darker and Overwatch came under suspicion of corruption and sedition, Reinhardt could only watch as the cause he had dedicated his life to defending surrendered in disgrace."/>
+                <LineBreak/>
+                <Run/>
+                <LineBreak/>
+                <Run Text="Though Overwatch was eventually disbanded, Reinhardt was not content to sit idly by while the world fell to disorder. Once again donning his Crusader armor, he has vowed to fight for justice across Europe like a knight of old, defending the innocent and winning hearts and minds with the promise of better days to come"/>
             </TextBlock>
         </ScrollViewer>
         <ScrollViewer Grid.ColumnSpan="2" HorizontalAlignment="Left" Foreground="White" Height="100" Margin="48,409,0,0" VerticalAlignment="Top" Width="263" RenderTransformOrigin="0.5,0.5">
@@ -35,7 +52,37 @@
                 <Run Foreground="Gold" FontWeight="ExtraBold" Text="   "/>
                 <Run Foreground="Gold" FontWeight="ExtraBold" Text="Abilities"/>
                 <LineBreak/>
+                <Run/>
                 <LineBreak/>
+                <Run Text="Rocket hammer:"/>
+                <LineBreak/>
+                <Run Text="Reinhardt's Rocket Hammer is an exemplary melee weapon, able to deal punishing damage in a wide arc with every swing."/>
+                <LineBreak/>
+                <Run/>
+                <LineBreak/>
+                <Run Text="Barrier Field:"/>
+                <LineBreak/>
+                <Run Text="Reinhardt projects a broad, forward-facing energy barrier, which can absorb substantial damage before it is destroyed. Although Reinhardt can protect himself and his companions behind the barrier, he cannot attack while sustaining it."/>
+                <LineBreak/>
+                <Run/>
+                <LineBreak/>
+                <Run Text="Charge:"/>
+                <LineBreak/>
+                <Run Text="Reinhardt charges forth in a straight line, pinning the first enemy in his path and knocking others aside. If he collides with a wall, the foe he's carrying suffers extreme damage."/>
+                <LineBreak/>
+                <Run Text=""/>
+                <LineBreak/>
+                <Run Text="Fire Strike:"/>
+                <LineBreak/>
+                <Run Text="By whipping his Rocket Hammer forward, Reinhardt slings a flaming projectile which pierces and damages any enemies it touches."/>
+                <LineBreak/>
+                <Run Text=""/>
+                <LineBreak/>
+                <Run Text="Ultimate Ability: Earthshatter:"/>
+                <LineBreak/>
+                <Run Text="Reinhardt forcefully slams his rocket hammer into the ground, knocking down and damaging all enemies in front of him."/>
+                <LineBreak/>
+                <Run/>
             </TextBlock>
         </ScrollViewer>
     </Grid>
