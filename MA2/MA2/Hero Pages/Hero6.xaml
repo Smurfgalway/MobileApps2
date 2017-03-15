@@ -72,7 +72,7 @@
                 <LineBreak/>
                 <Run Text="Ultimate Ability: Tactical Visor:"/>
                 <LineBreak/>
-                <Run Text="Soldier: 76's pinpoint targeting visor "locks" his aim on the threat closest to his crosshairs. If an enemy leaves his line of sight, Soldier: 76 can quickly switch to another target."/>
+                <Run Text="Soldier: 76's pinpoint targeting visor locks his aim on the threat closest to his crosshairs. If an enemy leaves his line of sight, Soldier: 76 can quickly switch to another target."/>
                 <LineBreak/>
                 <Run/>
             </TextBlock>
