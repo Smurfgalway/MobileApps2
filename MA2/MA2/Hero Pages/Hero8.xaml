@@ -23,6 +23,19 @@
                 <Run Foreground="Gold" FontWeight="ExtraBold" Text="   "/>
                 <Run Foreground="Gold" FontWeight="ExtraBold" Text="Hero Bio"/>
                 <LineBreak/>
+                <Run Text="At its height, Overwatch possessed one of the most advanced armaments on the planet, which could be traced to the workshop of an ingenious engineer named Torbjörn Lindholm."/>
+                <LineBreak/>
+                <Run/>
+                <LineBreak/>
+                <Run Text="Before the Omnic Crisis, Torbjörn had gained notoriety for designing weapons systems used by countries around the world. However, his belief that technology must serve a better vision for humanity put him at odds with his employers, who desired to control his weapons using networked computer intelligence."/>
+                <LineBreak/>
+                <Run/>
+                <LineBreak/>
+                <Run Text="Torbjörn had a deep mistrust of sentient robotic intelligence, and while many of his peers wrote this off as paranoia, his worst fears were realized when the robot populations of the world turned against their human creators during the Omnic Crisis. Because of his engineering genius, he was recruited to join the original Overwatch strike team, and his many inventions proved integral to ending the crisis. In the years that followed, Overwatch became an international peacekeeping force, and Torbjörn remained a critical resource for all of its technological needs and signature weapons systems."/>
+                <LineBreak/>
+                <Run/>
+                <LineBreak/>
+                <Run Text="But in the aftermath of Overwatch's fall, many of Torbjörn's weapons were stolen or stashed away around the world. Feeling responsible for his creations, Torbjörn is determined to stop them from falling into the wrong hands and wreaking havoc on the innocent."/>
             </TextBlock>
         </ScrollViewer>
         <ScrollViewer Grid.ColumnSpan="2" HorizontalAlignment="Left" Foreground="White" Height="100" Margin="48,409,0,0" VerticalAlignment="Top" Width="263" RenderTransformOrigin="0.5,0.5">
@@ -32,6 +45,40 @@
                 <Run Foreground="Gold" FontWeight="ExtraBold" Text="Abilities"/>
                 <LineBreak/>
                 <LineBreak/>
+                <Run Text="Rivet Gun:"/>
+                <LineBreak/>
+                <Run Text="Torbjörn fires rivets at long range, or ejects molten metal from his gun in a short, close-range burst."/>
+                <LineBreak/>
+                <Run/>
+                <LineBreak/>
+                <Run Text="Forge Hammer:"/>
+                <LineBreak/>
+                <Run Text="Torbjörn uses his multipurpose hammer to build, upgrade and repair turrets. In a pinch, it can also be swung as a weapon."/>
+                <LineBreak/>
+                <Run/>
+                <LineBreak/>
+                <Run Text="Build Turret:"/>
+                <LineBreak/>
+                <Run Text="Torbjörn constructs an enemy-tracking autocannon. He can use his Forge Hammer to repair or upgrade it, increasing its health and adding a second cannon barrel and a rocket launcher."/>
+                <LineBreak/>
+                <Run/>
+                <LineBreak/>
+                <Run Text="Scrap Collector:"/>
+                <LineBreak/>
+                <Run Text="Collect scrap to gain resources."/>
+                <LineBreak/>
+                <Run Text=""/>
+                <LineBreak/>
+                <Run Text="Armor Pack"/>
+                <Run Text=":"/>
+                <LineBreak/>
+                <Run Text="Torbjörn deploys an armor upgrade; either he or his allies can pick it up to absorb some damage"/>
+                <LineBreak/>
+                <Run/>
+                <LineBreak/>
+                <Run Text="Ultimate Ability: Molten Core"/>
+                <LineBreak/>
+                <Run Text="After overheating his personal forge, Torbjörn gains a significant amount of armor. He also attacks (and builds and repairs turrets) far faster than normal."/>
             </TextBlock>
         </ScrollViewer>
     </Grid>

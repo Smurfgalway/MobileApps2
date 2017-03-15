@@ -23,6 +23,23 @@
                 <Run Foreground="Gold" FontWeight="ExtraBold" Text="   "/>
                 <Run Foreground="Gold" FontWeight="ExtraBold" Text="Hero Bio"/>
                 <LineBreak/>
+                <Run Text="Junkrat is an explosives-obsessed freak who lives to cause chaos and destruction."/>
+                <LineBreak/>
+                <Run/>
+                <LineBreak/>
+                <Run Text="The attack on the Australian omnium's fusion core forever altered the landscape of the Outback. After the detonation, the area was transformed into a harsh, irradiated wasteland, littered with debris and the twisted fragments of the ruined facility, and unlivable to most."/>
+                <LineBreak/>
+                <Run/>
+                <LineBreak/>
+                <Run Text="But there were some who survived. Calling themselves the Junkers, they scavenged the husk of the omnium and formed a lawless, cutthroat society in its shadow. Junkrat was one of them, eking out a living reclaiming metal and components from the ruins. Like many others, he was affected by the lingering radiation. This touch of madness made him ideal for handling dangerous explosives, a love which he turned into an obsession."/>
+                <LineBreak/>
+                <Run/>
+                <LineBreak/>
+                <Run Text="He came to notoriety when he discovered an extremely valuable secret in the bones of the omnium. Though few knew the nature of what he found, he was nonetheless pursued by bounty hunters, gangs, and opportunists wherever he went, until he made a deal with the Junker enforcer Roadhog, who grudgingly agreed to be his personal bodyguard in exchange for a fifty-fifty share of the spoils."/>
+                <LineBreak/>
+                <Run/>
+                <LineBreak/>
+                <Run Text="Now, with Roadhog in tow, Junkrat has left the Outback, and embarked upon an international crime spree leaving nothing but havoc and bedlam in his wake."/>
             </TextBlock>
         </ScrollViewer>
         <ScrollViewer Grid.ColumnSpan="2" HorizontalAlignment="Left" Foreground="White" Height="100" Margin="48,409,0,0" VerticalAlignment="Top" Width="263" RenderTransformOrigin="0.5,0.5">
@@ -32,6 +49,34 @@
                 <Run Foreground="Gold" FontWeight="ExtraBold" Text="Abilities"/>
                 <LineBreak/>
                 <LineBreak/>
+                <Run Text="Frag Launcher:"/>
+                <LineBreak/>
+                <Run Text="Junkrat's Frag Launcher lobs grenades a significant distance. They bounce to reach their destination, and blow up when they strike an enemy."/>
+                <LineBreak/>
+                <Run/>
+                <LineBreak/>
+                <Run Text="Concussion Mine:"/>
+                <LineBreak/>
+                <Run Text="After placing one of his homemade Concussion Mines, Junkrat can trigger it to damage enemies and send them flying... or propel himself through the air."/>
+                <LineBreak/>
+                <LineBreak/>
+                <Run Text="Steel Trap"/>
+                <LineBreak/>
+                <Run Text="Junkrat tosses out a giant, metal-toothed trap. Should an enemy wander too close to the trap, it clamps on, injuring and im4obilizing them."/>
+                <LineBreak/>
+                <Run/>
+                <LineBreak/>
+                <Run Text="Total Mayhem:"/>
+                <LineBreak/>
+                <Run Text="Junkrat's deranged sense of humor persists past his death. If killed, he drops several live grenades."/>
+                <LineBreak/>
+                <Run/>
+                <LineBreak/>
+                <Run Text="Ultimate Ability: RIP-Tire:"/>
+                <LineBreak/>
+                <Run Text="Junkrat revs up a motorized tire bomb and sends it rolling across the battlefield, climbing over walls and obstacles. He can remotely detonate the RIP-Tire to deal serious damage to enemies caught within the blast, or just wait for it to explode on its own."/>
+                <LineBreak/>
+                <Run/>
             </TextBlock>
         </ScrollViewer>
     </Grid>
