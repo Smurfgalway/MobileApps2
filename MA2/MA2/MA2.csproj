@@ -95,6 +95,12 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Hero Pages\Hero23.xaml.cs">
+      <DependentUpon>Hero23.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Hero Pages\Hero24.xaml.cs">
+      <DependentUpon>Hero24.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Hero Pages\Hero3.xaml.cs">
       <DependentUpon>Hero3.xaml</DependentUpon>
     </Compile>
@@ -190,11 +196,13 @@
     <Content Include="Assets\HI\Mccree.jpg" />
     <Content Include="Assets\HI\Mei.png" />
     <Content Include="Assets\HI\Mercy.png" />
+    <Content Include="Assets\HI\Orisa.jpg" />
     <Content Include="Assets\HI\Pharah.png" />
     <Content Include="Assets\HI\Reaper.png" />
     <Content Include="Assets\HI\Rein.jpg" />
     <Content Include="Assets\HI\Roadhog.png" />
     <Content Include="Assets\HI\Soldier.png" />
+    <Content Include="Assets\HI\Som.png" />
     <Content Include="Assets\HI\Torbjorn.png" />
     <Content Include="Assets\HI\Tracer.png" />
     <Content Include="Assets\HI\Widow.jpg" />
@@ -213,6 +221,7 @@
     <Content Include="Assets\Icons\mai.png" />
     <Content Include="Assets\Icons\mcgree.png" />
     <Content Include="Assets\Icons\mercy.png" />
+    <Content Include="Assets\Icons\orisa.png" />
     <Content Include="Assets\Icons\ph.png" />
     <Content Include="Assets\Icons\reap.jpg" />
     <Content Include="Assets\Icons\rein.png" />
@@ -238,6 +247,7 @@
     <Content Include="Assets\Sounds\McCree.mp3" />
     <Content Include="Assets\Sounds\Mei.mp3" />
     <Content Include="Assets\Sounds\Mercy.mp3" />
+    <Content Include="Assets\Sounds\orisa.mp3" />
     <Content Include="Assets\Sounds\Pharah.mp3" />
     <Content Include="Assets\Sounds\Reaper.mp3" />
     <Content Include="Assets\Sounds\Reinhardt.mp3" />
@@ -265,6 +275,14 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="Hero Pages\Hero23.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Hero Pages\Hero24.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Hero Pages\Hero3.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>

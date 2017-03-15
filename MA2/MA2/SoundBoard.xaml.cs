@@ -148,5 +148,10 @@ namespace MA2
         {
             Tor.Play();
         }
+
+        private void Orisa_Click(object sender, RoutedEventArgs e)
+        {
+            Or.Play();
+        }
     }
 }

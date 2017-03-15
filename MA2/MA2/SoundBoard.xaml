@@ -11,7 +11,7 @@
         <Grid.Background>
             <ImageBrush ImageSource="/assets/sb.jpg" />
         </Grid.Background>
-        <Button x:Name="JR" Content="Junk rat" HorizontalAlignment="Left" Background=" white" Foreground="Gray" Margin="299.347,269.226,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Click="JR_Click" Height="42.676" Width="136.456">
+        <Button x:Name="JR" Content="Junk rat" HorizontalAlignment="Left" Background=" white" Foreground="Gray" Margin="322.683,269.269,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Click="JR_Click" Height="42.676" Width="113.12">
             <Button.RenderTransform>
                 <CompositeTransform Rotation="0.21"/>
             </Button.RenderTransform>
@@ -36,7 +36,7 @@
                 <CompositeTransform Rotation="0.114"/>
             </Button.RenderTransform>
         </Button>
-        <Button x:Name="Roadhog" Content="RoadHog" HorizontalAlignment="Left" Background=" white" Foreground="SteelBlue" Margin="119.005,270.108,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Click="Roadhog_Click" Height="41.899" Width="180.726">
+        <Button x:Name="Roadhog" Content="RoadHog" HorizontalAlignment="Left" Background=" white" Foreground="SteelBlue" Margin="119.005,270.087,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Click="Roadhog_Click" Height="41.899" Width="109.394">
             <Button.RenderTransform>
                 <CompositeTransform Rotation="0.033"/>
             </Button.RenderTransform>
@@ -144,6 +144,8 @@
         <MediaElement x:Name="Win" AutoPlay="False" Source="Assets/Sounds/Winston.mp3" Margin="301,232,338,127" />
         <MediaElement x:Name="Za" AutoPlay="False" Source="Assets/Sounds/Zayra.mp3" Margin="301,232,338,127" />
         <MediaElement x:Name="Ze" AutoPlay="False" Source="Assets/Sounds/Zenyatta.mp3" Margin="301,232,338,127" />
+        <MediaElement x:Name="Or" AutoPlay="False" Source="Assets/Sounds/orisa.mp3" Margin="301,232,338,127" />
+
         <Button x:Name="Zenyatta" Content="Zenyatta" HorizontalAlignment="Left" Background=" white" Foreground="Gray" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Margin="429.333,70.667,0,0" Height="41.95" Width="105.225" Click="Zenyatta_Click">
             <Button.RenderTransform>
                 <CompositeTransform Rotation="-0.334"/>
@@ -154,7 +156,13 @@
                 <CompositeTransform Rotation="0.033" TranslateX="-0.004" TranslateY="0.023"/>
             </Button.RenderTransform>
         </Button>
-        <Border BorderBrush="DarkCyan" BorderThickness="15" HorizontalAlignment="Left" Height="259" Margin="112,66,0,0" VerticalAlignment="Top" Width="433"/>
+        <Border BorderBrush="DarkCyan" BorderThickness="15" HorizontalAlignment="Left" Height="259" Margin="108,61,0,0" VerticalAlignment="Top" Width="433">
+            <Button x:Name="Orisa" Content="Orisa" HorizontalAlignment="Left" Background=" white" Foreground="Green" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Click="Orisa_Click" Height="41.899" Width="95.391" Margin="104.339,188.415,0,-1.314">
+                <Button.RenderTransform>
+                    <CompositeTransform Rotation="0.033"/>
+                </Button.RenderTransform>
+            </Button>
+        </Border>
 
 
 
