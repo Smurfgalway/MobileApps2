@@ -23,6 +23,23 @@
                 <Run Foreground="Gold" FontWeight="ExtraBold" Text="   "/>
                 <Run Foreground="Gold" FontWeight="ExtraBold" Text="Hero Bio"/>
                 <LineBreak/>
+                <Run Text="A super-intelligent, genetically engineered gorilla, Winston is a brilliant scientist and a champion for humanity's potential."/>
+                <LineBreak/>
+                <Run/>
+                <LineBreak/>
+                <Run Text="The Horizon Lunar Colony was established as a first step for humanity's renewed exploration of space. Among its residents was a group of genetically enhanced gorillas that were intended to test the effects of prolonged habitation in space."/>
+                <LineBreak/>
+                <Run/>
+                <LineBreak/>
+                <Run Text="One gorilla displayed such rapid brain development from the gene therapy that he was taken under the wing of Dr. Harold Winston, who taught him science and inspired him with tales of human ingenuity. The young gorilla passed his days assisting with the scientists' experiments, watching the distant blue world outside his habitat window, dreaming of the endless possibilities that awaited him there."/>
+                <LineBreak/>
+                <Run/>
+                <LineBreak/>
+                <Run Text="But his life was thrown into chaos when the other gorillas led an uprising, killed the mission scientists, and claimed the colony for their own. Taking on the name of his beloved human caretaker, Winston built a makeshift rocket and escaped to Earth. There he found a new home with Overwatch, an organization that represented everything he had come to admire about humanity. Winston was finally able to live up to the heroic ideal that had been instilled in him."/>
+                <LineBreak/>
+                <Run/>
+                <LineBreak/>
+                <Run Text="Now with the fall of Overwatch, Winston has gone into seclusion, once again cut off from the world he believes in, but longing for the days of heroism to return."/>
             </TextBlock>
         </ScrollViewer>
         <ScrollViewer Grid.ColumnSpan="2" HorizontalAlignment="Left" Foreground="White" Height="100" Margin="48,409,0,0" VerticalAlignment="Top" Width="263" RenderTransformOrigin="0.5,0.5">
@@ -32,6 +49,34 @@
                 <Run Foreground="Gold" FontWeight="ExtraBold" Text="Abilities"/>
                 <LineBreak/>
                 <LineBreak/>
+                <Run Text="Tesla Cannon"/>
+                <Run Text=":"/>
+                <LineBreak/>
+                <Run Text="Winston's weapon fires a short-range electric barrage for as long as he holds down the trigger."/>
+                <LineBreak/>
+                <Run/>
+                <LineBreak/>
+                <Run Text="Jump Pack:"/>
+                <LineBreak/>
+                <Run Text="Assisted by his energy pack, Winston lunges through the air, dealing significant damage and staggering nearby enemies when he lands."/>
+                <LineBreak/>
+                <Run/>
+                <LineBreak/>
+                <Run Text="Barrier Projector:"/>
+                <LineBreak/>
+                <Run Text="Winston's barrier projector extends a bubble-shaped field that absorbs damage until it's destroyed. Allies protected by the barrier can return fire from within it."/>
+                <LineBreak/>
+                <Run/>
+                <LineBreak/>
+                <Run Text="Ultimate Ability: Primal Rage:"/>
+                <LineBreak/>
+                <Run Text="Winston embraces his animal nature, significantly boosting his health and making him very difficult to kill, strengthening his melee attack, and allowing him to use his Jump Pack ability more frequently. While raging, Winston can only make melee and Jump Pack attacks."/>
+                <LineBreak/>
+                <Run Text=""/>
+                <LineBreak/>
+                <Run/>
+                <LineBreak/>
+                <Run/>
             </TextBlock>
         </ScrollViewer>
     </Grid>
