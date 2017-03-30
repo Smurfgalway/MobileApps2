@@ -172,7 +172,24 @@ namespace MA2
 
         private void WidowMaker_Click(object sender, RoutedEventArgs e)
         {
-            Wid.Play();
+            Widowmakercount++;
+
+            if (Widowmakercount == 1)
+            {
+                Wid.Play();
+            }
+            else if (Widowmakercount == 2)
+            {
+                Wid2.Play();
+            }
+            else if (Widowmakercount == 3)
+            {
+                Wid3.Play();
+            }
+            else if (Widowmakercount > 3)
+            {
+                Widowmakercount = 0;
+            }
         }
 
         private void DVA_Click(object sender, RoutedEventArgs e)
