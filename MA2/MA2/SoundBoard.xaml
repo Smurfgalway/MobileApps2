@@ -153,9 +153,11 @@
         <MediaElement x:Name="Som" AutoPlay="False" Source="Assets/Sounds/Sombra.mp3" Margin="301,232,338,127" />
         <MediaElement x:Name="Sym" AutoPlay="False" Source="Assets/Sounds/Symmetra.mp3" Margin="301,232,338,127" />
         <MediaElement x:Name="Tor" AutoPlay="False" Source="Assets/Sounds/Torbjörn.mp3" Margin="301,232,338,127" />
+        
         <MediaElement x:Name="Tr" AutoPlay="False" Source="Assets/Sounds/Tracer.mp3" Margin="301,232,338,127" />
         <MediaElement x:Name="T2" AutoPlay="False" Source="Assets/Sounds/T2.mp3" Margin="301,232,338,127" />
         <MediaElement x:Name="T3" AutoPlay="False" Source="Assets/Sounds/T3.mp3" Margin="301,232,338,127" />
+        
         <MediaElement x:Name="Wid" AutoPlay="False" Source="Assets/Sounds/Widow.mp3" Margin="301,232,338,127" />
         <MediaElement x:Name="Win" AutoPlay="False" Source="Assets/Sounds/Winston.mp3" Margin="301,232,338,127" />
         <MediaElement x:Name="Za" AutoPlay="False" Source="Assets/Sounds/Zayra.mp3" Margin="301,232,338,127" />

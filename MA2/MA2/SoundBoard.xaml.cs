@@ -149,8 +149,25 @@ namespace MA2
 
         private void Lucio_Click(object sender, RoutedEventArgs e)
         {
-            L.Play();
-            
+            Luciocount++;
+
+            if (Luciocount == 1)
+            {
+                L.Play();
+            }
+            else if (Luciocount == 2)
+            {
+                L2.Play();
+            }
+            else if (Luciocount == 3)
+            {
+                L3.Play();
+            }
+            else if (Luciocount > 3)
+            {
+                Luciocount = 0;
+            }
+
         }
 
         private void WidowMaker_Click(object sender, RoutedEventArgs e)
