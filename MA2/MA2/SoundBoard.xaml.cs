@@ -22,10 +22,12 @@ namespace MA2
     /// </summary>
     public sealed partial class SoundBoard : Page
     {
+        private int count = 0;
         public SoundBoard()
         {
             this.InitializeComponent();
             this.NavigationCacheMode = NavigationCacheMode.Required;
+            
         }
 
         private void Home_Click(object sender, RoutedEventArgs e)
@@ -35,11 +37,24 @@ namespace MA2
 
         private void Tracer_Click(object sender, RoutedEventArgs e)
         {
-            int count = 0;
-            
+            count++;
 
-
-            Tr.Play();
+            if (count == 1)
+            {
+                Tr.Play();
+            }
+            else if (count == 2)
+            {
+                T2.Play();
+            }
+            else if (count == 3)
+            {
+                T3.Play();
+            }
+            else if (count > 3)
+            {
+                count = 0;
+            }
         }
 
         private void Reinhart_Click(object sender, RoutedEventArgs e)
