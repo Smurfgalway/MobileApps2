@@ -23,6 +23,21 @@
                 <Run Foreground="Gold" FontWeight="ExtraBold" Text="   "/>
                 <Run Foreground="Gold" FontWeight="ExtraBold" Text="Hero Bio"/>
                 <LineBreak/>
+                <Run Text="The former Overwatch agent known as Tracer is a time-jumping adventurer and an irrepressible force for good."/>
+                <LineBreak/>
+                <Run Text="Lena Oxton (call sign: &quot;Tracer&quot;) was the youngest person ever inducted into Overwatch's experimental flight program. Known for her fearless piloting skills, she was handpicked to test the prototype of a teleporting fighter, the Slipstream. But during its first flight, the aircraft's teleportation matrix malfunctioned, and it disappeared. Lena was presumed dead."/>
+                <LineBreak/>
+                <Run/>
+                <LineBreak/>
+                <Run Text="She reappeared months later, but her ordeal had greatly changed her: her molecules had been desynchronized from the flow of time. Suffering from &quot;chronal disassociation,&quot; she was a living ghost, disappearing for hours and days at a time. Even for the brief moments she was present, she was unable to maintain a physical form."/>
+                <LineBreak/>
+                <Run/>
+                <LineBreak/>
+                <Run Text="Overwatch's doctors and scientists were stumped, and Tracer's case seemed hopeless until a scientist named Winston designed the chronal accelerator, a device capable of keeping Tracer anchored in the present. In addition, it gave Tracer the ability to control her own time, allowing her to speed it up and slow it down at will. With her newfound skills, she became one of Overwatch's most effective agents."/>
+                <LineBreak/>
+                <Run/>
+                <LineBreak/>
+                <Run Text="Since Overwatch's dissolution, Tracer has continued to right wrongs and fight the good fight wherever the opportunity presents itself."/>
             </TextBlock>
         </ScrollViewer>
         <ScrollViewer Grid.ColumnSpan="2" HorizontalAlignment="Left" Foreground="White" Height="100" Margin="48,409,0,0" VerticalAlignment="Top" Width="263" RenderTransformOrigin="0.5,0.5">
@@ -31,8 +46,42 @@
                 <Run Foreground="Gold" FontWeight="ExtraBold" Text="   "/>
                 <Run Foreground="Gold" FontWeight="ExtraBold" Text="Abilities"/>
                 <LineBreak/>
+                <Run/>
                 <LineBreak/>
+                <Run Text="Pulse Pistols"/>
+                <Run Text=":"/>
+                <LineBreak/>
+                <Run Text="Tracer rapid-fires both of her pistols."/>
+                <LineBreak/>
+                <Run/>
+                <LineBreak/>
+                <Run Text="Blink:"/>
+                <LineBreak/>
+                <Run Text="Tracer zips horizontally through space in the direction she's moving, and reappears several yards away. She stores up to three charges of the blink ability and generates more every few seconds."/>
+                <LineBreak/>
+                <Run Text=""/>
+                <LineBreak/>
+                <Run Text="Recall:"/>
+                <LineBreak/>
+                <Run Text="Tracer bounds backward in time, returning her health, ammo and position on the map to precisely where they were a few seconds before."/>
+                <LineBreak/>
+                <Run Text=""/>
+                <LineBreak/>
+                <Run Text="Ultimate Ability: Pulse Bomb:"/>
+                <LineBreak/>
+                <Run Text="Tracer lobs a large bomb that adheres to any surface or unfortunate opponent it lands on. After a brief delay, the bomb explodes, dealing high damage to all enemies within its blast radius."/>
+                <LineBreak/>
+                <Run/>
+                <LineBreak/>
+                <Run/>
+                <LineBreak/>
+                <Run/>
             </TextBlock>
         </ScrollViewer>
+        <Image x:Name="image_Copy" Grid.ColumnSpan="2" HorizontalAlignment="Left" Source="/assets/gifs/tracer.gif" Height="100" Margin="99.333,522,0,0" VerticalAlignment="Top" Width="160" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
+            <Image.RenderTransform>
+                <CompositeTransform SkewX="0.374" TranslateX="0.327"/>
+            </Image.RenderTransform>
+        </Image>
     </Grid>
 </Page>
