@@ -238,12 +238,46 @@ namespace MA2
 
         private void Mercy_Click(object sender, RoutedEventArgs e)
         {
-            Mrc.Play();
+            Mercycount++;
+
+            if (Mercycount == 1)
+            {
+                Mrc.Play();
+            }
+            else if (Mercycount == 2)
+            {
+                Mrc2.Play();
+            }
+            else if (Mercycount == 3)
+            {
+                Mrc3.Play();
+            }
+            else if (Mercycount > 3)
+            {
+                Mercycount = 0;
+            }
         }
 
         private void Mcgree_Click(object sender, RoutedEventArgs e)
         {
-            Mc.Play();
+            McCreecount++;
+
+            if (McCreecount == 1)
+            {
+                Mc.Play();
+            }
+            else if (McCreecount == 2)
+            {
+                Mc2.Play();
+            }
+            else if (McCreecount == 3)
+            {
+                Mc3.Play();
+            }
+            else if (McCreecount > 3)
+            {
+                McCreecount = 0;
+            }
         }
 
         private void JR_Click(object sender, RoutedEventArgs e)
