@@ -304,7 +304,24 @@ namespace MA2
 
         private void Mai_Click(object sender, RoutedEventArgs e)
         {
-            Me.Play();
+            Meicount++;
+
+            if (Meicount == 1)
+            {
+                Me.Play();
+            }
+            else if (Meicount == 2)
+            {
+                Me2.Play();
+            }
+            else if (Meicount == 3)
+            {
+                Me3.Play();
+            }
+            else if (Meicount > 3)
+            {
+                Meicount = 0;
+            }
         }
 
         private void Reaper_Click(object sender, RoutedEventArgs e)
