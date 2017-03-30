@@ -326,7 +326,24 @@ namespace MA2
 
         private void Reaper_Click(object sender, RoutedEventArgs e)
         {
-            R.Play();
+            Reapercount++;
+
+            if (Reapercount == 1)
+            {
+                R.Play();
+            }
+            else if (Reapercount == 2)
+            {
+                R2.Play();
+            }
+            else if (Reapercount == 3)
+            {
+                R3.Play();
+            }
+            else if (Reapercount > 3)
+            {
+                Reapercount = 0;
+            }
         }
 
         private void Genji_Click(object sender, RoutedEventArgs e)
