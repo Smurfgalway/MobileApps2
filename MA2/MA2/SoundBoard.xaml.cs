@@ -194,7 +194,24 @@ namespace MA2
 
         private void DVA_Click(object sender, RoutedEventArgs e)
         {
-            D.Play();
+            Dvacount++;
+
+            if (Dvacount == 1)
+            {
+                D.Play();
+            }
+            else if (Dvacount == 2)
+            {
+                D2.Play();
+            }
+            else if (Dvacount == 3)
+            {
+                D3.Play();
+            }
+            else if (Dvacount > 3)
+            {
+                Dvacount = 0;
+            }
         }
 
         private void Hanzo_Click(object sender, RoutedEventArgs e)

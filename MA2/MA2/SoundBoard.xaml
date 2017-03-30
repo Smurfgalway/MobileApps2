@@ -128,6 +128,9 @@
         <MediaElement x:Name="A" AutoPlay="False" Source="Assets/Sounds/Ana.mp3" Margin="301,232,338,127" />
         <MediaElement x:Name="B" AutoPlay="False" Source="Assets/Sounds/Bastion.mp3" Margin="301,232,338,127" />
         <MediaElement x:Name="D" AutoPlay="False" Source="Assets/Sounds/D.Va.mp3" Margin="301,232,338,127" />
+        <MediaElement x:Name="D2" AutoPlay="False" Source="Assets/Sounds/D.Va2.mp3" Margin="301,232,338,127" />
+        <MediaElement x:Name="D3" AutoPlay="False" Source="Assets/Sounds/D.Va3.mp3" Margin="301,232,338,127" />
+
         <MediaElement x:Name="G" AutoPlay="False" Source="Assets/Sounds/Genj.mp3" Margin="301,232,338,127" />
         <MediaElement x:Name="H" AutoPlay="False" Source="Assets/Sounds/Hanzo.mp3" Margin="301,232,338,127" />
         <MediaElement x:Name="J" AutoPlay="False" Source="Assets/Sounds/Junkrat.mp3" Margin="301,232,338,127" />
@@ -159,6 +162,9 @@
         <MediaElement x:Name="T3" AutoPlay="False" Source="Assets/Sounds/T3.mp3" Margin="301,232,338,127" />
         
         <MediaElement x:Name="Wid" AutoPlay="False" Source="Assets/Sounds/Widow.mp3" Margin="301,232,338,127" />
+        <MediaElement x:Name="Wid2" AutoPlay="False" Source="Assets/Sounds/Widow2.mp3" Margin="301,232,338,127" />
+        <MediaElement x:Name="Wid3" AutoPlay="False" Source="Assets/Sounds/Widow3.mp3" Margin="301,232,338,127" />
+
         <MediaElement x:Name="Win" AutoPlay="False" Source="Assets/Sounds/Winston.mp3" Margin="301,232,338,127" />
         <MediaElement x:Name="Za" AutoPlay="False" Source="Assets/Sounds/Zayra.mp3" Margin="301,232,338,127" />
         <MediaElement x:Name="Ze" AutoPlay="False" Source="Assets/Sounds/Zenyatta.mp3" Margin="301,232,338,127" />
