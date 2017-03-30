@@ -22,7 +22,30 @@ namespace MA2
     /// </summary>
     public sealed partial class SoundBoard : Page
     {
-        private int count = 0;
+        private int Tracercount = 0;
+        private int Anacount = 0;
+        private int Bastioncount = 0;
+        private int Dvacount = 0;
+        private int Hanzocount = 0;
+        private int Junkratcount = 0;
+        private int Luciocount = 0;
+        private int McCreecount = 0;
+        private int Meicount = 0;
+        private int Mercycount = 0;
+        private int Orisacount = 0;
+        private int Genjicount = 0;
+        private int Pharahcount = 0;
+        private int Roadhogcount = 0;
+        private int Reinhardtcount = 0;
+        private int Reapercount = 0;
+        private int Soldiercount = 0;
+        private int Sombracount = 0;
+        private int Symmetracount = 0;
+        private int Torbjorncount = 0;
+        private int Widowmakercount = 0;
+        private int Winstoncount = 0;
+        private int Zenyattacount = 0;
+
         public SoundBoard()
         {
             this.InitializeComponent();
@@ -37,29 +60,47 @@ namespace MA2
 
         private void Tracer_Click(object sender, RoutedEventArgs e)
         {
-            count++;
+            Tracercount++;
 
-            if (count == 1)
+            if (Tracercount == 1)
             {
                 Tr.Play();
             }
-            else if (count == 2)
+            else if (Tracercount == 2)
             {
                 T2.Play();
             }
-            else if (count == 3)
+            else if (Tracercount == 3)
             {
                 T3.Play();
             }
-            else if (count > 3)
+            else if (Tracercount > 3)
             {
-                count = 0;
+                Tracercount = 0;
             }
         }
 
         private void Reinhart_Click(object sender, RoutedEventArgs e)
         {
-            Re.Play();
+            Reinhardtcount++;
+
+            if (Reinhardtcount == 1)
+            {
+              Re.Play();
+            }
+            else if (Reinhardtcount == 2)
+            {
+                T2.Play();
+            }
+            else if (Reinhardtcount == 3)
+            {
+                T3.Play();
+            }
+            else if (Reinhardtcount > 3)
+            {
+                Reinhardtcount = 0;
+            }
+            
         }
 
         private void Roadhog_Click(object sender, RoutedEventArgs e)
