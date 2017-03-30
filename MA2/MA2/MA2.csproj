@@ -280,6 +280,8 @@
     <Content Include="Assets\Sounds\Pharah.mp3" />
     <Content Include="Assets\Sounds\Reaper.mp3" />
     <Content Include="Assets\Sounds\Reinhardt.mp3" />
+    <Content Include="Assets\Sounds\Reinhardt2.mp3" />
+    <Content Include="Assets\Sounds\Reinhardt3.mp3" />
     <Content Include="Assets\Sounds\Roadhog.mp3" />
     <Content Include="Assets\Sounds\S76.mp3" />
     <Content Include="Assets\Sounds\Sombra.mp3" />

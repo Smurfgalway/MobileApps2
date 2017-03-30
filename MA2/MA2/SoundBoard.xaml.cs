@@ -105,7 +105,24 @@ namespace MA2
 
         private void Roadhog_Click(object sender, RoutedEventArgs e)
         {
-            Ro.Play();
+            Roadhogcount++;
+
+            if (Roadhogcount == 1)
+            {
+                Ro.Play();
+            }
+            else if (Roadhogcount == 2)
+            {
+                Ro2.Play();
+            }
+            else if (Roadhogcount == 3)
+            {
+                Ro3.Play();
+            }
+            else if (Roadhogcount > 3)
+            {
+                Roadhogcount = 0;
+            }
         }
 
         private void Pharah_Click(object sender, RoutedEventArgs e)

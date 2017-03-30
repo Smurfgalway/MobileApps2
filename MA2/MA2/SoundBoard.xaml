@@ -142,6 +142,9 @@
         <MediaElement x:Name="Re3" AutoPlay="False" Source="Assets/Sounds/Reinhardt3.mp3" Margin="301,232,338,127" />
 
         <MediaElement x:Name="Ro" AutoPlay="False" Source="Assets/Sounds/Roadhog.mp3" Margin="301,232,338,127" />
+        <MediaElement x:Name="Ro2" AutoPlay="False" Source="Assets/Sounds/Roadhog2.mp3" Margin="301,232,338,127" />
+        <MediaElement x:Name="Ro3" AutoPlay="False" Source="Assets/Sounds/Roadhog3.mp3" Margin="301,232,338,127" />
+
         <MediaElement x:Name="S76" AutoPlay="False" Source="Assets/Sounds/S76.mp3" Margin="301,232,338,127" />
         <MediaElement x:Name="Som" AutoPlay="False" Source="Assets/Sounds/Sombra.mp3" Margin="301,232,338,127" />
         <MediaElement x:Name="Sym" AutoPlay="False" Source="Assets/Sounds/Symmetra.mp3" Margin="301,232,338,127" />
