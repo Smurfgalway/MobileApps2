@@ -282,7 +282,24 @@ namespace MA2
 
         private void JR_Click(object sender, RoutedEventArgs e)
         {
-            J.Play();
+            Junkratcount++;
+
+            if (Junkratcount == 1)
+            {
+                J.Play();
+            }
+            else if (Junkratcount == 2)
+            {
+                J2.Play();
+            }
+            else if (Junkratcount == 3)
+            {
+                J3.Play();
+            }
+            else if (Junkratcount > 3)
+            {
+                Junkratcount = 0;
+            }
         }
 
         private void Mai_Click(object sender, RoutedEventArgs e)
