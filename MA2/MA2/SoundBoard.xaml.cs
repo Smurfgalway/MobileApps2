@@ -90,11 +90,11 @@ namespace MA2
             }
             else if (Reinhardtcount == 2)
             {
-                T2.Play();
+                Re2.Play();
             }
             else if (Reinhardtcount == 3)
             {
-                T3.Play();
+                Re3.Play();
             }
             else if (Reinhardtcount > 3)
             {

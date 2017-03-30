@@ -122,6 +122,9 @@
             </Button.RenderTransform>
         </Button>
         <MediaElement x:Name="L" AutoPlay="False" Source="Assets/Sounds/Lúcio.mp3" Margin="301,232,338,127" />
+        <MediaElement x:Name="L2" AutoPlay="False" Source="Assets/Sounds/Lúcio2.mp3" Margin="301,232,338,127" />
+        <MediaElement x:Name="L3" AutoPlay="False" Source="Assets/Sounds/Lúcio3.mp3" Margin="301,232,338,127" />
+
         <MediaElement x:Name="A" AutoPlay="False" Source="Assets/Sounds/Ana.mp3" Margin="301,232,338,127" />
         <MediaElement x:Name="B" AutoPlay="False" Source="Assets/Sounds/Bastion.mp3" Margin="301,232,338,127" />
         <MediaElement x:Name="D" AutoPlay="False" Source="Assets/Sounds/D.Va.mp3" Margin="301,232,338,127" />
@@ -133,7 +136,11 @@
         <MediaElement x:Name="Mrc" AutoPlay="False" Source="Assets/Sounds/Mercy.mp3" Margin="301,232,338,127" />
         <MediaElement x:Name="P" AutoPlay="False" Source="Assets/Sounds/Pharah.mp3" Margin="301,232,338,127" />
         <MediaElement x:Name="R" AutoPlay="False" Source="Assets/Sounds/Reaper.mp3" Margin="301,232,338,127" />
+        
         <MediaElement x:Name="Re" AutoPlay="False" Source="Assets/Sounds/Reinhardt.mp3" Margin="301,232,338,127" />
+        <MediaElement x:Name="Re2" AutoPlay="False" Source="Assets/Sounds/Reinhardt2.mp3" Margin="301,232,338,127" />
+        <MediaElement x:Name="Re3" AutoPlay="False" Source="Assets/Sounds/Reinhardt3.mp3" Margin="301,232,338,127" />
+
         <MediaElement x:Name="Ro" AutoPlay="False" Source="Assets/Sounds/Roadhog.mp3" Margin="301,232,338,127" />
         <MediaElement x:Name="S76" AutoPlay="False" Source="Assets/Sounds/S76.mp3" Margin="301,232,338,127" />
         <MediaElement x:Name="Som" AutoPlay="False" Source="Assets/Sounds/Sombra.mp3" Margin="301,232,338,127" />
