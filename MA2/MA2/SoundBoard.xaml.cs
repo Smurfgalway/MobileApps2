@@ -35,6 +35,10 @@ namespace MA2
 
         private void Tracer_Click(object sender, RoutedEventArgs e)
         {
+            int count = 0;
+            
+
+
             Tr.Play();
         }
 
