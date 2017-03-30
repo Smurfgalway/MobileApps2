@@ -134,7 +134,11 @@
         <MediaElement x:Name="Mc" AutoPlay="False" Source="Assets/Sounds/McCree.mp3" Margin="301,232,338,127" />
         <MediaElement x:Name="Me" AutoPlay="False" Source="Assets/Sounds/Mei.mp3" Margin="301,232,338,127" />
         <MediaElement x:Name="Mrc" AutoPlay="False" Source="Assets/Sounds/Mercy.mp3" Margin="301,232,338,127" />
+        
         <MediaElement x:Name="P" AutoPlay="False" Source="Assets/Sounds/Pharah.mp3" Margin="301,232,338,127" />
+        <MediaElement x:Name="P2" AutoPlay="False" Source="Assets/Sounds/Pharah2.mp3" Margin="301,232,338,127" />
+        <MediaElement x:Name="P3" AutoPlay="False" Source="Assets/Sounds/Pharah3.mp3" Margin="301,232,338,127" />
+
         <MediaElement x:Name="R" AutoPlay="False" Source="Assets/Sounds/Reaper.mp3" Margin="301,232,338,127" />
         
         <MediaElement x:Name="Re" AutoPlay="False" Source="Assets/Sounds/Reinhardt.mp3" Margin="301,232,338,127" />

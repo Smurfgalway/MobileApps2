@@ -127,7 +127,24 @@ namespace MA2
 
         private void Pharah_Click(object sender, RoutedEventArgs e)
         {
-            P.Play();
+            Pharahcount++;
+
+            if (Pharahcount == 1)
+            {
+                P.Play();
+            }
+            else if (Pharahcount == 2)
+            {
+                P2.Play();
+            }
+            else if (Pharahcount == 3)
+            {
+                P3.Play();
+            }
+            else if (Pharahcount > 3)
+            {
+                Pharahcount = 0;
+            }
         }
 
         private void Lucio_Click(object sender, RoutedEventArgs e)
