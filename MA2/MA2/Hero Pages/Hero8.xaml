@@ -81,5 +81,10 @@
                 <Run Text="After overheating his personal forge, Torbjörn gains a significant amount of armor. He also attacks (and builds and repairs turrets) far faster than normal."/>
             </TextBlock>
         </ScrollViewer>
+        <Image x:Name="image_Copy" Grid.ColumnSpan="2" HorizontalAlignment="Left" Source="/assets/gifs/torb.gif" Height="100" Margin="99.333,522,0,0" VerticalAlignment="Top" Width="160" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
+            <Image.RenderTransform>
+                <CompositeTransform SkewX="0.374" TranslateX="0.327"/>
+            </Image.RenderTransform>
+        </Image>
     </Grid>
 </Page>
