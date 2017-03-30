@@ -190,7 +190,22 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assets\br.jpg" />
+    <Content Include="Assets\gifs\ana.gif" />
     <Content Include="Assets\gifs\bas.gif" />
+    <Content Include="Assets\gifs\Lucio.gif" />
+    <Content Include="Assets\gifs\mccree.gif" />
+    <Content Include="Assets\gifs\mei.gif" />
+    <Content Include="Assets\gifs\mercy.gif" />
+    <Content Include="Assets\gifs\pharah.gif" />
+    <Content Include="Assets\gifs\reap.gif" />
+    <Content Include="Assets\gifs\rein.gif" />
+    <Content Include="Assets\gifs\som.gif" />
+    <Content Include="Assets\gifs\sym.gif" />
+    <Content Include="Assets\gifs\tracer.gif" />
+    <Content Include="Assets\gifs\wid.gif" />
+    <Content Include="Assets\gifs\win.gif" />
+    <Content Include="Assets\gifs\za.gif" />
+    <Content Include="Assets\gifs\zen.gif" />
     <Content Include="Assets\HI\Ana.png" />
     <Content Include="Assets\HI\Bas.png" />
     <Content Include="Assets\HI\D.va.png" />
