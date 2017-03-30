@@ -216,7 +216,24 @@ namespace MA2
 
         private void Hanzo_Click(object sender, RoutedEventArgs e)
         {
-            H.Play();
+            Hanzocount++;
+
+            if (Hanzocount == 1)
+            {
+                H.Play();
+            }
+            else if (Hanzocount == 2)
+            {
+                H2.Play();
+            }
+            else if (Hanzocount == 3)
+            {
+                H3.Play();
+            }
+            else if (Hanzocount > 3)
+            {
+                Hanzocount = 0;
+            }
         }
 
         private void Mercy_Click(object sender, RoutedEventArgs e)

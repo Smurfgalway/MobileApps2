@@ -126,24 +126,58 @@
         <MediaElement x:Name="L3" AutoPlay="False" Source="Assets/Sounds/Lúcio3.mp3" Margin="301,232,338,127" />
 
         <MediaElement x:Name="A" AutoPlay="False" Source="Assets/Sounds/Ana.mp3" Margin="301,232,338,127" />
+        <MediaElement x:Name="A2" AutoPlay="False" Source="Assets/Sounds/Ana2.mp3" Margin="301,232,338,127" />
+        <MediaElement x:Name="A3" AutoPlay="False" Source="Assets/Sounds/Ana3.mp3" Margin="301,232,338,127" />
+
         <MediaElement x:Name="B" AutoPlay="False" Source="Assets/Sounds/Bastion.mp3" Margin="301,232,338,127" />
+        <MediaElement x:Name="B2" AutoPlay="False" Source="Assets/Sounds/Bastion2.mp3" Margin="301,232,338,127" />
+        <MediaElement x:Name="B3" AutoPlay="False" Source="Assets/Sounds/Bastion3.mp3" Margin="301,232,338,127" />
+
+
         <MediaElement x:Name="D" AutoPlay="False" Source="Assets/Sounds/D.Va.mp3" Margin="301,232,338,127" />
         <MediaElement x:Name="D2" AutoPlay="False" Source="Assets/Sounds/D.Va2.mp3" Margin="301,232,338,127" />
         <MediaElement x:Name="D3" AutoPlay="False" Source="Assets/Sounds/D.Va3.mp3" Margin="301,232,338,127" />
 
         <MediaElement x:Name="G" AutoPlay="False" Source="Assets/Sounds/Genj.mp3" Margin="301,232,338,127" />
+        <MediaElement x:Name="G2" AutoPlay="False" Source="Assets/Sounds/Genj2.mp3" Margin="301,232,338,127" />
+        <MediaElement x:Name="G3" AutoPlay="False" Source="Assets/Sounds/Genj3.mp3" Margin="301,232,338,127" />
+
+
         <MediaElement x:Name="H" AutoPlay="False" Source="Assets/Sounds/Hanzo.mp3" Margin="301,232,338,127" />
+        <MediaElement x:Name="H2" AutoPlay="False" Source="Assets/Sounds/Hanzo2.mp3" Margin="301,232,338,127" />
+        <MediaElement x:Name="H3" AutoPlay="False" Source="Assets/Sounds/Hanzo3.mp3" Margin="301,232,338,127" />
+
+
         <MediaElement x:Name="J" AutoPlay="False" Source="Assets/Sounds/Junkrat.mp3" Margin="301,232,338,127" />
+        <MediaElement x:Name="J2" AutoPlay="False" Source="Assets/Sounds/Junkrat2.mp3" Margin="301,232,338,127" />
+        <MediaElement x:Name="J3" AutoPlay="False" Source="Assets/Sounds/Junkrat3.mp3" Margin="301,232,338,127" />
+
+
         <MediaElement x:Name="Mc" AutoPlay="False" Source="Assets/Sounds/McCree.mp3" Margin="301,232,338,127" />
+        <MediaElement x:Name="Mc2" AutoPlay="False" Source="Assets/Sounds/McCree2.mp3" Margin="301,232,338,127" />
+        <MediaElement x:Name="Mc3" AutoPlay="False" Source="Assets/Sounds/McCree3.mp3" Margin="301,232,338,127" />
+
+
         <MediaElement x:Name="Me" AutoPlay="False" Source="Assets/Sounds/Mei.mp3" Margin="301,232,338,127" />
+        <MediaElement x:Name="Me2" AutoPlay="False" Source="Assets/Sounds/Mei2.mp3" Margin="301,232,338,127" />
+        <MediaElement x:Name="Me3" AutoPlay="False" Source="Assets/Sounds/Mei3.mp3" Margin="301,232,338,127" />
+
+
+
         <MediaElement x:Name="Mrc" AutoPlay="False" Source="Assets/Sounds/Mercy.mp3" Margin="301,232,338,127" />
-        
+        <MediaElement x:Name="Mrc2" AutoPlay="False" Source="Assets/Sounds/Mercy2.mp3" Margin="301,232,338,127" />
+        <MediaElement x:Name="Mrc3" AutoPlay="False" Source="Assets/Sounds/Mercy3.mp3" Margin="301,232,338,127" />
+
+
         <MediaElement x:Name="P" AutoPlay="False" Source="Assets/Sounds/Pharah.mp3" Margin="301,232,338,127" />
         <MediaElement x:Name="P2" AutoPlay="False" Source="Assets/Sounds/Pharah2.mp3" Margin="301,232,338,127" />
         <MediaElement x:Name="P3" AutoPlay="False" Source="Assets/Sounds/Pharah3.mp3" Margin="301,232,338,127" />
 
         <MediaElement x:Name="R" AutoPlay="False" Source="Assets/Sounds/Reaper.mp3" Margin="301,232,338,127" />
-        
+        <MediaElement x:Name="R2" AutoPlay="False" Source="Assets/Sounds/Reaper2.mp3" Margin="301,232,338,127" />
+        <MediaElement x:Name="R3" AutoPlay="False" Source="Assets/Sounds/Reaper3.mp3" Margin="301,232,338,127" />
+
+
         <MediaElement x:Name="Re" AutoPlay="False" Source="Assets/Sounds/Reinhardt.mp3" Margin="301,232,338,127" />
         <MediaElement x:Name="Re2" AutoPlay="False" Source="Assets/Sounds/Reinhardt2.mp3" Margin="301,232,338,127" />
         <MediaElement x:Name="Re3" AutoPlay="False" Source="Assets/Sounds/Reinhardt3.mp3" Margin="301,232,338,127" />
@@ -166,9 +200,21 @@
         <MediaElement x:Name="Wid3" AutoPlay="False" Source="Assets/Sounds/Widow3.mp3" Margin="301,232,338,127" />
 
         <MediaElement x:Name="Win" AutoPlay="False" Source="Assets/Sounds/Winston.mp3" Margin="301,232,338,127" />
+        <MediaElement x:Name="Win2" AutoPlay="False" Source="Assets/Sounds/Winston2.mp3" Margin="301,232,338,127" />
+        <MediaElement x:Name="Win3" AutoPlay="False" Source="Assets/Sounds/Winston3.mp3" Margin="301,232,338,127" />
+
+
         <MediaElement x:Name="Za" AutoPlay="False" Source="Assets/Sounds/Zayra.mp3" Margin="301,232,338,127" />
+        <MediaElement x:Name="Za2" AutoPlay="False" Source="Assets/Sounds/Zayra2.mp3" Margin="301,232,338,127" />
+        <MediaElement x:Name="Za3" AutoPlay="False" Source="Assets/Sounds/Zayra3.mp3" Margin="301,232,338,127" />
+
+
         <MediaElement x:Name="Ze" AutoPlay="False" Source="Assets/Sounds/Zenyatta.mp3" Margin="301,232,338,127" />
+        <MediaElement x:Name="Ze2" AutoPlay="False" Source="Assets/Sounds/Zenyatta2.mp3" Margin="301,232,338,127" />
+        <MediaElement x:Name="Ze3" AutoPlay="False" Source="Assets/Sounds/Zenyatta3.mp3" Margin="301,232,338,127" />
+
         <MediaElement x:Name="Or" AutoPlay="False" Source="Assets/Sounds/orisa.mp3" Margin="301,232,338,127" />
+
 
 
         <Button x:Name="Zenyatta" Content="Zenyatta" HorizontalAlignment="Left" Background=" white" Foreground="Gray" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Margin="429.333,70.667,0,0" Height="41.95" Width="105.225" Click="Zenyatta_Click">
