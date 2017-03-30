@@ -77,5 +77,10 @@
                 <Run/>
             </TextBlock>
         </ScrollViewer>
+        <Image x:Name="image_Copy" Grid.ColumnSpan="2" HorizontalAlignment="Left" Source="/assets/gifs/soldier.gif" Height="100" Margin="99.333,522,0,0" VerticalAlignment="Top" Width="160" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
+            <Image.RenderTransform>
+                <CompositeTransform SkewX="0.374" TranslateX="0.327"/>
+            </Image.RenderTransform>
+        </Image>
     </Grid>
 </Page>
