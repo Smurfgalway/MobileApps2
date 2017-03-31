@@ -218,7 +218,7 @@
 
 
         <MediaElement x:Name="Za" AutoPlay="False" Source="Assets/Sounds/Zarya.mp3" Margin="301,232,338,127" />
-        <MediaElement x:Name="Za2" AutoPlay="False" Source="Assets/Sounds/Zayyra2.mp3" Margin="301,232,338,127" />
+        <MediaElement x:Name="Za2" AutoPlay="False" Source="Assets/Sounds/Zarya2.mp3" Margin="301,232,338,127" />
         <MediaElement x:Name="Za3" AutoPlay="False" Source="Assets/Sounds/Zarya3.mp3" Margin="301,232,338,127" />
 
 
