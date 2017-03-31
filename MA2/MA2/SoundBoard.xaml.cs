@@ -460,7 +460,24 @@ namespace MA2
 
         private void Bastion_Click(object sender, RoutedEventArgs e)
         {
-            B.Play();
+            Bastioncount++;
+
+            if (Bastioncount == 1)
+            {
+                B.Play();
+            }
+            else if (Bastioncount == 2)
+            {
+                B2.Play();
+            }
+            else if (Bastioncount == 3)
+            {
+                B3.Play();
+            }
+            else if (Bastioncount > 3)
+            {
+                Bastioncount = 0;
+            }
         }
 
         private void Zayra_Click(object sender, RoutedEventArgs e)
