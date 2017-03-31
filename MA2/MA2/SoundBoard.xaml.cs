@@ -348,7 +348,25 @@ namespace MA2
 
         private void Genji_Click(object sender, RoutedEventArgs e)
         {
-            G.Play();
+            Genjicount++;
+
+            if (Genjicount == 1)
+            {
+                G.Play();
+            }
+            else if (Genjicount == 2)
+            {
+                G2.Play();
+            }
+            else if (Genjicount == 3)
+            {
+                G3.Play();
+            }
+            else if (Genjicount > 3)
+            {
+                Reapercount = 0;
+            }
+           
         }
 
         private void Soldier_Click(object sender, RoutedEventArgs e)

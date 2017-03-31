@@ -139,8 +139,8 @@
         <MediaElement x:Name="D3" AutoPlay="False" Source="Assets/Sounds/D.Va3.mp3" Margin="301,232,338,127" />
 
         <MediaElement x:Name="G" AutoPlay="False" Source="Assets/Sounds/Genj.mp3" Margin="301,232,338,127" />
-        <MediaElement x:Name="G2" AutoPlay="False" Source="Assets/Sounds/Genj2.mp3" Margin="301,232,338,127" />
-        <MediaElement x:Name="G3" AutoPlay="False" Source="Assets/Sounds/Genj3.mp3" Margin="301,232,338,127" />
+        <MediaElement x:Name="G2" AutoPlay="False" Source="Assets/Sounds/Genji2.mp3" Margin="301,232,338,127" />
+        <MediaElement x:Name="G3" AutoPlay="False" Source="Assets/Sounds/Genji3.mp3" Margin="301,232,338,127" />
 
 
         <MediaElement x:Name="H" AutoPlay="False" Source="Assets/Sounds/Hanzo.mp3" Margin="301,232,338,127" />
