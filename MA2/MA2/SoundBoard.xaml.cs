@@ -416,7 +416,24 @@ namespace MA2
 
         private void Ana_Click(object sender, RoutedEventArgs e)
         {
-            A.Play();
+            Anacount++;
+
+            if (Anacount == 1)
+            {
+                A.Play();
+            }
+            else if (Anacount == 2)
+            {
+                A2.Play();
+            }
+            else if (Anacount == 3)
+            {
+                A3.Play();
+            }
+            else if (Anacount > 3)
+            {
+                Anacount = 0;
+            }
         }
 
         private void Symmetra_Click(object sender, RoutedEventArgs e)
