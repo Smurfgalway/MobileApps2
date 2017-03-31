@@ -45,6 +45,7 @@ namespace MA2
         private int Widowmakercount = 0;
         private int Winstoncount = 0;
         private int Zenyattacount = 0;
+        private int Zaryacount = 0;
 
         public SoundBoard()
         {
@@ -482,12 +483,47 @@ namespace MA2
 
         private void Zayra_Click(object sender, RoutedEventArgs e)
         {
-            Za.Play();
+
+           Zaryacount++;
+
+            if (Zaryacount == 1)
+            {
+                Za.Play();
+            }
+            else if (Zaryacount == 2)
+            {
+                Za2.Play();
+            }
+            else if (Zaryacount == 3)
+            {
+                Za3.Play();
+            }
+            else if (Zaryacount > 3)
+            {
+                Zaryacount = 0;
+            }
         }
 
         private void Sombra_Click(object sender, RoutedEventArgs e)
         {
-            Som.Play();
+            Sombracount++;
+
+            if (Sombracount == 1)
+            {
+                Som.Play();
+            }
+            else if (Sombracount == 2)
+            {
+                Som2.Play();
+            }
+            else if (Sombracount == 3)
+            {
+                Som3.Play();
+            }
+            else if (Sombracount > 3)
+            {
+                Sombracount = 0;
+            }
         }
 
         private void Zenyatta_Click(object sender, RoutedEventArgs e)

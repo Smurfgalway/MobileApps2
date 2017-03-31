@@ -217,9 +217,9 @@
         <MediaElement x:Name="Win3" AutoPlay="False" Source="Assets/Sounds/Winston3.mp3" Margin="301,232,338,127" />
 
 
-        <MediaElement x:Name="Za" AutoPlay="False" Source="Assets/Sounds/Zayra.mp3" Margin="301,232,338,127" />
-        <MediaElement x:Name="Za2" AutoPlay="False" Source="Assets/Sounds/Zayra2.mp3" Margin="301,232,338,127" />
-        <MediaElement x:Name="Za3" AutoPlay="False" Source="Assets/Sounds/Zayra3.mp3" Margin="301,232,338,127" />
+        <MediaElement x:Name="Za" AutoPlay="False" Source="Assets/Sounds/Zarya.mp3" Margin="301,232,338,127" />
+        <MediaElement x:Name="Za2" AutoPlay="False" Source="Assets/Sounds/Zayyra2.mp3" Margin="301,232,338,127" />
+        <MediaElement x:Name="Za3" AutoPlay="False" Source="Assets/Sounds/Zarya3.mp3" Margin="301,232,338,127" />
 
 
         <MediaElement x:Name="Ze" AutoPlay="False" Source="Assets/Sounds/Zenyatta.mp3" Margin="301,232,338,127" />
