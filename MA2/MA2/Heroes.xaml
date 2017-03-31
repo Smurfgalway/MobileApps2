@@ -11,7 +11,7 @@
         <Grid.Background>
             <ImageBrush ImageSource="/assets/gallery.jpg"></ImageBrush>
         </Grid.Background>
-        <Button x:Name="Home" Content="Home" FontSize="30" FontWeight="ExtraBold" Foreground="Gray" Background="Transparent"  HorizontalAlignment="Left" Margin="6,37,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.177,-4.329" Click="button_Click"/>
+        <Button x:Name="Home" Content="Home" FontSize="30" FontWeight="ExtraBold" Foreground="Gray" Background="Transparent"  HorizontalAlignment="Left" Margin="266,7,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.177,-4.329" Click="button_Click"/>
         <Button x:Name="Bastion"  HorizontalAlignment="Left" Margin="48.672,94.088,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Click="Bastion_Click" Height="67.156" Width="48.985">
             <Button.Background>
                 <ImageBrush ImageSource="/assets/Icons/bas.png"></ImageBrush>

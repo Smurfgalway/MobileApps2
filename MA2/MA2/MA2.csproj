@@ -269,6 +269,8 @@
     <Content Include="Assets\Sounds\Ana2.mp3" />
     <Content Include="Assets\Sounds\Ana3.mp3" />
     <Content Include="Assets\Sounds\Bastion.mp3" />
+    <Content Include="Assets\Sounds\Bastion2.mp3" />
+    <Content Include="Assets\Sounds\Bastion3.mp3" />
     <Content Include="Assets\Sounds\D.Va.mp3" />
     <Content Include="Assets\Sounds\D.Va2.mp3" />
     <Content Include="Assets\Sounds\D.Va3.mp3" />
@@ -308,10 +310,14 @@
     <Content Include="Assets\Sounds\Roadhog2.mp3" />
     <Content Include="Assets\Sounds\Roadhog3.mp3" />
     <Content Include="Assets\Sounds\S76.mp3" />
+    <Content Include="Assets\Sounds\S762.mp3" />
+    <Content Include="Assets\Sounds\S763.mp3" />
     <Content Include="Assets\Sounds\Sombra.mp3" />
     <Content Include="Assets\Sounds\Sombra2.mp3" />
     <Content Include="Assets\Sounds\Sombra3.mp3" />
     <Content Include="Assets\Sounds\Symmetra.mp3" />
+    <Content Include="Assets\Sounds\Symmetra2.mp3" />
+    <Content Include="Assets\Sounds\Symmetra3.mp3" />
     <Content Include="Assets\Sounds\T2.mp3" />
     <Content Include="Assets\Sounds\T3.mp3" />
     <Content Include="Assets\Sounds\Torbjörn.mp3" />
