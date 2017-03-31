@@ -364,14 +364,31 @@ namespace MA2
             }
             else if (Genjicount > 3)
             {
-                Reapercount = 0;
+                Genjicount = 0;
             }
            
         }
 
         private void Soldier_Click(object sender, RoutedEventArgs e)
         {
-            S76.Play();
+            Soldiercount++;
+
+            if (Soldiercount == 1)
+            {
+                S76.Play();
+            }
+            else if (Soldiercount == 2)
+            {
+                S762.Play();
+            }
+            else if (Soldiercount == 3)
+            {
+                S763.Play();
+            }
+            else if (Soldiercount > 3)
+            {
+                Soldiercount = 0;
+            }
         }
 
         private void Winston_Click(object sender, RoutedEventArgs e)

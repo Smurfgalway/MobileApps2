@@ -187,8 +187,14 @@
         <MediaElement x:Name="Ro3" AutoPlay="False" Source="Assets/Sounds/Roadhog3.mp3" Margin="301,232,338,127" />
 
         <MediaElement x:Name="S76" AutoPlay="False" Source="Assets/Sounds/S76.mp3" Margin="301,232,338,127" />
+        <MediaElement x:Name="S762" AutoPlay="False" Source="Assets/Sounds/S762.mp3" Margin="301,232,338,127" />
+        <MediaElement x:Name="S763" AutoPlay="False" Source="Assets/Sounds/S763.mp3" Margin="301,232,338,127" />
+
+
         <MediaElement x:Name="Som" AutoPlay="False" Source="Assets/Sounds/Sombra.mp3" Margin="301,232,338,127" />
+        
         <MediaElement x:Name="Sym" AutoPlay="False" Source="Assets/Sounds/Symmetra.mp3" Margin="301,232,338,127" />
+        
         <MediaElement x:Name="Tor" AutoPlay="False" Source="Assets/Sounds/Torbjörn.mp3" Margin="301,232,338,127" />
         
         <MediaElement x:Name="Tr" AutoPlay="False" Source="Assets/Sounds/Tracer.mp3" Margin="301,232,338,127" />
