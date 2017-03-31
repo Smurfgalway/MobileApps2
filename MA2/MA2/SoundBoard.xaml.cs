@@ -393,7 +393,25 @@ namespace MA2
 
         private void Winston_Click(object sender, RoutedEventArgs e)
         {
-            Win.Play();
+            Winstoncount++;
+
+            if (Winstoncount == 1)
+            {
+                Win.Play();
+            }
+            else if (Winstoncount == 2)
+            {
+                Win2.Play();
+            }
+            else if (Winstoncount == 3)
+            {
+                Win3.Play();
+            }
+            else if (Winstoncount > 3)
+            {
+                Winstoncount = 0;
+            }
+            
         }
 
         private void Ana_Click(object sender, RoutedEventArgs e)
