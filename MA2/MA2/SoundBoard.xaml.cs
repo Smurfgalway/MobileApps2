@@ -528,12 +528,46 @@ namespace MA2
 
         private void Zenyatta_Click(object sender, RoutedEventArgs e)
         {
-            Ze.Play();
+            Zenyattacount++;
+
+            if (Zenyattacount == 1)
+            {
+                Ze.Play();
+            }
+            else if (Zenyattacount == 2)
+            {
+                Ze2.Play();
+            }
+            else if (Zenyattacount == 3)
+            {
+                Ze3.Play();
+            }
+            else if (Zenyattacount > 3)
+            {
+                Zenyattacount = 0;
+            }
         }
 
         private void Torbjörn_Click(object sender, RoutedEventArgs e)
         {
-            Tor.Play();
+            Torbjorncount++;
+
+            if (Torbjorncount == 1)
+            {
+                Tor.Play();
+            }
+            else if (Torbjorncount == 2)
+            {
+                Tor2.Play();
+            }
+            else if (Torbjorncount == 3)
+            {
+                Tor3.Play();
+            }
+            else if (Torbjorncount > 3)
+            {
+                Torbjorncount = 0;
+            }
         }
 
         private void Orisa_Click(object sender, RoutedEventArgs e)
