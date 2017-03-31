@@ -438,7 +438,24 @@ namespace MA2
 
         private void Symmetra_Click(object sender, RoutedEventArgs e)
         {
-            Sym.Play();
+            Symmetracount++;
+
+            if (Symmetracount == 1)
+            {
+                Sym.Play();
+            }
+            else if (Symmetracount == 2)
+            {
+                Sym2.Play();
+            }
+            else if (Symmetracount == 3)
+            {
+                Sym3.Play();
+            }
+            else if (Symmetracount > 3)
+            {
+                Symmetracount = 0;
+            }
         }
 
         private void Bastion_Click(object sender, RoutedEventArgs e)
