@@ -193,6 +193,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assets\br.jpg" />
+    <Content Include="Assets\fan.jpg" />
     <Content Include="Assets\gifs\ana.gif" />
     <Content Include="Assets\gifs\bas.gif" />
     <Content Include="Assets\gifs\dva.gif" />
@@ -268,6 +269,7 @@
     <Content Include="Assets\Icons\zen.png" />
     <Content Include="Assets\ow.jpg" />
     <Content Include="Assets\sb.jpg" />
+    <Content Include="Assets\screen.png" />
     <Content Include="Assets\Sounds\Ana.mp3" />
     <Content Include="Assets\Sounds\Ana2.mp3" />
     <Content Include="Assets\Sounds\Ana3.mp3" />
