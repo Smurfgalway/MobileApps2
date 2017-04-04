@@ -18,9 +18,13 @@
                 <CompositeTransform Rotation="-0.292"/>
             </Image.RenderTransform>
         </Image>
-        <TextBlock x:Name="textBlock" FontWeight="ExtraBold" FontSize="20" Foreground="Orange" HorizontalAlignment="Center" Height="40" Margin="215,195,200,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="225" SelectionChanged="textBlock_SelectionChanged">
+        <TextBlock x:Name="textBlock" FontWeight="ExtraBold" FontSize="20" Foreground="Orange" HorizontalAlignment="Center" Height="40" Margin="178,200,177,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="285" SelectionChanged="textBlock_SelectionChanged">
             <Run Text="  "/>
             <Run Text="Choose Your Fantasy Team"/>
         </TextBlock>
+        <ScrollViewer HorizontalAlignment="Left" Height="220" Margin="30,10,0,0" VerticalAlignment="Top" Width="100">
+            <Button x:Name="button" Content="Reinhardt" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100"/>
+        </ScrollViewer>
+        <ScrollViewer HorizontalAlignment="Left" Height="220" Margin="515,0,0,0" VerticalAlignment="Top" Width="100"/>
     </Grid>
 </Page>
