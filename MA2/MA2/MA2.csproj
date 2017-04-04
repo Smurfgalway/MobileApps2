@@ -99,6 +99,9 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Fantasy.xaml.cs">
+      <DependentUpon>Fantasy.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Hero Pages\Hero23.xaml.cs">
       <DependentUpon>Hero23.xaml</DependentUpon>
     </Compile>
@@ -351,6 +354,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="Fantasy.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Hero Pages\Hero23.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
