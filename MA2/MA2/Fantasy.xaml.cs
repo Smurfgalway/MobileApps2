@@ -51,6 +51,8 @@ namespace MA2
         private int count20;
         private int count21;
         private int count22;
+        private int count23;
+
         private void button_Click(object sender, RoutedEventArgs e)
         {
             count++;
@@ -179,7 +181,7 @@ namespace MA2
 
         private void Reaper_Click(object sender, RoutedEventArgs e)
         {
-            count++;
+            count9++;
             if (count == 1)
             {
                 heroes1.Text = heroes1.Text + " Reaper";
@@ -193,7 +195,7 @@ namespace MA2
 
         private void Mei_Click(object sender, RoutedEventArgs e)
         {
-            count++;
+            count10++;
             if (count == 1)
             {
                 heroes1.Text = heroes1.Text + " Mei";
@@ -207,7 +209,7 @@ namespace MA2
 
         private void Winston_Click(object sender, RoutedEventArgs e)
         {
-            count++;
+            count11++;
             if (count == 1)
             {
                 heroes1.Text = heroes1.Text + " Winston";
@@ -221,73 +223,162 @@ namespace MA2
 
         private void Sombra_Click(object sender, RoutedEventArgs e)
         {
-            heroes1.Text = heroes1.Text + " Sombra";
+            count12++;
+            if (count == 1)
+            {
+                heroes1.Text = heroes1.Text + " Sombra";
+            }
+            else
+            {
 
+            }
         }
 
         private void Widowmaker_Click(object sender, RoutedEventArgs e)
         {
-            heroes1.Text = heroes1.Text + " Widowmaker";
+            count13++;
+            if (count == 1)
+            {
+                heroes1.Text = heroes1.Text + " Widowmaker";
+            }
+            else
+            {
 
+            }
         }
 
         private void Ana_Click(object sender, RoutedEventArgs e)
         {
-            heroes1.Text = heroes1.Text + " Ana";
+            count14++;
+            if (count == 1)
+            {
+                heroes1.Text = heroes1.Text + " Ana";
+            }
+            else
+            {
 
+            }
         }
 
         private void Tracer_Click(object sender, RoutedEventArgs e)
         {
-            heroes1.Text = heroes1.Text + " Tracer";
+            count15++;
+            if (count == 1)
+            {
+                heroes1.Text = heroes1.Text + " Tracer";
+            }
 
         }
 
         private void D_va_Click(object sender, RoutedEventArgs e)
         {
-            heroes1.Text = heroes1.Text + " D.va";
+            count16++;
+            if (count == 1)
+            {
+                heroes1.Text = heroes1.Text + " D.va";
+            }
+            else
+            {
+
+            }
 
         }
 
         private void lucio_Click(object sender, RoutedEventArgs e)
         {
-            heroes1.Text = heroes1.Text + " lucio";
+            count17++;
+            if (count == 1)
+            {
+                heroes1.Text = heroes1.Text + " lucio";
+            }
+            else
+            {
+                   
+            }
 
         }
 
         private void Soldier_Click(object sender, RoutedEventArgs e)
         {
-            heroes1.Text = heroes1.Text + " Soldier";
+            count18++;
+            if (count == 1)
+            {
+                heroes1.Text = heroes1.Text + " Soldier";
+            }
+            else
+            {
+                   
+            }
 
         }
 
         private void Torbjorn_Click(object sender, RoutedEventArgs e)
         {
-            heroes1.Text = heroes1.Text + " Torbjorn";
+            count19++;
+            if (count == 1)
+            {
+                heroes1.Text = heroes1.Text + " Torbjorn";
+            }
+            else
+            {
+
+            }
 
         }
 
         private void Zayra_Click(object sender, RoutedEventArgs e)
         {
-            heroes1.Text = heroes1.Text + " Zayra";
+            count20++;
+            if (count == 1)
+            {
+                heroes1.Text = heroes1.Text + " Zayra";
+            }
+            else
+            {
+
+            }
 
         }
 
         private void Mercy_Click(object sender, RoutedEventArgs e)
         {
-            heroes1.Text = heroes1.Text + " Mercy";
+            count21++;
+            if (count == 1)
+            {
+                heroes1.Text = heroes1.Text + " Mercy";
+            }
+            else
+            {
+
+            }
 
         }
 
         private void Symmetra_Click(object sender, RoutedEventArgs e)
         {
-            heroes1.Text = heroes1.Text + " Symmetra";
+            count22++;
+            if (count == 1)
+            {
+                heroes1.Text = heroes1.Text + " Symmetra";
+            }
+            else
+            {
+
+            }
 
         }
 
         private void Zenyatta_Click(object sender, RoutedEventArgs e)
         {
-            heroes1.Text = heroes1.Text + " Zenyatta";
+            count23++;
+            if (count == 1)
+            {
+                heroes1.Text = heroes1.Text + " Zenyatta";
+            }
+            else
+            {
+
+            }
 
         }
     }
