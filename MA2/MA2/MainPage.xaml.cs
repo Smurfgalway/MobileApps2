@@ -38,5 +38,11 @@ namespace MA2
             Frame.Navigate(typeof(Heroes), UriKind.Relative);
 
         }
+
+        private void Fantasy_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(Fantasy), UriKind.Relative);
+
+        }
     }
 }

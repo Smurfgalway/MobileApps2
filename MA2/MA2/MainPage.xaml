@@ -11,7 +11,8 @@
         <Grid.Background>
             <ImageBrush ImageSource="/Assets/ow.jpg" Stretch="None" />
         </Grid.Background>
-        <Button x:Name="soundboard" Foreground="Khaki"  FontSize="30" FontWeight="ExtraBold" Content="SoundBoard" HorizontalAlignment="Left" Margin="26,469,0,0" VerticalAlignment="Top" Height="72" Width="312" Background="WhiteSmoke" Click="button_Click" RenderTransformOrigin="0.5,0.5"/>
-        <Button x:Name="heroes" Foreground="Khaki"  FontSize="30" FontWeight="ExtraBold" Content="Heroes" HorizontalAlignment="Left" Margin="31,90,0,0" VerticalAlignment="Top" Height="72" Width="312" Background="WhiteSmoke" Click="heroes_Click" RenderTransformOrigin="0.5,0.5"/>
+        <Button x:Name="soundboard" Foreground="Khaki"  FontSize="30" FontWeight="ExtraBold" Content="SoundBoard" HorizontalAlignment="Left" Margin="8,405,0,0" VerticalAlignment="Top" Height="72" Width="157" Background="WhiteSmoke" Click="button_Click" RenderTransformOrigin="0.5,0.5"/>
+        <Button x:Name="heroes" Foreground="Khaki"  FontSize="30" FontWeight="ExtraBold" Content="Heroes" HorizontalAlignment="Left" Margin="10,135,0,0" VerticalAlignment="Top" Height="72" Width="150" Background="WhiteSmoke" Click="heroes_Click" RenderTransformOrigin="0.5,0.5"/>
+        <Button x:Name="Fantasy" Foreground="Khaki"  FontSize="30" FontWeight="ExtraBold" Content="Fantasy &#xD;&#xA;Team" HorizontalAlignment="Center" Margin="228,140,-10,0" VerticalAlignment="Top" Height="100" Width="142" Background="WhiteSmoke" Click="Fantasy_Click" RenderTransformOrigin="0.5,0.5"/>
     </Grid>
 </Page>
