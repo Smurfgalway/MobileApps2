@@ -57,7 +57,9 @@
         </TextBlock>
         <TextBlock x:Name="textBlock1_Copy" HorizontalAlignment="Center" Foreground="Yellow" Height="30" Margin="482,15,3,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="155" Text="Select your Game Type"/>
         <Grid HorizontalAlignment="Left" Height="145" Margin="511,52,0,0" VerticalAlignment="Top" Width="100"/>
-        <TextBlock x:Name="heroes1" HorizontalAlignment="Center" Margin="225,270,220,0" Foreground="White"  TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="75" Width="195"/>
-        <Button x:Name="Home" Foreground="Bisque" Content="Home" HorizontalAlignment="Left" Margin="518,284,0,0" VerticalAlignment="Top" Height="35" Width="85" Click="Home_Click"/>
+        <TextBlock x:Name="heroes1" HorizontalAlignment="Center" Margin="175,270,180,0" Foreground="White"  TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="75" Width="285"/>
+        <Button x:Name="Home" Foreground="Bisque" Content="Home" HorizontalAlignment="Left" Margin="555,325,0,0" VerticalAlignment="Top" Height="35" Width="85" Click="Home_Click"/>
+        <Button x:Name="Save" Content="Save" HorizontalAlignment="Left" Foreground="YellowGreen" Margin="140,230,0,0" VerticalAlignment="Top" Click="Save_Click"/>
+        <Button x:Name="button1" Content="Load" Foreground="red" HorizontalAlignment="Left" Margin="280,233,0,0" VerticalAlignment="Top" Click="button1_Click"/>
     </Grid>
 </Page>

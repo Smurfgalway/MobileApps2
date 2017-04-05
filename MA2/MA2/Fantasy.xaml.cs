@@ -6,6 +6,7 @@ using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 using Windows.Storage;
+using Windows.Storage.Streams;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
@@ -17,7 +18,7 @@ using Windows.UI.Xaml.Navigation;
 
 namespace MA2
 {
-  
+
 
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
@@ -53,6 +54,7 @@ namespace MA2
         private int count22;
         private int count23;
 
+
         private void button_Click(object sender, RoutedEventArgs e)
         {
             count++;
@@ -60,7 +62,8 @@ namespace MA2
             {
                 heroes1.Text = heroes1.Text + "Genji";
             }
-            else {
+            else
+            {
 
             }
         }
@@ -119,7 +122,7 @@ namespace MA2
             }
             else
             {
-                    
+
             }
         }
 
@@ -293,7 +296,7 @@ namespace MA2
             }
             else
             {
-                   
+
             }
 
         }
@@ -307,7 +310,7 @@ namespace MA2
             }
             else
             {
-                   
+
             }
 
         }
@@ -378,6 +381,38 @@ namespace MA2
             else
             {
 
+            }
+
+        }
+
+        private async void Save_Click(object sender, RoutedEventArgs e)
+        {
+
+            Windows.Storage.StorageFolder storageFolder = Windows.Storage.ApplicationData.Current.LocalFolder;
+            Windows.Storage.StorageFile File = await storageFolder.CreateFileAsync("savedheroes.txt", Windows.Storage.CreationCollisionOption.ReplaceExisting);
+            Windows.Storage.StorageFile savedFile = await storageFolder.GetFileAsync("savedHeroes.txt");
+
+            using (IRandomAccessStream iRandomAccessStream = await savedFile.OpenAsync(FileAccessMode.ReadWrite))
+            {
+                using (DataWriter textWriter = new DataWriter(iRandomAccessStream))
+                {
+                    //Content is the name of my textbox where i write what i want in it
+                    textWriter.WriteString(heroes1.Text);
+                        await textWriter.StoreAsync();
+                }
+            }
+        }
+
+        private async void button1_Click(object sender, RoutedEventArgs e)
+        {
+
+            Windows.Storage.StorageFolder storageFolder = Windows.Storage.ApplicationData.Current.LocalFolder;
+            Windows.Storage.StorageFile savedFile = await storageFolder.GetFileAsync("savedHeroes.txt");
+
+            var stream = await savedFile.OpenAsync(Windows.Storage.FileAccessMode.Read); using
+                        (StreamReader reader = new StreamReader(stream.AsStream()))
+            {
+                heroes1.Text = reader.ReadToEnd();
             }
 
         }
