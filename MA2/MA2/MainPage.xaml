@@ -11,8 +11,12 @@
         <Grid.Background>
             <ImageBrush ImageSource="/Assets/ow.jpg" Stretch="None" />
         </Grid.Background>
-        <Button x:Name="soundboard" Foreground="Khaki"  FontSize="30" FontWeight="ExtraBold" Content="SoundBoard" HorizontalAlignment="Left" Margin="8,405,0,0" VerticalAlignment="Top" Height="72" Width="157" Background="WhiteSmoke" Click="button_Click" RenderTransformOrigin="0.5,0.5"/>
-        <Button x:Name="heroes" Foreground="Khaki"  FontSize="30" FontWeight="ExtraBold" Content="Heroes" HorizontalAlignment="Left" Margin="10,135,0,0" VerticalAlignment="Top" Height="72" Width="150" Background="WhiteSmoke" Click="heroes_Click" RenderTransformOrigin="0.5,0.5"/>
-        <Button x:Name="Fantasy" Foreground="Khaki"  FontSize="30" FontWeight="ExtraBold" Content="Fantasy &#xD;&#xA;Team" HorizontalAlignment="Center" Margin="228,140,-10,0" VerticalAlignment="Top" Height="100" Width="142" Background="WhiteSmoke" Click="Fantasy_Click" RenderTransformOrigin="0.5,0.5"/>
+        <Button x:Name="soundboard" Foreground="Gold" Background="Transparent" FontSize="30" FontWeight="ExtraBold" Content="SoundBoard" HorizontalAlignment="Left" Margin="93,334.439,0,0" VerticalAlignment="Top" Height="47.395" Width="202" Click="button_Click" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
+            <Button.RenderTransform>
+                <CompositeTransform SkewY="-0.613" TranslateY="-0.839"/>
+            </Button.RenderTransform>
+        </Button>
+        <Button x:Name="heroes" Foreground="Gold" Background="Transparent"  FontSize="30" FontWeight="ExtraBold" Content="Heroes" HorizontalAlignment="Left" Margin="115,268,0,0" VerticalAlignment="Top" Height="72" Width="150" Click="heroes_Click" RenderTransformOrigin="0.5,0.5"/>
+        <Button x:Name="Fantasy" Foreground="Gold"  Background="Transparent" FontSize="30" FontWeight="ExtraBold" Content="Fantasy &#xA;  Team" HorizontalAlignment="Center" Margin="125,150,93,390" VerticalAlignment="Center" Height="100" Width="142"  Click="Fantasy_Click" RenderTransformOrigin="0.5,0.5"/>
     </Grid>
 </Page>

@@ -53,12 +53,13 @@ namespace MA2
         private int count21;
         private int count22;
         private int count23;
+        private int gametype;
 
 
         private void button_Click(object sender, RoutedEventArgs e)
         {
-            count++;
-            if (count == 1)
+          
+            if (count == 0)
             {
                 heroes1.Text = heroes1.Text + "Genji";
             }
@@ -66,6 +67,7 @@ namespace MA2
             {
 
             }
+            count++;
         }
 
         private void Home_Click(object sender, RoutedEventArgs e)
@@ -75,8 +77,8 @@ namespace MA2
 
         private void button_Copy_Click(object sender, RoutedEventArgs e)
         {
-            count1++;
-            if (count == 1)
+            
+            if (count1 == 0)
             {
                 heroes1.Text = heroes1.Text + " Orisa";
             }
@@ -84,12 +86,13 @@ namespace MA2
             {
 
             }
+            count1++;
         }
 
         private void button_Copy1_Click(object sender, RoutedEventArgs e)
         {
-            count2++;
-            if (count == 1)
+            
+            if (count2 == 0)
             {
                 heroes1.Text = heroes1.Text + " Bastion";
             }
@@ -97,12 +100,13 @@ namespace MA2
             {
 
             }
+            count2++;
         }
 
         private void Mccree_Click(object sender, RoutedEventArgs e)
         {
-            count3++;
-            if (count == 1)
+           
+            if (count3 == 0)
             {
                 heroes1.Text = heroes1.Text + " Mcree";
             }
@@ -110,13 +114,14 @@ namespace MA2
             {
 
             }
+            count3++;
 
         }
 
         private void Hanzo_Click(object sender, RoutedEventArgs e)
         {
-            count4++;
-            if (count == 1)
+            
+            if (count4 == 0)
             {
                 heroes1.Text = heroes1.Text + " Hanzo";
             }
@@ -124,26 +129,27 @@ namespace MA2
             {
 
             }
+            count4++;
         }
 
         private void Reinhardt_Click(object sender, RoutedEventArgs e)
         {
-            count5++;
-            if (count == 1)
+            
+            if (count5 == 0)
             {
                 heroes1.Text = heroes1.Text + " Reinhardt";
             }
             else
             {
-
+            
             }
-
+            count5++;
         }
 
         private void Pharah_Click(object sender, RoutedEventArgs e)
         {
-            count6++;
-            if (count == 1)
+            
+            if (count6 == 0)
             {
                 heroes1.Text = heroes1.Text + " Pharah";
             }
@@ -151,13 +157,14 @@ namespace MA2
             {
 
             }
+            count6++;
 
         }
 
         private void Junkrat_Click(object sender, RoutedEventArgs e)
         {
-            count7++;
-            if (count == 1)
+           
+            if (count7 == 0)
             {
                 heroes1.Text = heroes1.Text + " Junkrat";
             }
@@ -165,13 +172,14 @@ namespace MA2
             {
 
             }
+            count7++;
 
         }
 
         private void Roadhog_Click(object sender, RoutedEventArgs e)
         {
-            count8++;
-            if (count == 1)
+            
+            if (count8 == 0)
             {
                 heroes1.Text = heroes1.Text + " Roadhog";
             }
@@ -179,13 +187,13 @@ namespace MA2
             {
 
             }
-
+            count8++;
         }
 
         private void Reaper_Click(object sender, RoutedEventArgs e)
         {
-            count9++;
-            if (count == 1)
+            
+            if (count9 == 0)
             {
                 heroes1.Text = heroes1.Text + " Reaper";
             }
@@ -193,13 +201,12 @@ namespace MA2
             {
 
             }
-
+            count9++;
         }
 
         private void Mei_Click(object sender, RoutedEventArgs e)
         {
-            count10++;
-            if (count == 1)
+            if (count10 == 0)
             {
                 heroes1.Text = heroes1.Text + " Mei";
             }
@@ -207,13 +214,13 @@ namespace MA2
             {
 
             }
+            count10++;
 
         }
 
         private void Winston_Click(object sender, RoutedEventArgs e)
         {
-            count11++;
-            if (count == 1)
+            if (count11 == 0)
             {
                 heroes1.Text = heroes1.Text + " Winston";
             }
@@ -221,13 +228,13 @@ namespace MA2
             {
 
             }
+            count11++;
 
         }
 
         private void Sombra_Click(object sender, RoutedEventArgs e)
         {
-            count12++;
-            if (count == 1)
+            if (count12 == 0)
             {
                 heroes1.Text = heroes1.Text + " Sombra";
             }
@@ -235,12 +242,13 @@ namespace MA2
             {
 
             }
+            count12++;
+
         }
 
         private void Widowmaker_Click(object sender, RoutedEventArgs e)
         {
-            count13++;
-            if (count == 1)
+            if (count13 == 0)
             {
                 heroes1.Text = heroes1.Text + " Widowmaker";
             }
@@ -248,12 +256,13 @@ namespace MA2
             {
 
             }
+            count13++;
+
         }
 
         private void Ana_Click(object sender, RoutedEventArgs e)
         {
-            count14++;
-            if (count == 1)
+            if (count14 == 0)
             {
                 heroes1.Text = heroes1.Text + " Ana";
             }
@@ -261,22 +270,29 @@ namespace MA2
             {
 
             }
+            count14++;
+
         }
 
         private void Tracer_Click(object sender, RoutedEventArgs e)
         {
-            count15++;
-            if (count == 1)
+           
+            if (count15 == 0)
             {
                 heroes1.Text = heroes1.Text + " Tracer";
             }
+            else
+            {
+                    
+            }
+            count15++;
 
         }
 
         private void D_va_Click(object sender, RoutedEventArgs e)
         {
-            count16++;
-            if (count == 1)
+            
+            if (count16 == 0)
             {
                 heroes1.Text = heroes1.Text + " D.va";
             }
@@ -284,13 +300,14 @@ namespace MA2
             {
 
             }
+            count16++;
 
         }
 
         private void lucio_Click(object sender, RoutedEventArgs e)
         {
-            count17++;
-            if (count == 1)
+            
+            if (count17 == 0)
             {
                 heroes1.Text = heroes1.Text + " lucio";
             }
@@ -298,13 +315,12 @@ namespace MA2
             {
 
             }
-
+            count17++;
         }
 
         private void Soldier_Click(object sender, RoutedEventArgs e)
         {
-            count18++;
-            if (count == 1)
+            if (count18 == 0)
             {
                 heroes1.Text = heroes1.Text + " Soldier";
             }
@@ -312,13 +328,13 @@ namespace MA2
             {
 
             }
+            count18++;
 
         }
 
         private void Torbjorn_Click(object sender, RoutedEventArgs e)
         {
-            count19++;
-            if (count == 1)
+            if (count19 == 0)
             {
                 heroes1.Text = heroes1.Text + " Torbjorn";
             }
@@ -326,13 +342,13 @@ namespace MA2
             {
 
             }
+            count19++;
 
         }
 
         private void Zayra_Click(object sender, RoutedEventArgs e)
         {
-            count20++;
-            if (count == 1)
+            if (count20 == 0)
             {
                 heroes1.Text = heroes1.Text + " Zayra";
             }
@@ -340,13 +356,14 @@ namespace MA2
             {
 
             }
+            count20++;
 
         }
 
         private void Mercy_Click(object sender, RoutedEventArgs e)
         {
-            count21++;
-            if (count == 1)
+         
+            if (count21 == 0)
             {
                 heroes1.Text = heroes1.Text + " Mercy";
             }
@@ -354,13 +371,13 @@ namespace MA2
             {
 
             }
+            count21++;
 
         }
 
         private void Symmetra_Click(object sender, RoutedEventArgs e)
         {
-            count22++;
-            if (count == 1)
+            if (count22 == 0)
             {
                 heroes1.Text = heroes1.Text + " Symmetra";
             }
@@ -368,13 +385,14 @@ namespace MA2
             {
 
             }
+            count22++;
 
         }
 
         private void Zenyatta_Click(object sender, RoutedEventArgs e)
         {
-            count23++;
-            if (count == 1)
+            
+            if (count23 == 0)
             {
                 heroes1.Text = heroes1.Text + " Zenyatta";
             }
@@ -382,39 +400,109 @@ namespace MA2
             {
 
             }
+            count23++;
 
         }
+
+
 
         private async void Save_Click(object sender, RoutedEventArgs e)
-        {
+         {
 
-            Windows.Storage.StorageFolder storageFolder = Windows.Storage.ApplicationData.Current.LocalFolder;
-            Windows.Storage.StorageFile File = await storageFolder.CreateFileAsync("savedheroes.txt", Windows.Storage.CreationCollisionOption.ReplaceExisting);
-            Windows.Storage.StorageFile savedFile = await storageFolder.GetFileAsync("savedHeroes.txt");
+             Windows.Storage.StorageFolder storageFolder = Windows.Storage.ApplicationData.Current.LocalFolder;
+             Windows.Storage.StorageFile File = await storageFolder.CreateFileAsync("savedheroes.txt", Windows.Storage.CreationCollisionOption.ReplaceExisting);
+             Windows.Storage.StorageFile savedFile = await storageFolder.GetFileAsync("savedHeroes.txt");
+            
 
             using (IRandomAccessStream iRandomAccessStream = await savedFile.OpenAsync(FileAccessMode.ReadWrite))
-            {
-                using (DataWriter textWriter = new DataWriter(iRandomAccessStream))
-                {
-                    //Content is the name of my textbox where i write what i want in it
-                    textWriter.WriteString(heroes1.Text);
-                        await textWriter.StoreAsync();
+             {
+                 using (DataWriter writer = new DataWriter(iRandomAccessStream))
+                 { 
+                   writer.WriteString(heroes1.Text);
+                    await writer.StoreAsync();
+                    writer.WriteString(heroes2.Text);
+                    await writer.StoreAsync();
+
                 }
+           
             }
+
         }
 
-        private async void button1_Click(object sender, RoutedEventArgs e)
-        {
+        private async void Load_Click(object sender, RoutedEventArgs e)
+         {
 
-            Windows.Storage.StorageFolder storageFolder = Windows.Storage.ApplicationData.Current.LocalFolder;
-            Windows.Storage.StorageFile savedFile = await storageFolder.GetFileAsync("savedHeroes.txt");
+             Windows.Storage.StorageFolder storageFolder = Windows.Storage.ApplicationData.Current.LocalFolder;
+             Windows.Storage.StorageFile savedFile = await storageFolder.GetFileAsync("savedHeroes.txt");
+       
 
             var stream = await savedFile.OpenAsync(Windows.Storage.FileAccessMode.Read); using
-                        (StreamReader reader = new StreamReader(stream.AsStream()))
+                         (StreamReader reader = new StreamReader(stream.AsStream()))
             {
                 heroes1.Text = reader.ReadToEnd();
+                heroes2.Text = reader.ReadToEnd();
             }
 
+        }
+
+        private void Clear_Click(object sender, RoutedEventArgs e)
+        {
+            heroes1.Text = " ";
+            heroes2.Text = " ";
+        }
+
+        private void g2_Click(object sender, RoutedEventArgs e)
+        {
+
+            if (gametype == 0)
+            {
+                heroes2.Text  = " Escort";
+            }
+            else
+            {
+
+            }
+            gametype++;
+
+        }
+
+        private void g1_Click(object sender, RoutedEventArgs e)
+        {
+            if (gametype == 0)
+            {
+                heroes2.Text = " Capture the Flag";
+            }
+            else
+            {
+
+            }
+            gametype++;
+        }
+
+        private void g3_Click(object sender, RoutedEventArgs e)
+        {
+            if (gametype == 0)
+            {
+                heroes2.Text = " Control";
+            }
+            else
+            {
+
+            }
+            gametype++;
+        }
+
+        private void g4_Click(object sender, RoutedEventArgs e)
+        {
+            if (gametype == 0)
+            {
+                heroes2.Text = " Assualt";
+            }
+            else
+            {
+
+            }
+            gametype++;
         }
     }
 }
