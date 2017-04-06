@@ -204,6 +204,6 @@
                 <CompositeTransform Rotation="9.617" TranslateX="5.147" TranslateY="11.205"/>
             </Button.RenderTransform>
         </Button>
-        <MediaElement x:Name="Main" AutoPlay="True" Source="Assets/Sounds/Main.mp3"/>
+        <MediaElement x:Name="Main" AutoPlay="True" IsLooping="True" Source="Assets/Sounds/Main.mp3"/>
     </Grid>
 </Page>

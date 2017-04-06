@@ -32,7 +32,6 @@ namespace MA2
         private int McCreecount = 0;
         private int Meicount = 0;
         private int Mercycount = 0;
-        private int Orisacount = 0;
         private int Genjicount = 0;
         private int Pharahcount = 0;
         private int Roadhogcount = 0;
