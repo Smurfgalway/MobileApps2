@@ -61,7 +61,7 @@ namespace MA2
           
             if (count == 0)
             {
-                heroes1.Text = heroes1.Text + "Genji";
+                heroes1.Text = heroes1.Text + " Genji";
             }
             else
             {

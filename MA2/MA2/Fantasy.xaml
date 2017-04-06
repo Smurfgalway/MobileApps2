@@ -59,12 +59,12 @@
             <Run Text="Select your Game Type"/>
             <Run Text=":"/>
         </TextBlock>
-        <TextBlock x:Name="heroes1" HorizontalAlignment="Center" Margin="150,265,340,-40" Foreground="White"  TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="135" Width="150"/>
-        <Button x:Name="Home" Foreground="Bisque" FontWeight="ExtraBold" Content="Home" Background="White" HorizontalAlignment="Left" Margin="278,-5,0,0" VerticalAlignment="Top" Height="35" Width="85" Click="Home_Click"/>
+        <TextBlock x:Name="heroes1" HorizontalAlignment="Center" Margin="410,235,25,-10" Foreground="White"  TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="135" Width="205"/>
+        <Button x:Name="Home" Foreground="Bisque" FontWeight="ExtraBold" Content="Home" Background="Transparent" HorizontalAlignment="Left" Margin="320,230,0,0" VerticalAlignment="Top" Height="30" Width="65" Click="Home_Click" RenderTransformOrigin="0.765,6.571"/>
         <Button x:Name="Save" Content="Save" FontWeight="ExtraBold" HorizontalAlignment="Left" Foreground="YellowGreen" Margin="140,230,0,0" VerticalAlignment="Top" Click="Save_Click"/>
         <Button x:Name="Load" Content="Load" FontWeight="ExtraBold" Foreground="Purple" HorizontalAlignment="Left" Margin="198,230,0,0" VerticalAlignment="Top" Click="Load_Click"/>
         <Button x:Name="Clear" Content="Clear" FontWeight="ExtraBold" HorizontalAlignment="Left" Margin="260,230,0,0" VerticalAlignment="Top" Height="30" Click="Clear_Click" Foreground="Red"/>
-        <TextBlock x:Name="heroes2" HorizontalAlignment="Center" Margin="335,245,95,0" Foreground="White"  TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="115" Width="210" RenderTransformOrigin="0.5,0.5" >
+        <TextBlock x:Name="heroes2" HorizontalAlignment="Center" Margin="160,265,270,-20" Foreground="White"  TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="115" Width="210" RenderTransformOrigin="0.5,0.5" >
             <TextBlock.RenderTransform>
                 <CompositeTransform TranslateY="0.001"/>
             </TextBlock.RenderTransform>
