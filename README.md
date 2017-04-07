@@ -1,7 +1,7 @@
 # MobileApps2
 
-<h1> Overwatch Ultimate App</h1>
-<h2> Stephen Murphy, G00323639</h2>
+<h1> Overwatch Ultimate UWP App</h1>
+<h2> Devopler: Stephen Murphy Student No: G00323639</h2>
 
 <h2> App Overview </h2>
 This app is information app along with a sound board and a fantasy team maker. It is a all in one app for the game overwatch. 
