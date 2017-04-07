@@ -12,6 +12,7 @@ It runs on local machine looks a little different, Is not run well on the 4" emu
 It has both vertical and Horizontal pages.
 
 <h3> App features </h3>
+
 - Local storage (writes/reads from a file into a text box, this is how the fantasy team works).
 
 - Gifs: There are gif on every hero page of each hero for added aesthetic appeal.
@@ -24,6 +25,19 @@ It has both vertical and Horizontal pages.
 
 <h3> How to run the app </h3>
 Download / Clone the git repository
-open visual studio and run the runnable file from the git repo
+Open visual studio and run the runnable file from the git repo
 This will take you to a front page which lets you select between 3 pages: Soundboard, Fantasy Team, And hero gallery.
 Clicking one of the buttons will take you to the page you clicked it has its own unique features.
+
+<h3> References </h3>
+
+- https://docs.microsoft.com/en-us/windows/uwp/files/quickstart-reading-and-writing-files
+
+- https://docs.microsoft.com/en-us/windows/uwp/threading-async/call-asynchronous-apis-in-csharp-or-visual-basic
+
+- https://blogs.windows.com/buildingapps/2016/05/10/getting-started-storing-app-data-locally/#rWcZS60FJfMhJycq.97
+
+- Stack Overflow.
+
+- MicroSoft Framework
+
